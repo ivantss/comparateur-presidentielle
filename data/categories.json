@@ -1,0 +1,22 @@
+[
+  { "id": "economie", "libelle": "Économie", "definition": "Croissance, entreprises, industrie, commerce, pouvoir d'achat et dette publique." },
+  { "id": "fiscalite", "libelle": "Impôts et taxes", "definition": "Ce que l'État prélève : impôt sur le revenu, TVA, impôts des entreprises, impôts sur le patrimoine." },
+  { "id": "emploi", "libelle": "Travail et emploi", "definition": "Chômage, salaires, temps de travail, droit du travail et formation des adultes." },
+  { "id": "social", "libelle": "Protection sociale", "definition": "Retraites, allocations, aides aux familles, lutte contre la pauvreté et handicap." },
+  { "id": "sante", "libelle": "Santé", "definition": "Hôpitaux, médecins, accès aux soins, remboursements et prévention." },
+  { "id": "education", "libelle": "Éducation", "definition": "École, collège, lycée, université, recherche et enseignants." },
+  { "id": "ecologie", "libelle": "Environnement", "definition": "Climat, pollution, biodiversité, eau, déchets et transports propres." },
+  { "id": "energie", "libelle": "Énergie", "definition": "Production et prix de l'électricité, du gaz et des carburants : nucléaire, renouvelables, fossiles." },
+  { "id": "securite", "libelle": "Sécurité", "definition": "Police, gendarmerie, délinquance, terrorisme et sécurité au quotidien." },
+  { "id": "justice", "libelle": "Justice", "definition": "Tribunaux, peines, prisons, délais de jugement et accès au droit." },
+  { "id": "immigration", "libelle": "Immigration", "definition": "Entrées et séjours des étrangers, asile, nationalité et intégration." },
+  { "id": "institutions", "libelle": "Institutions et démocratie", "definition": "Constitution, mode d'élection, Parlement, référendum, collectivités locales et vie publique." },
+  { "id": "europe", "libelle": "Europe", "definition": "Place de la France dans l'Union européenne, traités, budget et règles européennes." },
+  { "id": "international", "libelle": "Politique étrangère", "definition": "Relations avec les autres pays, diplomatie, aide au développement et commerce international." },
+  { "id": "defense", "libelle": "Défense", "definition": "Armées, budget militaire, dissuasion nucléaire, alliances et service national." },
+  { "id": "culture", "libelle": "Culture et médias", "definition": "Patrimoine, création, audiovisuel public, presse, sport et langue française." },
+  { "id": "numerique", "libelle": "Numérique", "definition": "Internet, données personnelles, intelligence artificielle, couverture réseau et souveraineté technologique." },
+  { "id": "agriculture", "libelle": "Agriculture et alimentation", "definition": "Revenus des agriculteurs, modèles agricoles, pêche, alimentation et monde rural." },
+  { "id": "logement", "libelle": "Logement", "definition": "Loyers, construction, logement social, accès à la propriété et rénovation des bâtiments." },
+  { "id": "autre", "libelle": "Autres sujets", "definition": "Propositions qui n'entrent dans aucune autre catégorie." }
+]

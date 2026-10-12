@@ -1,0 +1,250 @@
+{
+  "methode": "Liste de problèmes de société documentés par une institution publique ou un organisme reconnu, comparée aux 89 propositions de propositions.json. Un candidat « ignore » un problème si aucune de ses propositions ne le traite, même indirectement. Il le « traite » s'il a au moins une proposition qui vise ce problème ; « partiel » signale une proposition qui n'en touche qu'une partie ou le vise par un autre angle. Limite : propositions.json est un échantillon (18 à 26 propositions par candidat) ; un candidat peut traiter ailleurs un sujet noté ici comme ignoré. Le constat décrit le problème, pas une solution : la liste ne dit pas quelle politique il faudrait mener.",
+  "perimetre": "site/data/propositions.json, 89 propositions, consultées le 2026-10-12",
+  "problemes": [
+    {
+      "id": "sante-mentale",
+      "probleme": "Santé mentale et psychiatrie",
+      "categorie": "sante",
+      "constat": "Environ 9 000 décès par suicide par an en France ; hausse des troubles anxieux et dépressifs chez les jeunes depuis 2020 ; psychiatrie publique en manque de lits et de soignants. La santé mentale a été déclarée grande cause nationale 2025.",
+      "sources": [
+        { "titre": "Santé publique France — Santé mentale", "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/sante-mentale" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Aucune des 89 propositions ne parle de psychiatrie, de suicide ou de soins psychologiques. Les propositions santé portent sur les urgences (Mélenchon) et l'AME (Le Pen)."
+    },
+    {
+      "id": "grand-age-dependance",
+      "probleme": "Grand âge et perte d'autonomie",
+      "categorie": "social",
+      "constat": "Le nombre de personnes très âgées va fortement augmenter d'ici 2040 ; manque de places et de personnel en EHPAD et à domicile ; environ 9 millions d'aidants proches non rémunérés.",
+      "sources": [
+        { "titre": "Insee — Projections de population 2018-2070", "url": "https://www.insee.fr/fr/statistiques/7747107" },
+        { "titre": "CNSA — Caisse nationale de solidarité pour l'autonomie", "url": "https://www.cnsa.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Les propositions sur les retraites (âge de départ, capitalisation) traitent le financement des pensions, pas la prise en charge de la dépendance. Rien sur les EHPAD, l'aide à domicile ou les aidants."
+    },
+    {
+      "id": "violences-faites-aux-femmes",
+      "probleme": "Violences faites aux femmes",
+      "categorie": "justice",
+      "constat": "Près d'une centaine de femmes tuées chaque année par leur conjoint ou ex-conjoint ; plus de 200 000 femmes victimes de violences conjugales par an selon les enquêtes de victimation.",
+      "sources": [
+        { "titre": "Arrêtons les violences — Chiffres de référence", "url": "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Les propositions justice et sécurité visent le narcotrafic, les mineurs délinquants, les agressions contre les forces de l'ordre, les squats et l'islamisme. Aucune ne traite les violences conjugales ou sexuelles faites aux femmes."
+    },
+    {
+      "id": "egalite-salariale",
+      "probleme": "Écart de salaire entre femmes et hommes",
+      "categorie": "emploi",
+      "constat": "En 2022, dans le secteur privé, les femmes gagnent en moyenne 23,5 % de moins que les hommes, 14,9 % à temps de travail égal, et environ 4 % à poste comparable.",
+      "sources": [
+        { "titre": "Insee Focus 320 — Écart de salaire entre femmes et hommes en 2022", "url": "https://www.insee.fr/fr/statistiques/7766515" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Les propositions emploi portent sur le temps de travail, les heures supplémentaires et le chômage. Aucune ne vise l'égalité professionnelle."
+    },
+    {
+      "id": "handicap",
+      "probleme": "Handicap : accessibilité et inclusion",
+      "categorie": "social",
+      "constat": "Les objectifs d'accessibilité de la loi de 2005 ne sont toujours pas atteints ; le handicap est le premier motif de saisine du Défenseur des droits en matière de discrimination ; scolarisation des enfants handicapés limitée par le manque d'accompagnants (AESH).",
+      "sources": [
+        { "titre": "Défenseur des droits", "url": "https://www.defenseurdesdroits.fr/" },
+        { "titre": "Handicap.gouv.fr", "url": "https://www.handicap.gouv.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Aucune proposition ne mentionne le handicap, l'AAH, l'accessibilité ou les AESH, y compris dans les propositions éducation et protection sociale."
+    },
+    {
+      "id": "protection-de-l-enfance",
+      "probleme": "Protection de l'enfance (aide sociale à l'enfance)",
+      "categorie": "social",
+      "constat": "Une commission d'enquête de l'Assemblée nationale (2025) a constaté de graves manquements : placements non exécutés, foyers saturés, manque d'éducateurs, jeunes majeurs laissés sans soutien à 18 ans.",
+      "sources": [
+        { "titre": "Vie publique — Commission d'enquête sur les manquements des politiques de protection de l'enfance", "url": "https://www.vie-publique.fr/rapport/295282-commission-d-enquete-sur-les-manquements-des-politiques-de-protection-de-l-enfance" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [
+        { "candidat": "edouard-philippe", "propositions": ["imprescriptibilite-crimes-mineurs"], "partiel": true, "commentaire": "Vise les crimes commis sur des mineurs (volet pénal), pas le fonctionnement de l'aide sociale à l'enfance." }
+      ],
+      "justification": "Les propositions sur les mineurs les traitent surtout comme auteurs (majorité pénale à 15 ans, Retailleau). Seul Philippe aborde les mineurs victimes, par le droit pénal."
+    },
+    {
+      "id": "enfants-ecrans",
+      "probleme": "Exposition des enfants aux écrans et aux réseaux sociaux",
+      "categorie": "numerique",
+      "constat": "La commission d'experts réunie en 2024 a recommandé pas d'écran avant 3 ans et pas de réseau social avant 15 ans, en raison d'effets sur le sommeil, l'attention et la santé mentale.",
+      "sources": [
+        { "titre": "Vie publique — Enfants et écrans : à la recherche du temps perdu (rapport de la commission, 2024)", "url": "https://www.vie-publique.fr/rapport/293978-enfants-et-ecrans-la-recherche-du-temps-perdu" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "La seule proposition numérique (IA souveraine, Philippe) porte sur l'industrie. Rien sur les réseaux sociaux, les plateformes ou les mineurs."
+    },
+    {
+      "id": "desinformation-ingerences",
+      "probleme": "Désinformation et ingérences numériques étrangères",
+      "categorie": "institutions",
+      "constat": "Le service Viginum (SGDSN) a documenté plusieurs campagnes de manipulation de l'information visant la France, notamment autour d'élections et des Jeux olympiques.",
+      "sources": [
+        { "titre": "SGDSN — Secrétariat général de la défense et de la sécurité nationale (Viginum)", "url": "https://www.sgdsn.gouv.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Les propositions défense portent sur les armées et les réservistes, les propositions institutions sur le référendum et la Constitution. Aucune ne traite la protection du débat public ou des élections."
+    },
+    {
+      "id": "sans-abrisme",
+      "probleme": "Sans-abrisme",
+      "categorie": "logement",
+      "constat": "Environ 350 000 personnes sans domicile en France selon la Fondation pour le logement des défavorisés (ex-Fondation Abbé Pierre), un nombre qui a plus que doublé en dix ans ; des enfants dorment à la rue chaque nuit.",
+      "sources": [
+        { "titre": "Fondation pour le logement des défavorisés — Rapport sur l'état du mal-logement", "url": "https://www.fondationpourlelogement.fr/" }
+      ],
+      "ignore_par": ["edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [
+        { "candidat": "jean-luc-melenchon", "propositions": ["400000-logements-abordables"], "partiel": true, "commentaire": "Hausse massive du logement public, qui peut réduire le sans-abrisme, mais sans mesure d'hébergement d'urgence ou d'accompagnement des personnes à la rue." }
+      ],
+      "justification": "Les propositions logement de Philippe, Le Pen et Retailleau visent l'accession à la propriété, la construction et l'attribution du parc social, pas les personnes sans domicile."
+    },
+    {
+      "id": "deserts-medicaux",
+      "probleme": "Accès aux médecins (déserts médicaux)",
+      "categorie": "sante",
+      "constat": "Plusieurs millions de personnes vivent dans une zone où l'accès à un médecin généraliste est difficile ; environ 6 millions de patients n'ont pas de médecin traitant.",
+      "sources": [
+        { "titre": "DREES — Direction de la recherche, des études, de l'évaluation et des statistiques", "url": "https://drees.solidarites-sante.gouv.fr/" }
+      ],
+      "ignore_par": ["edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [
+        { "candidat": "jean-luc-melenchon", "propositions": ["reouverture-urgences-proximite", "arret-fermetures-services-publics"], "partiel": true, "commentaire": "Réouverture d'urgences et maintien des services publics locaux, mais rien sur l'installation des médecins de ville." }
+      ],
+      "justification": "Philippe et Retailleau n'ont aucune proposition santé dans l'échantillon ; celle de Le Pen porte sur l'AME."
+    },
+    {
+      "id": "surpopulation-carcerale",
+      "probleme": "Surpopulation carcérale",
+      "categorie": "justice",
+      "constat": "Plus de 80 000 personnes détenues pour environ 62 000 places en 2025 ; la France a été condamnée par la Cour européenne des droits de l'homme en 2020 pour ses conditions de détention.",
+      "sources": [
+        { "titre": "Ministère de la Justice — Études et statistiques", "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques" },
+        { "titre": "Observatoire international des prisons", "url": "https://oip.org/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Plusieurs propositions augmentent le nombre de détenus (courtes peines dès la première infraction et peines planchers chez Philippe, peines minimales et majorité pénale à 15 ans chez Retailleau) sans dire où les incarcérer. Aucune ne traite la capacité ou les conditions des prisons."
+    },
+    {
+      "id": "addictions",
+      "probleme": "Addictions (alcool, tabac, drogues) comme enjeu de santé",
+      "categorie": "sante",
+      "constat": "Le tabac cause environ 75 000 décès par an et l'alcool environ 41 000 ; la consommation de cocaïne progresse.",
+      "sources": [
+        { "titre": "OFDT — Observatoire français des drogues et des tendances addictives", "url": "https://www.ofdt.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "La drogue n'apparaît que sous l'angle du trafic (« état d'urgence narco », Philippe). Rien sur la prévention, le soin ou la réduction des risques."
+    },
+    {
+      "id": "securite-routiere",
+      "probleme": "Sécurité routière",
+      "categorie": "securite",
+      "constat": "Environ 3 200 morts par an sur les routes de France métropolitaine, chiffre qui ne baisse plus depuis une dizaine d'années.",
+      "sources": [
+        { "titre": "ONISR — Observatoire national interministériel de la sécurité routière", "url": "https://www.onisr.securite-routiere.gouv.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "Aucune proposition sécurité ou transport ne traite la mortalité routière."
+    },
+    {
+      "id": "vie-chere-outre-mer",
+      "probleme": "Vie chère dans les outre-mer",
+      "categorie": "economie",
+      "constat": "En 2022, les prix sont plus élevés dans les départements d'outre-mer qu'en métropole, surtout pour l'alimentation (jusqu'à environ 40 % de plus) ; le sujet a provoqué des mouvements sociaux en Martinique en 2024.",
+      "sources": [
+        { "titre": "Insee Première 1958 — Les prix restent plus élevés dans les DOM qu'en France métropolitaine", "url": "https://www.insee.fr/fr/statistiques/7648939" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [],
+      "justification": "La seule proposition qui concerne un territoire d'outre-mer (droit du sol à Mayotte, Philippe) porte sur l'immigration, pas sur le coût de la vie."
+    },
+    {
+      "id": "biodiversite",
+      "probleme": "Effondrement de la biodiversité",
+      "categorie": "ecologie",
+      "constat": "Selon la Liste rouge de l'UICN en France, une part importante des espèces évaluées est menacée de disparition ; artificialisation des sols et pesticides sont parmi les causes principales.",
+      "sources": [
+        { "titre": "UICN France — La Liste rouge des espèces menacées en France", "url": "https://uicn.fr/liste-rouge-france/" },
+        { "titre": "Office français de la biodiversité", "url": "https://www.ofb.gouv.fr/" }
+      ],
+      "ignore_par": ["edouard-philippe", "marine-le-pen", "bruno-retailleau"],
+      "traite_par": [
+        { "candidat": "jean-luc-melenchon", "propositions": ["interdiction-glyphosate-neonicotinoides"], "partiel": true, "commentaire": "Interdire les pesticides les plus dangereux agit sur une cause majeure du déclin des insectes et des oiseaux, sans plan d'ensemble pour la biodiversité." }
+      ],
+      "justification": "Le Pen et Retailleau proposent de supprimer l'objectif ZAN, qui freine l'artificialisation ; Philippe ne traite que l'adaptation au climat. Aucun ne propose de mesure pour protéger les espèces ou les milieux."
+    },
+    {
+      "id": "precarite-alimentaire",
+      "probleme": "Précarité alimentaire",
+      "categorie": "social",
+      "constat": "Le recours à l'aide alimentaire a fortement augmenté depuis 2020 ; les Restos du cœur ont dû limiter les inscriptions faute de moyens en 2023.",
+      "sources": [
+        { "titre": "Restos du cœur", "url": "https://www.restosducoeur.org/" },
+        { "titre": "Secours catholique — État de la pauvreté en France", "url": "https://www.secours-catholique.org/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "edouard-philippe", "bruno-retailleau"],
+      "traite_par": [
+        { "candidat": "marine-le-pen", "propositions": ["tva-zero-100-produits"], "partiel": true, "commentaire": "Supprimer la TVA sur des produits de première nécessité baisse leur prix pour tous, sans cibler les ménages en difficulté." }
+      ],
+      "justification": "Mélenchon traite le revenu des agriculteurs (prix planchers), pas l'accès des ménages pauvres à l'alimentation. Philippe et Retailleau n'ont rien sur le sujet."
+    },
+    {
+      "id": "adaptation-climat",
+      "probleme": "Adaptation au réchauffement climatique",
+      "categorie": "ecologie",
+      "constat": "La France se prépare à un réchauffement de +4 °C d'ici 2100 (trajectoire de référence du plan national d'adaptation) : canicules, sécheresses, retrait-gonflement des argiles, risques d'inondation.",
+      "sources": [
+        { "titre": "GIEC — Groupe d'experts intergouvernemental sur l'évolution du climat", "url": "https://www.ipcc.ch/" },
+        { "titre": "Cerema — Adaptation au changement climatique", "url": "https://www.cerema.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "marine-le-pen"],
+      "traite_par": [
+        { "candidat": "edouard-philippe", "propositions": ["doubler-fonds-vert-adaptation"], "partiel": false, "commentaire": "Fonds vert doublé et orienté vers l'adaptation et le rafraîchissement des bâtiments." },
+        { "candidat": "bruno-retailleau", "propositions": ["stockage-eau-irrigation"], "partiel": true, "commentaire": "Traite la sécheresse pour l'agriculture seulement." }
+      ],
+      "justification": "Mélenchon traite la réduction des émissions (isolation, renouvelables), pas l'adaptation. Le Pen n'a aucune proposition climat dans l'échantillon."
+    },
+    {
+      "id": "baisse-natalite",
+      "probleme": "Baisse de la natalité",
+      "categorie": "social",
+      "constat": "Le nombre de naissances baisse chaque année depuis 2011 ; l'indicateur de fécondité est tombé à 1,62 enfant par femme en 2024, le plus bas depuis la fin de la Première Guerre mondiale.",
+      "sources": [
+        { "titre": "Ined — Institut national d'études démographiques", "url": "https://www.ined.fr/" }
+      ],
+      "ignore_par": ["jean-luc-melenchon", "marine-le-pen"],
+      "traite_par": [
+        { "candidat": "edouard-philippe", "propositions": ["allocation-familiale-unique-350-euros", "exoneration-impot-jeunes-parents", "pret-taux-zero-naissance"], "partiel": false, "commentaire": "Trois mesures familiales explicitement présentées comme natalistes." },
+        { "candidat": "bruno-retailleau", "propositions": ["revenu-parental-unique", "deduction-interets-emprunt-enfants"], "partiel": false, "commentaire": "Aides dès le premier enfant et avantage fiscal croissant avec le nombre d'enfants." }
+      ],
+      "justification": "Mélenchon et Le Pen n'ont aucune proposition sur la famille ou la natalité dans l'échantillon (la priorité nationale de Le Pen pour les jeunes Français porte sur le logement)."
+    }
+  ],
+  "par_candidat": {
+    "jean-luc-melenchon": "Couvre surtout services publics, logement social et écologie (émissions, pesticides). Angles morts : santé mentale, grand âge, violences faites aux femmes, prisons, addictions, adaptation au climat, natalité.",
+    "edouard-philippe": "Le plus large en nombre de propositions ; traite natalité et adaptation au climat. Angles morts : toute la santé, grand âge, handicap, sans-abrisme, biodiversité, et la capacité des prisons alors qu'il propose plus d'incarcération.",
+    "marine-le-pen": "Centré sur budget, immigration et logement ; touche la précarité alimentaire par la TVA. Angles morts : santé (hors AME), grand âge, femmes, climat, biodiversité, natalité.",
+    "bruno-retailleau": "Centré sur immigration, travail, aides sociales et logement ; traite natalité et, pour l'agriculture, la sécheresse. Angles morts : santé, grand âge, handicap, protection de l'enfance, sans-abrisme, et la capacité des prisons alors qu'il propose plus d'incarcération."
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "unite": "milliards d'euros par an ; % et points de PIB",
+  "methode": "On additionne, pour chaque candidat, le coût annuel net vraisemblable de ses propositions (site/data/couts.json, valeur centrale, régime de croisière vers 2032). Les objectifs d'ensemble (« agrégats » : règle d'or, plan global d'économies) ne sont pas additionnés, car ils recouvrent les autres mesures ; ils servent d'« objectif affiché » auquel on compare le résultat. Le solde des mesures est l'effet sur le solde public : négatif = le déficit se creuse, positif = il se réduit. On y ajoute la charge d'intérêts de la dette créée (taux 3,5 %) pour obtenir le solde 2032, exprimé en % du PIB 2032. La dette supplémentaire 2032 cumule les déficits de 2028 à 2032 avec une montée en charge linéaire (20 % la 1re année, 100 % la 5e) et les intérêts. La fourchette additionne les bornes basses puis hautes de chaque mesure : c'est un encadrement large (toutes les incertitudes jouent dans le même sens), pas un intervalle de confiance. C'est un écart à la trajectoire « sans ces mesures », pas une prévision du déficit total. Les effets sur la croissance et l'emploi (retour fiscal d'une relance, effet récessif d'une économie) ne sont pas comptés. Le résultat porte sur l'échantillon de propositions retenu dans propositions.json, pas sur un programme complet : un candidat qui a peu de mesures coûteuses dans l'échantillon peut en avoir d'autres. Calcul reproductible : node scripts/finances.js --write.",
+  "hypotheses": {
+    "pib_2032_md": 3600,
+    "taux_interet": 0.035,
+    "montee_en_charge": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "justification": [
+      "PIB 2032 : 2 990 Md€ en 2025 (152,5 Md€ de déficit = 5,1 % du PIB, Insee), +2,7 %/an en valeur (≈1 % de croissance réelle + 1,7 % d'inflation), arrondi à 3 600 Md€. 1 point de PIB 2032 ≈ 36 Md€.",
+      "Taux d'intérêt de la dette nouvelle : 3,5 % par an, ordre de grandeur de l'OAT à 10 ans en 2025-2026. La dette supplémentaire paie ce taux dès l'année suivante.",
+      "Montée en charge linéaire : 20 % du coût de croisière en 2028, 40 % en 2029… 100 % en 2032. Une mesure au coût de croisière C accumule donc environ 3 × C de dette sur le quinquennat, plus les intérêts."
+    ]
+  },
+  "reference": {
+    "texte": "Situation de départ : déficit public de 5,1 % du PIB en 2025 (152,5 Md€) et dette de 115,7 % du PIB (Insee). La loi de finances 2026 vise 5,0 % de déficit en 2026 et le retour sous 3 % en 2029 ; la Cour des comptes juge l'objectif 2026 non garanti. Toute mesure qui creuse le solde éloigne d'autant de ces objectifs : 10 Md€/an représentent environ 0,3 point de PIB de déficit en 2032.",
+    "sources": [
+      {
+        "titre": "Insee, Informations rapides, Comptes nationaux des administrations publiques – année 2025 (27 mars 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/8956575"
+      },
+      {
+        "titre": "Insee Première n° 2106, Les comptes de la Nation en 2025 (mai 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/8997691"
+      },
+      {
+        "titre": "Public Sénat, Budget 2026 : la Cour des comptes estime que l'objectif de réduction du déficit est loin d'être garanti",
+        "url": "https://www.publicsenat.fr/actualites/economie/budget-2026-la-cour-des-comptes-estime-que-lobjectif-de-reduction-du-deficit-est-loin-detre-garanti"
+      }
+    ]
+  },
+  "candidats": [
+    {
+      "candidat": "jean-luc-melenchon",
+      "propositions_comptees": 18,
+      "agregats_exclus": [],
+      "depenses_md": 75.6,
+      "economies_md": -11.5,
+      "solde_mesures_md": -64.1,
+      "fourchette_solde_md": [
+        -144.3,
+        -15.7
+      ],
+      "charge_interets_2032_md": 4.6,
+      "solde_2032_md": -68.8,
+      "solde_2032_pct_pib": -1.91,
+      "fourchette_solde_2032_pct_pib": [
+        -4.3,
+        -0.47
+      ],
+      "dette_supplementaire_2032_md": 201.5,
+      "dette_2032_points_pib": 5.6,
+      "fourchette_dette_points_pib": [
+        1.4,
+        12.6
+      ],
+      "principaux_couts": [
+        {
+          "proposition": "retraite-60-ans",
+          "milliards_eur_an": 35
+        },
+        {
+          "proposition": "400000-logements-abordables",
+          "milliards_eur_an": 14
+        },
+        {
+          "proposition": "isolation-700000-logements",
+          "milliards_eur_an": 12
+        }
+      ],
+      "principales_economies": [
+        {
+          "proposition": "isf-impot-14-tranches",
+          "milliards_eur_an": -8
+        },
+        {
+          "proposition": "heritage-maximal",
+          "milliards_eur_an": -3
+        },
+        {
+          "proposition": "regularisation-travailleurs-etudiants",
+          "milliards_eur_an": -0.5
+        }
+      ],
+      "synthese": "Les mesures de l'échantillon coûtent nettement plus qu'elles ne rapportent : la retraite à 60 ans, le logement abordable et l'isolation des logements pèsent environ 60 Md€/an, que l'ISF renforcé, l'impôt sur le revenu à 14 tranches et l'héritage maximal ne compensent qu'à hauteur d'environ 11 Md€. Le déficit se creuserait d'environ 2 points de PIB en 2032 et la dette augmenterait d'environ 6 points.",
+      "objectif_affiche": "Aucun objectif de déficit chiffré dans l'échantillon. Le candidat présente son programme comme financé par des recettes nouvelles (fiscalité des hauts revenus, des patrimoines et des entreprises) et par le retour de la croissance ; ces recettes globales ne figurent pas comme propositions chiffrées ici.",
+      "ecart_objectif": "Sans objectif de solde, l'écart se lit par rapport à la trajectoire de référence : un solde de −2 points de PIB en 2032 éloigne la France du retour sous 3 % de déficit, sauf recettes ou croissance supplémentaires non chiffrées ici, de l'ordre de 70 Md€/an.",
+      "limites": "Les recettes fiscales retenues sont les seules de l'échantillon ; d'autres mesures fiscales du programme (non retenues) réduiraient l'écart. L'effet de relance par la dépense, revendiqué par le candidat, n'est pas compté. La fourchette est large, surtout sur les retraites et l'énergie."
+    },
+    {
+      "candidat": "edouard-philippe",
+      "propositions_comptees": 25,
+      "agregats_exclus": [
+        "regle-or-deficit-2-pct"
+      ],
+      "depenses_md": 37.7,
+      "economies_md": -22,
+      "solde_mesures_md": -15.6,
+      "fourchette_solde_md": [
+        -96,
+        24.4
+      ],
+      "charge_interets_2032_md": 1.1,
+      "solde_2032_md": -16.8,
+      "solde_2032_pct_pib": -0.47,
+      "fourchette_solde_2032_pct_pib": [
+        -2.86,
+        0.73
+      ],
+      "dette_supplementaire_2032_md": 49.2,
+      "dette_2032_points_pib": 1.4,
+      "fourchette_dette_points_pib": [
+        -2.1,
+        8.4
+      ],
+      "principaux_couts": [
+        {
+          "proposition": "allocation-familiale-unique-350-euros",
+          "milliards_eur_an": 8
+        },
+        {
+          "proposition": "baisse-impots-production-50-mds",
+          "milliards_eur_an": 5
+        },
+        {
+          "proposition": "hausse-20-pct-salaire-enseignants",
+          "milliards_eur_an": 5
+        }
+      ],
+      "principales_economies": [
+        {
+          "proposition": "retraite-65-ans-45-annuites",
+          "milliards_eur_an": -13
+        },
+        {
+          "proposition": "non-remplacement-fonctionnaires",
+          "milliards_eur_an": -9
+        },
+        {
+          "proposition": "amende-responsabilisation-scolaire",
+          "milliards_eur_an": -0.01
+        }
+      ],
+      "objectif_affiche": "Règle d'or constitutionnelle : déficit ramené à 2 % du PIB (environ 60 Md€/an d'effort, agrégat exclu des totaux).",
+      "limites": "Le gros de l'effort annoncé (règle d'or) n'est pas détaillé en mesures : l'échantillon ne contient que les retraites et le non-remplacement des fonctionnaires comme économies chiffrables. Le coût de la baisse des impôts de production et de l'allocation familiale unique est très incertain (fourchettes de 0 à 20-25 Md€).",
+      "synthese": "Les deux grandes économies (retraite à 65 ans avec 45 annuités, non-remplacement d'un fonctionnaire sur trois) rapportent environ 22 Md€/an, mais les dépenses et baisses d'impôts de l'échantillon (allocation familiale unique, impôts de production, salaires des enseignants, capitalisation, défense, IA) en coûtent environ 38. Le solde des mesures creuse le déficit d'environ 0,5 point de PIB en 2032 ; la dette augmente d'environ 1,4 point.",
+      "ecart_objectif": "Atteindre 2 % de déficit demande environ 60 Md€/an d'effort (estimation centrale de couts.json). Les mesures détaillées vont en sens inverse (−17 Md€ en 2032 avec les intérêts) : il manque environ 75 Md€/an d'économies ou de recettes non précisées pour tenir la règle d'or."
+    },
+    {
+      "candidat": "marine-le-pen",
+      "propositions_comptees": 21,
+      "agregats_exclus": [
+        "regle-or-referendum",
+        "economies-140-milliards-2032"
+      ],
+      "depenses_md": 17.4,
+      "economies_md": -16.5,
+      "solde_mesures_md": -0.9,
+      "fourchette_solde_md": [
+        -35,
+        48.8
+      ],
+      "charge_interets_2032_md": 0.1,
+      "solde_2032_md": -1,
+      "solde_2032_pct_pib": -0.03,
+      "fourchette_solde_2032_pct_pib": [
+        -1.04,
+        1.45
+      ],
+      "dette_supplementaire_2032_md": 3,
+      "dette_2032_points_pib": 0.1,
+      "fourchette_dette_points_pib": [
+        -4.3,
+        3.1
+      ],
+      "principaux_couts": [
+        {
+          "proposition": "tva-zero-100-produits",
+          "milliards_eur_an": 8
+        },
+        {
+          "proposition": "baisse-tva-gaz-electricite",
+          "milliards_eur_an": 7
+        },
+        {
+          "proposition": "taxe-rachats-actions",
+          "milliards_eur_an": 2
+        }
+      ],
+      "principales_economies": [
+        {
+          "proposition": "prestations-etrangers-cinq-ans-travail",
+          "milliards_eur_an": -3
+        },
+        {
+          "proposition": "retraites-pilier-capitalisation",
+          "milliards_eur_an": -3
+        },
+        {
+          "proposition": "suppression-epci-metropoles",
+          "milliards_eur_an": -2
+        }
+      ],
+      "objectif_affiche": "Plan de 140 Md€ d'économies d'ici 2032 et règle d'or votée par référendum (deux agrégats, exclus des totaux).",
+      "limites": "Les économies liées à la « priorité nationale » et à la baisse de la contribution à l'UE dépendent de leur conformité au droit (Constitution, traités) : si elles sont censurées ou bloquées, le solde se dégrade de plusieurs milliards. Le plan de 140 Md€ n'est pas détaillé en mesures dans l'échantillon.",
+      "synthese": "Les baisses de TVA (100 produits, gaz et électricité) coûtent environ 15 Md€/an ; elles sont compensées par des économies ciblées (prestations réservées aux étrangers ayant travaillé cinq ans, capitalisation des retraites, suppression des intercommunalités, agences, contribution à l'UE, aide à l'Ukraine). Le solde des mesures est proche de l'équilibre (−1 Md€/an), mais avec une fourchette très large, de −35 à +49 Md€.",
+      "ecart_objectif": "Le plan annonce 140 Md€ d'économies d'ici 2032 ; couts.json en juge environ 60 vraisemblables. Les mesures détaillées de l'échantillon sont neutres pour le solde : les 140 Md€ (ou les 60 vraisemblables) restent à trouver dans des mesures non précisées."
+    },
+    {
+      "candidat": "bruno-retailleau",
+      "propositions_comptees": 22,
+      "agregats_exclus": [],
+      "depenses_md": 18.8,
+      "economies_md": -6,
+      "solde_mesures_md": -12.8,
+      "fourchette_solde_md": [
+        -45,
+        9.9
+      ],
+      "charge_interets_2032_md": 0.9,
+      "solde_2032_md": -13.7,
+      "solde_2032_pct_pib": -0.38,
+      "fourchette_solde_2032_pct_pib": [
+        -1.34,
+        0.3
+      ],
+      "dette_supplementaire_2032_md": 40.3,
+      "dette_2032_points_pib": 1.1,
+      "fourchette_dette_points_pib": [
+        -0.9,
+        3.9
+      ],
+      "principaux_couts": [
+        {
+          "proposition": "salaires-enseignants-moyenne-europeenne",
+          "milliards_eur_an": 7
+        },
+        {
+          "proposition": "zero-cotisation-impot-heures-supplementaires",
+          "milliards_eur_an": 4
+        },
+        {
+          "proposition": "revenu-parental-unique",
+          "milliards_eur_an": 3
+        }
+      ],
+      "principales_economies": [
+        {
+          "proposition": "plafond-aides-sociales-70-smic",
+          "milliards_eur_an": -2
+        },
+        {
+          "proposition": "sortie-35-heures-annualisation",
+          "milliards_eur_an": -1.5
+        },
+        {
+          "proposition": "chomage-fin-apres-trois-refus",
+          "milliards_eur_an": -1.5
+        }
+      ],
+      "objectif_affiche": "Aucun objectif de déficit chiffré dans l'échantillon. Le candidat met en avant la baisse de la dépense sociale (plafond des aides, réforme du chômage, sortie des 35 heures).",
+      "limites": "Le coût des hausses de salaire des enseignants et des exonérations d'heures supplémentaires est sensible au périmètre retenu. Les effets sur l'emploi de la sortie des 35 heures et de la réforme du chômage, mis en avant par le candidat, ne sont pas comptés.",
+      "synthese": "Les dépenses de l'échantillon (salaires des enseignants au niveau européen, heures supplémentaires sans cotisations ni impôt, revenu parental unique, déduction des intérêts d'emprunt) coûtent environ 19 Md€/an ; les économies sur les aides sociales, le chômage, les 35 heures et les subventions aux renouvelables en rapportent environ 6. Le déficit se creuse d'environ 0,4 point de PIB en 2032 ; la dette augmente d'environ 1,1 point.",
+      "ecart_objectif": "Sans objectif de solde, l'écart se lit par rapport à la trajectoire de référence : les mesures éloignent le retour sous 3 % d'environ 14 Md€/an en 2032, à trouver par des économies non précisées dans l'échantillon."
+    }
+  ]
+}

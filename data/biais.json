@@ -1,0 +1,839 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "methode": "Annotation de la formulation de chaque proposition telle qu'elle figure dans propositions.json (champ texte), pas du bien-fondé de la mesure. La citation est un extrait exact de ce texte. Même grille pour tous les candidats.",
+  "catalogue": [
+    {
+      "id": "erreur-de-planification",
+      "nom": "Erreur de planification",
+      "type": "biais",
+      "definition": "Sous-estimer les délais, coûts et obstacles d'un objectif ambitieux, chiffré sans trajectoire."
+    },
+    {
+      "id": "fausse-precision",
+      "nom": "Fausse précision",
+      "type": "biais",
+      "definition": "Un chiffre précis donne une impression de rigueur alors que sa méthode de calcul n'est pas fournie."
+    },
+    {
+      "id": "effet-de-cadrage",
+      "nom": "Effet de cadrage",
+      "type": "biais",
+      "definition": "La façon de présenter une mesure (mots, contrepartie, unité choisie) la rend plus favorable qu'une présentation neutre."
+    },
+    {
+      "id": "illusion-de-gratuite",
+      "nom": "Illusion de gratuité",
+      "type": "biais",
+      "definition": "La mesure est présentée par son bénéfice seul, sans son coût ni la personne qui le paie."
+    },
+    {
+      "id": "biais-d-action",
+      "nom": "Biais d'action",
+      "type": "biais",
+      "definition": "L'urgence affichée (« immédiatement », « au plus vite ») met en avant l'action visible plutôt que ses conditions et ses suites."
+    },
+    {
+      "id": "cueillette",
+      "nom": "Exemple choisi (cueillette)",
+      "type": "sophisme",
+      "definition": "Un cas particulier favorable sert d'illustration et laisse croire qu'il est représentatif."
+    },
+    {
+      "id": "langage-charge",
+      "nom": "Langage chargé",
+      "type": "sophisme",
+      "definition": "Un terme à forte connotation emporte l'adhésion ou le rejet sans argument."
+    },
+    {
+      "id": "euphemisme",
+      "nom": "Euphémisme",
+      "type": "sophisme",
+      "definition": "Un terme adouci ou valorisant masque la nature réelle de la mesure."
+    },
+    {
+      "id": "generalite-scintillante",
+      "nom": "Généralité scintillante",
+      "type": "sophisme",
+      "definition": "Invoquer une valeur consensuelle (souveraineté, indépendance) au lieu de montrer le lien entre la mesure et cette valeur."
+    },
+    {
+      "id": "terme-flou",
+      "nom": "Ambiguïté (terme flou)",
+      "type": "sophisme",
+      "definition": "Un terme dont le périmètre n'est pas défini permet à chacun d'y lire ce qu'il veut."
+    },
+    {
+      "id": "appel-a-la-tradition",
+      "nom": "Appel à la tradition",
+      "type": "sophisme",
+      "definition": "Le retour à une situation antérieure est présenté comme bon parce qu'il a existé, sans réexaminer le contexte actuel."
+    },
+    {
+      "id": "cause-unique",
+      "nom": "Cause unique",
+      "type": "sophisme",
+      "definition": "Un problème aux causes multiples est traité comme s'il n'en avait qu'une."
+    },
+    {
+      "id": "faux-dilemme",
+      "nom": "Faux dilemme",
+      "type": "sophisme",
+      "definition": "Deux options sont présentées comme exclusives alors que d'autres, ou leur combinaison, existent."
+    },
+    {
+      "id": "analogie-etrangere",
+      "nom": "Analogie avec l'étranger",
+      "type": "sophisme",
+      "definition": "Un pays est cité en modèle sans montrer que les conditions sont transposables ni que la mesure y a fonctionné."
+    },
+    {
+      "id": "omission",
+      "nom": "Omission (preuve occultée)",
+      "type": "sophisme",
+      "definition": "La formulation passe sous silence une contrainte décisive (droit, existant, personnel) qui change la portée de la mesure."
+    }
+  ],
+  "propositions": [
+    {
+      "proposition": "droit-de-vote-16-ans",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "suppression-parcoursup",
+      "annotations": [
+        {
+          "biais": "biais-d-action",
+          "explication": "L'urgence porte sur la suppression ; le dispositif qui la remplacerait n'est pas décrit.",
+          "citation": "supprimer « au plus vite »"
+        }
+      ]
+    },
+    {
+      "proposition": "retraite-60-ans",
+      "annotations": [
+        {
+          "biais": "appel-a-la-tradition",
+          "explication": "Le retour à l'âge d'avant 2010 est présenté comme allant de soi, sans traiter le financement dans la démographie actuelle.",
+          "citation": "Rétablir la retraite à 60 ans"
+        }
+      ]
+    },
+    {
+      "proposition": "400000-logements-abordables",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Rythme très supérieur à la production actuelle de logements sociaux, sans trajectoire de foncier, d'entreprises ni de financement.",
+          "citation": "400 000 logements abordables par an pendant cinq ans"
+        }
+      ]
+    },
+    {
+      "proposition": "encadrement-prix-foncier",
+      "annotations": [
+        {
+          "biais": "cause-unique",
+          "explication": "La hausse du foncier est imputée à la spéculation, alors que rareté des terrains, règles d'urbanisme et demande y contribuent aussi.",
+          "citation": "pour freiner la spéculation immobilière"
+        }
+      ]
+    },
+    {
+      "proposition": "isolation-700000-logements",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Objectif plancher fixé sans examiner la capacité de la filière du bâtiment à le tenir chaque année.",
+          "citation": "au moins 700 000 logements par an"
+        }
+      ]
+    },
+    {
+      "proposition": "reouverture-urgences-proximite",
+      "annotations": [
+        {
+          "biais": "omission",
+          "explication": "Les fermetures d'urgences tiennent largement au manque de médecins ; la promesse n'en dit rien.",
+          "citation": "en rouvrant progressivement des services d'urgences"
+        }
+      ]
+    },
+    {
+      "proposition": "renationalisation-sncf",
+      "annotations": [
+        {
+          "biais": "omission",
+          "explication": "L'ouverture à la concurrence découle du droit européen ; le texte ne dit pas comment s'en affranchir.",
+          "citation": "mettre fin à la mise en concurrence des lignes ferroviaires"
+        }
+      ]
+    },
+    {
+      "proposition": "arret-fermetures-services-publics",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "constituante-6e-republique",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "isf-impot-14-tranches",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "heritage-maximal",
+      "annotations": [
+        {
+          "biais": "euphemisme",
+          "explication": "Le terme « héritage maximal » désigne une imposition à 100 % au-delà du plafond, sans employer le mot impôt.",
+          "citation": "héritage maximal de 12 millions d'euros"
+        }
+      ]
+    },
+    {
+      "proposition": "sortie-nucleaire-100-renouvelables",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Objectif total fixé sans traiter le stockage et l'intermittence, points les plus incertains des scénarios publics.",
+          "citation": "100 % d'énergies renouvelables en 2050"
+        },
+        {
+          "biais": "faux-dilemme",
+          "explication": "Renouvelables et nucléaire sont posés comme exclusifs, alors que la plupart des scénarios de RTE les combinent.",
+          "citation": "sortir du nucléaire en abandonnant les projets d'EPR"
+        }
+      ]
+    },
+    {
+      "proposition": "regularisation-travailleurs-etudiants",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "desobeissance-regles-europeennes",
+      "annotations": [
+        {
+          "biais": "generalite-scintillante",
+          "explication": "Le critère d'incompatibilité est une valeur générale ; qui décide qu'une norme est incompatible n'est pas précisé.",
+          "citation": "engagements écologiques et sociaux de la France"
+        }
+      ]
+    },
+    {
+      "proposition": "defense-independante-lpm",
+      "annotations": [
+        {
+          "biais": "generalite-scintillante",
+          "explication": "Présuppose une indépendance perdue sans la définir ni dire en quoi les mesures la restaurent.",
+          "citation": "restaurer l'indépendance de la défense"
+        }
+      ]
+    },
+    {
+      "proposition": "prix-planchers-agricoles",
+      "annotations": [
+        {
+          "biais": "fausse-precision",
+          "explication": "Chiffre rond sans méthode de calcul dans le texte.",
+          "citation": "créer 300 000 emplois agricoles"
+        }
+      ]
+    },
+    {
+      "proposition": "interdiction-glyphosate-neonicotinoides",
+      "annotations": [
+        {
+          "biais": "biais-d-action",
+          "explication": "L'immédiateté est mise en avant ; les solutions de remplacement pour les agriculteurs ne sont pas évoquées.",
+          "citation": "Interdire immédiatement"
+        }
+      ]
+    },
+    {
+      "proposition": "retraite-65-ans-45-annuites",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "retraite-pilier-capitalisation",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "Le régime est présenté comme équilibré d'avance, alors que cet équilibre est le résultat attendu, non acquis, des mesures.",
+          "citation": "la gestion du régime équilibré"
+        }
+      ]
+    },
+    {
+      "proposition": "baisse-impots-production-50-mds",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "Présenté comme un échange neutre, alors que les entreprises qui gagnent à la baisse d'impôts ne sont pas forcément celles qui perdent les aides.",
+          "citation": "en échange de 50 milliards d'euros d'aides publiques en moins"
+        }
+      ]
+    },
+    {
+      "proposition": "regle-or-deficit-2-pct",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Plus de trois points de PIB de réduction en cinq ans, effort rarement atteint, sans trajectoire détaillée dans le texte.",
+          "citation": "de plus de 5 % à 2 % du PIB d'ici la fin du quinquennat"
+        }
+      ]
+    },
+    {
+      "proposition": "non-remplacement-fonctionnaires",
+      "annotations": [
+        {
+          "biais": "fausse-precision",
+          "explication": "Chiffre de l'auteur de la proposition, sans répartition par administration ni méthode.",
+          "citation": "environ 250 000 postes en moins sur cinq ans selon lui"
+        }
+      ]
+    },
+    {
+      "proposition": "exoneration-travailler-plus",
+      "annotations": [
+        {
+          "biais": "cueillette",
+          "explication": "Un cas type favorable illustre la mesure ; le coût pour les finances sociales n'est pas donné.",
+          "citation": "environ 1 000 euros par an pour un salarié au Smic"
+        }
+      ]
+    },
+    {
+      "proposition": "allocation-familiale-unique-350-euros",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "exoneration-impot-jeunes-parents",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "« Classes moyennes » n'est pas défini : on ne sait pas qui serait éligible.",
+          "citation": "les ménages des classes moyennes"
+        }
+      ]
+    },
+    {
+      "proposition": "pret-taux-zero-naissance",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "hausse-20-pct-salaire-enseignants",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "Le financement paraît indolore ; il suppose en fait moins de postes ou de classes, ce qui n'est pas dit.",
+          "citation": "en finançant la mesure par la baisse du nombre d'élèves"
+        }
+      ]
+    },
+    {
+      "proposition": "amende-responsabilisation-scolaire",
+      "annotations": [
+        {
+          "biais": "analogie-etrangere",
+          "explication": "Le Royaume-Uni est cité en modèle sans résultat d'évaluation ni examen de la transposition.",
+          "citation": "inspirée du Royaume-Uni"
+        }
+      ]
+    },
+    {
+      "proposition": "autonomie-chefs-etablissement",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "imprescriptibilite-crimes-mineurs",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "Présenter comme un « droit » l'accès d'un particulier aux antécédents d'un tiers écarte d'avance la question de la vie privée.",
+          "citation": "« droit de savoir »"
+        }
+      ]
+    },
+    {
+      "proposition": "peines-planchers-suppression-jap",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "etat-urgence-narco",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "Le vocabulaire de l'urgence prépare l'acceptation de moyens d'exception avant tout bilan des moyens existants.",
+          "citation": "« état d'urgence narco »"
+        }
+      ]
+    },
+    {
+      "proposition": "diviser-par-deux-immigration-legale",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "La cible chiffrée reste floue : « largement inférieur » ne fixe pas de niveau vérifiable.",
+          "citation": "« largement inférieur à 200 000 »"
+        }
+      ]
+    },
+    {
+      "proposition": "denonciation-accord-franco-algerien",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "suspension-droit-sol-mayotte",
+      "annotations": [
+        {
+          "biais": "biais-d-action",
+          "explication": "L'immédiateté est affichée sans dire par quel texte (loi ou révision constitutionnelle) ni dans quel délai.",
+          "citation": "il suspendrait immédiatement le droit du sol à Mayotte"
+        }
+      ]
+    },
+    {
+      "proposition": "reservistes-250000-drones",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Multiplication par plus de cinq sans calendrier, ni encadrement, ni budget dans le texte.",
+          "citation": "de 45 000 à 250 000"
+        }
+      ]
+    },
+    {
+      "proposition": "ukraine-otan-troupes-europeennes",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "protection-marche-europeen-chine",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "relance-nucleaire-renouvelables",
+      "annotations": [
+        {
+          "biais": "generalite-scintillante",
+          "explication": "La valeur invoquée tient lieu d'argument ; le lien entre chaque mesure et la souveraineté n'est pas montré.",
+          "citation": "au nom de la souveraineté énergétique"
+        }
+      ]
+    },
+    {
+      "proposition": "doubler-fonds-vert-adaptation",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Objectif total, sans échéance ni coût, qui dépend aussi des pollutions agricoles et industrielles.",
+          "citation": "rendre toutes les rivières baignables"
+        }
+      ]
+    },
+    {
+      "proposition": "ia-souveraine-100000-ingenieurs",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Multiplication par 2,5 des diplômés sans dire où trouver étudiants, enseignants et places de formation.",
+          "citation": "de 40 000 à 100 000 par an"
+        }
+      ]
+    },
+    {
+      "proposition": "alignement-normes-agricoles",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "charte-environnement-agriculture",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "Le terme péjoratif désigne toute règle plus exigeante que le minimum européen, sans examiner chacune.",
+          "citation": "toute surtransposition"
+        }
+      ]
+    },
+    {
+      "proposition": "regle-or-referendum",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "economies-140-milliards-2032",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Montant d'ampleur inédite, dont la répartition détaillée n'apparaît pas dans le texte.",
+          "citation": "140 milliards d'euros de baisse des dépenses publiques d'ici 2032"
+        }
+      ]
+    },
+    {
+      "proposition": "baisse-contribution-ue",
+      "annotations": [
+        {
+          "biais": "omission",
+          "explication": "La contribution est fixée par un cadre financier européen adopté à l'unanimité ; une baisse unilatérale n'est pas expliquée.",
+          "citation": "de 11,1 milliards d'euros dès 2027"
+        }
+      ]
+    },
+    {
+      "proposition": "prestations-etrangers-cinq-ans-travail",
+      "annotations": [
+        {
+          "biais": "euphemisme",
+          "explication": "Terme valorisant pour une différence de traitement fondée sur la nationalité.",
+          "citation": "« priorité nationale »"
+        },
+        {
+          "biais": "fausse-precision",
+          "explication": "Chiffre précis sans méthode publiée dans le texte, pour une mesure dont la mise en œuvre juridique est incertaine.",
+          "citation": "chiffré à 15 milliards d'euros d'économies en 2027"
+        }
+      ]
+    },
+    {
+      "proposition": "tva-zero-100-produits",
+      "annotations": [
+        {
+          "biais": "illusion-de-gratuite",
+          "explication": "Ni le coût pour l'État ni la répercussion effective sur les prix en rayon ne sont évoqués.",
+          "citation": "supprimer la TVA sur 100 produits de première nécessité"
+        }
+      ]
+    },
+    {
+      "proposition": "baisse-tva-gaz-electricite",
+      "annotations": [
+        {
+          "biais": "illusion-de-gratuite",
+          "explication": "Mesure présentée sans taux, sans coût ni financement.",
+          "citation": "baisser la TVA sur le gaz et l'électricité"
+        }
+      ]
+    },
+    {
+      "proposition": "taxe-rachats-actions",
+      "annotations": [
+        {
+          "biais": "fausse-precision",
+          "explication": "Rendement précis qui suppose que les entreprises ne changent pas de comportement face à la taxe.",
+          "citation": "censée rapporter 11,4 milliards d'euros dès 2027"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-epci-metropoles",
+      "annotations": [
+        {
+          "biais": "euphemisme",
+          "explication": "« Faire contribuer » désigne une baisse de ressources imposée aux collectivités.",
+          "citation": "faire contribuer les collectivités locales"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-agences-etat",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "Le périmètre n'est pas défini : on ne sait pas quelles agences seraient gardées ni où iraient leurs missions.",
+          "citation": "« la quasi-totalité des agences »"
+        }
+      ]
+    },
+    {
+      "proposition": "retraites-pilier-capitalisation",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "Le mot « injustes » qualifie des économies non détaillées : il emporte l'adhésion sans dire lesquelles.",
+          "citation": "« corrections de mesures injustes »"
+        }
+      ]
+    },
+    {
+      "proposition": "ame-transformee-amu",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "impot-fortune-financiere",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "referendum-immigration-pen",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "interdiction-progressive-voile",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "referendum-ideologies-islamistes",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "Le critère qui ferait d'une mosquée une « mosquée radicale » n'est pas défini.",
+          "citation": "les mosquées radicales"
+        }
+      ]
+    },
+    {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "annotations": [
+        {
+          "biais": "cause-unique",
+          "explication": "La mesure est présentée comme une réponse à l'accès au logement, sans traiter le manque de logements lui-même.",
+          "citation": "réserver aux Français l'accès au logement social et les APL"
+        }
+      ]
+    },
+    {
+      "proposition": "abrogation-loi-sru-vente-hlm",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "Présenté comme un financement, alors que les logements vendus quittent le parc social : l'effet net sur ce parc n'est pas donné.",
+          "citation": "vendre une partie des HLM pour financer de nouvelles constructions"
+        }
+      ]
+    },
+    {
+      "proposition": "terrains-publics-gratuits-constructeurs",
+      "annotations": [
+        {
+          "biais": "illusion-de-gratuite",
+          "explication": "La gratuité pour le constructeur est une recette à laquelle renonce la puissance publique ; ce coût n'est pas évoqué.",
+          "citation": "mettre gratuitement des terrains publics à disposition"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-zan",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "dpe-indicatif-100-renov",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "expulsion-familles-delinquantes-hlm",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "Le critère n'est pas défini : condamnation de qui, pour quoi, et sort des autres membres du foyer.",
+          "citation": "les familles délinquantes"
+        }
+      ]
+    },
+    {
+      "proposition": "loi-anti-squats",
+      "annotations": [
+        {
+          "biais": "omission",
+          "explication": "Une loi anti-squat a déjà été votée en 2023 ; le texte ne dit pas ce que la nouvelle loi changerait.",
+          "citation": "une loi contre les squats"
+        }
+      ]
+    },
+    {
+      "proposition": "reduction-aide-financiere-ukraine",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "referendum-immigration-retailleau",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "« Drastiquement » donne le ton sans fixer d'objectif mesurable.",
+          "citation": "« réduire drastiquement l'immigration »"
+        }
+      ]
+    },
+    {
+      "proposition": "abrogation-droit-du-sol",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "majorite-penale-15-ans",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "peines-minimales-agressions-forces-ordre",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "referendum-domaine-loi-elargi",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "primaute-constitution-droit-ue",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "sortie-35-heures-annualisation",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "Formule forte pour un relèvement de 16 heures par an (1 607 à 1 623 heures), soit environ 1 %.",
+          "citation": "sortir des 35 heures"
+        }
+      ]
+    },
+    {
+      "proposition": "zero-cotisation-impot-heures-supplementaires",
+      "annotations": [
+        {
+          "biais": "illusion-de-gratuite",
+          "explication": "La perte de recettes pour la Sécurité sociale et l'État n'est ni chiffrée ni compensée dans le texte.",
+          "citation": "supprimer les cotisations salariales et patronales"
+        }
+      ]
+    },
+    {
+      "proposition": "plafond-aides-sociales-70-smic",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "rsa-15-heures-activite",
+      "annotations": [
+        {
+          "biais": "euphemisme",
+          "explication": "Le nom met en avant l'incitation ; la fusion et la condition d'activité obligatoire passent au second plan.",
+          "citation": "« revenu d'incitation à l'activité »"
+        }
+      ]
+    },
+    {
+      "proposition": "chomage-fin-apres-trois-refus",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "revenu-parental-unique",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "examen-entree-sixieme",
+      "annotations": [
+        {
+          "biais": "appel-a-la-tradition",
+          "explication": "Le retour à un dispositif ancien est présenté comme une solution, sans bilan de ce qu'il produisait.",
+          "citation": "rétablir un examen d'entrée en sixième"
+        }
+      ]
+    },
+    {
+      "proposition": "etablissements-publics-libres",
+      "annotations": [
+        {
+          "biais": "langage-charge",
+          "explication": "Le mot « libres » valorise d'emblée le dispositif et laisse entendre que les autres établissements ne le sont pas.",
+          "citation": "« libres »"
+        }
+      ]
+    },
+    {
+      "proposition": "salaires-enseignants-moyenne-europeenne",
+      "annotations": [
+        {
+          "biais": "terme-flou",
+          "explication": "« Nettement » ne fixe ni montant ni calendrier.",
+          "citation": "augmenter nettement"
+        }
+      ]
+    },
+    {
+      "proposition": "deduction-interets-emprunt-enfants",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "suppression-zan-dpe",
+      "aucun_detecte": true,
+      "commentaire": "Aucun détecté : énoncé descriptif de la mesure, sans argument, chiffre ou terme connoté à qualifier."
+    },
+    {
+      "proposition": "million-logements-cinq-ans",
+      "annotations": [
+        {
+          "biais": "erreur-de-planification",
+          "explication": "Objectif fixé par une loi d'urgence, alors que les délais dépendent aussi des recours, du financement et des entreprises.",
+          "citation": "diviser par deux les délais de construction"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-certificats-economie-energie",
+      "annotations": [
+        {
+          "biais": "cueillette",
+          "explication": "L'unité du plein rend le gain concret ; ce que financent les CEE (rénovations) n'est pas mis en regard.",
+          "citation": "environ 8,50 euros pour un plein de 50 litres"
+        }
+      ]
+    },
+    {
+      "proposition": "fin-subventions-eolien-solaire",
+      "annotations": [
+        {
+          "biais": "faux-dilemme",
+          "explication": "Nucléaire et renouvelables sont opposés, alors que la plupart des scénarios de RTE les combinent.",
+          "citation": "la fin des subventions publiques à l'éolien et au photovoltaïque et la reconstruction d'un parc nucléaire"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-principe-precaution",
+      "annotations": [
+        {
+          "biais": "faux-dilemme",
+          "explication": "Adaptation et précaution sont présentées comme incompatibles, sans le démontrer.",
+          "citation": "pour une écologie « d'adaptation », il a proposé de supprimer le principe de précaution"
+        }
+      ]
+    },
+    {
+      "proposition": "stockage-eau-irrigation",
+      "annotations": [
+        {
+          "biais": "effet-de-cadrage",
+          "explication": "« Excédentaire » présuppose un surplus, alors que l'eau d'hiver recharge aussi les nappes et les cours d'eau.",
+          "citation": "l'eau excédentaire de l'hiver"
+        }
+      ]
+    }
+  ]
+}

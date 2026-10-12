@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "methode": "Réaction probable de l'Union européenne et des grandes puissances aux propositions qui ont une portée internationale (droit de l'UE, budget européen, commerce, défense, énergie, migrations, relations bilatérales). Cinq acteurs majeurs sont évalués pour chaque proposition retenue : l'UE (Commission et institutions), l'Allemagne, les États-Unis, la Chine et la Russie ; d'autres pays directement concernés sont ajoutés dans « autres ». Position sur une échelle à cinq niveaux (favorable, plutôt favorable, neutre, réservée, hostile) et intensité (faible = l'acteur ne s'en saisirait guère, forte = il réagirait publiquement ou agirait). Les positions sont déduites des textes en vigueur, des positions officielles connues et des intérêts de chaque acteur à la date du fichier ; ce sont des estimations, pas des déclarations. Les propositions de portée essentiellement nationale sont listées dans « hors_champ » avec la raison.",
+  "acteurs": [
+    { "id": "ue", "nom": "Union européenne", "role": "Commission, Conseil et Cour de justice : gardiens des traités, du marché intérieur et du budget commun." },
+    { "id": "allemagne", "nom": "Allemagne", "role": "Premier partenaire de la France dans l'UE, premier contributeur net au budget européen, industrie exportatrice." },
+    { "id": "etats_unis", "nom": "États-Unis", "role": "Allié dans l'Otan, premier partenaire commercial hors UE ; administration Trump depuis 2025." },
+    { "id": "chine", "nom": "Chine", "role": "Deuxième économie mondiale, concurrent industriel de l'UE, grand fournisseur de panneaux solaires, batteries et intrants agricoles." },
+    { "id": "russie", "nom": "Russie", "role": "En guerre contre l'Ukraine depuis 2022, cherche à diviser l'UE et l'Otan." }
+  ],
+  "positions": {
+    "favorable": "Favorable",
+    "plutot_favorable": "Plutôt favorable",
+    "neutre": "Neutre",
+    "reservee": "Réservée",
+    "hostile": "Hostile"
+  },
+  "propositions": [
+    {
+      "proposition": "desobeissance-regles-europeennes",
+      "enjeu": "Ne plus appliquer certaines règles européennes revient à violer les traités (primauté du droit de l'UE).",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "La Commission ouvrirait des procédures d'infraction, avec amendes possibles de la Cour de justice, comme contre la Pologne après 2021. La primauté du droit de l'UE est un principe fondateur." },
+        { "acteur": "allemagne", "position": "hostile", "intensite": "forte", "justification": "Berlin tient au respect des règles communes, surtout du marché intérieur et de la concurrence ; une France qui choisit ses règles affaiblirait tout l'édifice." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne à l'UE. Washington y verrait surtout une UE moins unie, donc plus facile à aborder pays par pays en matière commerciale." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'effet direct. Pékin profite d'une UE divisée, mais ne s'exprime pas sur ses débats internes." },
+        { "acteur": "russie", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Toute fracture au sein de l'UE affaiblit son unité sur les sanctions et le soutien à l'Ukraine ; Moscou l'exploiterait dans son discours." }
+      ],
+      "sources": [
+        { "titre": "CJCE, arrêt Costa c. ENEL (1964) — primauté du droit communautaire", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:61964CJ0006" },
+        { "titre": "Traité sur le fonctionnement de l'UE (version consolidée)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT" }
+      ]
+    },
+    {
+      "proposition": "defense-independante-lpm",
+      "enjeu": "Le programme LFI associe l'indépendance de la défense à une prise de distance avec l'Otan et à l'arrêt des privatisations dans l'armement.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "faible", "justification": "L'UE pousse les achats d'armement en commun (programme SAFE de 150 Md€ de prêts, 2025). Une défense purement nationale s'y insère mal, sans enfreindre de règle." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Les grands projets franco-allemands (avion SCAF, char MGCS, KNDS) supposent des industries ouvertes à la coopération ; Berlin craindrait un repli national." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "moyenne", "justification": "Washington veut que les Européens dépensent plus pour leur défense, mais au sein de l'Otan ; une France qui s'en éloigne serait mal vue." },
+        { "acteur": "chine", "position": "plutot_favorable", "intensite": "faible", "justification": "Pékin encourage l'« autonomie stratégique » européenne quand elle éloigne l'Europe des États-Unis." },
+        { "acteur": "russie", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Une prise de distance française avec l'Otan affaiblirait l'Alliance, objectif constant de Moscou." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2025/1106 instrument SAFE (Agir pour la sécurité de l'Europe)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32025R1106" },
+        { "titre": "Otan — Déclaration du sommet de La Haye (2025), objectif de 5 % du PIB", "url": "https://www.nato.int/cps/en/natohq/official_texts_236705.htm" }
+      ]
+    },
+    {
+      "proposition": "sortie-nucleaire-100-renouvelables",
+      "enjeu": "La France est le premier exportateur d'électricité d'Europe ; sortir du nucléaire change l'équilibre du réseau européen.",
+      "reactions": [
+        { "acteur": "ue", "position": "neutre", "intensite": "faible", "justification": "Le choix du bouquet énergétique relève de chaque État (article 194 TFUE). L'UE suivrait surtout le respect des objectifs climatiques et de la sécurité d'approvisionnement." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "L'Allemagne a fermé ses réacteurs en 2023 mais importe de l'électricité française ; moins de nucléaire en France, c'est plus de tension sur les prix en Europe." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "faible", "justification": "L'administration Trump soutient le nucléaire et le gaz ; elle y verrait une Europe plus dépendante des renouvelables, donc de la Chine." },
+        { "acteur": "chine", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Premier fabricant mondial de panneaux solaires, d'éoliennes et de batteries : un plan 100 % renouvelables élargit ses débouchés." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Effets contradictoires : moins de dépendance au combustible nucléaire russe, mais une Europe dont la production pilotable baisse." }
+      ],
+      "sources": [
+        { "titre": "Traité sur le fonctionnement de l'UE, article 194 (énergie)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT" },
+        { "titre": "RTE — Bilan électrique 2024 (exportations record)", "url": "https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese" }
+      ]
+    },
+    {
+      "proposition": "regularisation-travailleurs-etudiants",
+      "enjeu": "Dans l'espace Schengen sans contrôle aux frontières intérieures, une régularisation large concerne aussi les voisins.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "La régularisation est une compétence nationale, mais le pacte sur la migration et l'asile (appliqué depuis juin 2026) vise à durcir les règles ; la mesure irait à contre-courant." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Berlin a rétabli des contrôles à ses frontières en 2024-2025 et craint les mouvements secondaires depuis un pays voisin plus ouvert." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "faible", "justification": "L'administration Trump critique publiquement la politique migratoire européenne, mais n'a pas de levier direct." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Sans enjeu pour Pékin, hors étudiants chinois déjà en règle." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun intérêt direct ; Moscou peut s'en servir dans sa propagande sur les divisions européennes." }
+      ],
+      "autres": [
+        { "acteur": "Italie", "position": "hostile", "intensite": "moyenne", "justification": "Le gouvernement Meloni défend une ligne migratoire restrictive au niveau européen." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1351 gestion de l'asile et de la migration (pacte)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1351" }
+      ]
+    },
+    {
+      "proposition": "renationalisation-sncf",
+      "enjeu": "Le 4e paquet ferroviaire impose l'ouverture à la concurrence des lignes (TGV depuis 2020, contrats régionaux depuis fin 2023).",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "moyenne", "justification": "Mettre fin à la concurrence sur les lignes contredit la directive 2016/2370 et le règlement sur les obligations de service public ; procédure d'infraction probable." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "faible", "justification": "La Deutsche Bahn est publique elle aussi ; Berlin tient surtout à l'ouverture réciproque des réseaux." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Aucun opérateur américain concerné." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct (pas de présence chinoise sur le rail français)." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "autres": [
+        { "acteur": "Italie et Espagne", "position": "hostile", "intensite": "moyenne", "justification": "Trenitalia et Renfe exploitent des TGV en France depuis 2021-2023 et perdraient ce marché." }
+      ],
+      "sources": [
+        { "titre": "Directive (UE) 2016/2370 ouverture du transport national de voyageurs par chemin de fer", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016L2370" }
+      ]
+    },
+    {
+      "proposition": "prix-planchers-agricoles",
+      "enjeu": "Les prix agricoles relèvent de la politique agricole commune et du droit de la concurrence.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "Un prix minimum national est délicat au regard de l'organisation commune des marchés et du droit de la concurrence ; des prix planchers dans les contrats restent possibles, pas imposés aux produits importés." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "faible", "justification": "Gros exportateur agroalimentaire vers la France, Berlin craindrait une protection déguisée du marché français." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "faible", "justification": "Washington conteste les mesures agricoles européennes qui freinent ses exportations." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Peu d'exportations agricoles chinoises vers la France." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu direct (exportations agricoles russes vers l'UE déjà taxées)." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 1308/2013 organisation commune des marchés agricoles", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R1308" }
+      ]
+    },
+    {
+      "proposition": "interdiction-glyphosate-neonicotinoides",
+      "enjeu": "L'UE a renouvelé le glyphosate jusqu'en 2033 ; les néonicotinoïdes sont déjà très restreints.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "Un État peut refuser l'autorisation des produits sur son sol, mais doit la justifier ; la Commission veille à ce qu'il n'y ait pas de distorsion du marché intérieur. Les néonicotinoïdes vont dans le sens de la jurisprudence (CJUE 2023)." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Bayer, propriétaire de Monsanto, fabrique le Roundup ; Berlin a renoncé à sa propre sortie du glyphosate après le renouvellement européen." },
+        { "acteur": "etats_unis", "position": "hostile", "intensite": "moyenne", "justification": "Washington considère les interdictions européennes de pesticides comme des barrières commerciales et le dit dans ses rapports annuels." },
+        { "acteur": "chine", "position": "reservee", "intensite": "faible", "justification": "Premier producteur mondial de glyphosate ; débouché perdu, mais la France pèse peu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "sources": [
+        { "titre": "Règlement d'exécution (UE) 2023/2660 renouvellement du glyphosate", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R2660" },
+        { "titre": "CJUE, arrêt C-162/21 (2023) — dérogations néonicotinoïdes", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62021CJ0162" }
+      ]
+    },
+    {
+      "proposition": "regle-or-deficit-2-pct",
+      "enjeu": "La France est sous procédure pour déficit excessif depuis 2024.",
+      "reactions": [
+        { "acteur": "ue", "position": "favorable", "intensite": "forte", "justification": "Ramener le déficit à 2 % va plus loin que ce que demande la procédure pour déficit excessif (sous 3 % en 2029) ; la Commission le saluerait." },
+        { "acteur": "allemagne", "position": "favorable", "intensite": "moyenne", "justification": "Berlin a son propre frein à l'endettement dans la Constitution et pousse ses partenaires à la rigueur, même après l'avoir assoupli pour la défense en 2025." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne ; seuls les marchés financiers y prêteraient attention." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1263 nouvelles règles budgétaires européennes", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263" }
+      ]
+    },
+    {
+      "proposition": "diviser-par-deux-immigration-legale",
+      "enjeu": "Une part des titres de séjour découle de directives européennes (regroupement familial, étudiants, carte bleue).",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "Le regroupement familial et l'admission des étudiants sont encadrés par des directives : la France peut durcir les conditions, pas les supprimer." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Berlin durcit aussi sa politique, tout en recrutant des travailleurs qualifiés ; peu de conséquences pour elle." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "L'administration Trump encourage publiquement les Européens à réduire l'immigration." },
+        { "acteur": "chine", "position": "reservee", "intensite": "faible", "justification": "Les étudiants chinois sont nombreux en France ; Pékin réagirait si les visas étudiants étaient visés." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu direct." }
+      ],
+      "autres": [
+        { "acteur": "Algérie, Maroc, Tunisie", "position": "hostile", "intensite": "moyenne", "justification": "Premiers pays d'origine des titres délivrés en France ; la baisse toucherait d'abord leurs ressortissants." }
+      ],
+      "sources": [
+        { "titre": "Directive 2003/86/CE regroupement familial", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32003L0086" },
+        { "titre": "Directive (UE) 2016/801 étudiants et chercheurs", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016L0801" }
+      ]
+    },
+    {
+      "proposition": "denonciation-accord-franco-algerien",
+      "enjeu": "Accord bilatéral de 1968 qui donne aux Algériens un régime de séjour propre ; relations déjà tendues depuis 2024.",
+      "reactions": [
+        { "acteur": "ue", "position": "neutre", "intensite": "faible", "justification": "Accord bilatéral, hors compétence de l'UE ; seules les règles Schengen communes continueraient de s'appliquer." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Pas concernée ; attentive au gaz algérien pour l'Europe." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Partenaire économique majeur de l'Algérie, pourrait y gagner en influence si la relation franco-algérienne se dégrade." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Principal fournisseur d'armes de l'Algérie ; profiterait d'une rupture avec la France sans prendre position." }
+      ],
+      "autres": [
+        { "acteur": "Algérie", "position": "hostile", "intensite": "forte", "justification": "Alger y verrait une remise en cause historique et pourrait répliquer (laissez-passer consulaires, coopération migratoire et sécuritaire, gaz)." }
+      ],
+      "sources": [
+        { "titre": "Avec Édouard 2027 — Pour une France plus sûre (dénonciation de l'accord de 1968)", "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure" }
+      ]
+    },
+    {
+      "proposition": "reservistes-250000-drones",
+      "enjeu": "Montée en puissance militaire dans le contexte de la guerre en Ukraine.",
+      "reactions": [
+        { "acteur": "ue", "position": "favorable", "intensite": "moyenne", "justification": "S'inscrit dans le plan de réarmement européen et l'instrument SAFE ; la production de drones est une priorité de l'UE." },
+        { "acteur": "allemagne", "position": "favorable", "intensite": "moyenne", "justification": "Berlin réarme aussi et relance un service militaire volontaire ; la mesure renforce la défense européenne commune." },
+        { "acteur": "etats_unis", "position": "favorable", "intensite": "moyenne", "justification": "Washington exige que les Européens portent davantage leur défense (objectif Otan de 5 % du PIB en 2035)." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct ; la Chine fournit toutefois une part des composants de drones." },
+        { "acteur": "russie", "position": "hostile", "intensite": "moyenne", "justification": "Moscou présenterait la mesure comme une militarisation hostile de l'Europe." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2025/1106 instrument SAFE", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32025R1106" },
+        { "titre": "Otan — Déclaration du sommet de La Haye (2025)", "url": "https://www.nato.int/cps/en/natohq/official_texts_236705.htm" }
+      ]
+    },
+    {
+      "proposition": "ukraine-otan-troupes-europeennes",
+      "enjeu": "Garanties de sécurité pour l'Ukraine après un cessez-le-feu (coalition des volontaires) et adhésion à l'Otan.",
+      "reactions": [
+        { "acteur": "ue", "position": "favorable", "intensite": "moyenne", "justification": "L'UE soutient l'Ukraine (candidate à l'adhésion, facilité de 50 Md€) ; les troupes et l'Otan relèvent des États, mais la ligne est cohérente avec la sienne." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Soutien fort à l'Ukraine, mais Berlin reste prudent sur l'envoi de soldats et sur une adhésion rapide à l'Otan." },
+        { "acteur": "etats_unis", "position": "hostile", "intensite": "moyenne", "justification": "L'administration Trump a écarté l'adhésion de l'Ukraine à l'Otan ; elle laisse aux Européens les garanties de sécurité au sol." },
+        { "acteur": "chine", "position": "reservee", "intensite": "faible", "justification": "Pékin s'oppose à l'élargissement de l'Otan et reprend l'argument russe des « causes profondes » du conflit." },
+        { "acteur": "russie", "position": "hostile", "intensite": "forte", "justification": "Moscou fait du refus de l'Ukraine dans l'Otan et de toute troupe occidentale sur son sol une condition de la paix." }
+      ],
+      "autres": [
+        { "acteur": "Ukraine", "position": "favorable", "intensite": "forte", "justification": "Kiev demande ces deux garanties depuis 2022." },
+        { "acteur": "Royaume-Uni", "position": "favorable", "intensite": "moyenne", "justification": "Co-pilote avec la France de la coalition des volontaires." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/792 facilité pour l'Ukraine", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R0792" },
+        { "titre": "Otan — Déclaration du sommet de Washington (2024), « voie irréversible » de l'Ukraine", "url": "https://www.nato.int/cps/en/natohq/official_texts_227678.htm" }
+      ]
+    },
+    {
+      "proposition": "protection-marche-europeen-chine",
+      "enjeu": "Imposer aux entreprises chinoises les conditions que la Chine impose aux étrangers (transferts de technologie, coentreprises) ; la politique commerciale est une compétence exclusive de l'UE.",
+      "reactions": [
+        { "acteur": "ue", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Rejoint la ligne de « réduction des risques » de la Commission (droits sur les voitures électriques chinoises en 2024) ; mais il faut une décision européenne, pas française, et le respect des règles de l'OMC." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "forte", "justification": "Ses constructeurs automobiles et chimistes dépendent du marché chinois ; Berlin a voté contre les droits sur les voitures électriques en 2024 par peur de représailles." },
+        { "acteur": "etats_unis", "position": "favorable", "intensite": "moyenne", "justification": "Washington pousse les Européens à se protéger de la Chine, tout en taxant aussi les exportations européennes." },
+        { "acteur": "chine", "position": "hostile", "intensite": "forte", "justification": "Pékin riposterait, comme avec les droits antidumping sur le cognac après 2024, et ciblerait les produits français (luxe, spiritueux, aéronautique)." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct ; une tension UE-Chine rapproche Pékin de Moscou." }
+      ],
+      "sources": [
+        { "titre": "Règlement d'exécution (UE) 2024/2754 droits compensateurs sur les véhicules électriques chinois", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2754" },
+        { "titre": "Traité sur le fonctionnement de l'UE, articles 3 et 207 (politique commerciale commune)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT" }
+      ]
+    },
+    {
+      "proposition": "relance-nucleaire-renouvelables",
+      "enjeu": "Le nucléaire est reconnu dans la taxonomie verte européenne depuis 2022.",
+      "reactions": [
+        { "acteur": "ue", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Nucléaire et renouvelables sont classés technologies « zéro net » (règlement de 2024) ; l'électrification sert les objectifs climatiques. Les aides d'État restent contrôlées." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Longtemps opposée au nucléaire dans les textes européens, l'Allemagne a cessé de le bloquer depuis 2025 ; elle profiterait d'exportations françaises stables." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "Washington soutient le nucléaire civil et vend du combustible et des réacteurs à l'Europe." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Concurrent dans le nucléaire, fournisseur dans le solaire : gains et pertes s'équilibrent." },
+        { "acteur": "russie", "position": "reservee", "intensite": "faible", "justification": "La France veut se passer de l'uranium enrichi russe ; Rosatom perd un débouché." }
+      ],
+      "sources": [
+        { "titre": "Règlement délégué (UE) 2022/1214 — nucléaire et gaz dans la taxonomie", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022R1214" },
+        { "titre": "Règlement (UE) 2024/1735 pour une industrie « zéro net »", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1735" }
+      ]
+    },
+    {
+      "proposition": "ia-souveraine-100000-ingenieurs",
+      "enjeu": "Infrastructure de calcul européenne pour l'IA, face aux États-Unis et à la Chine.",
+      "reactions": [
+        { "acteur": "ue", "position": "favorable", "intensite": "moyenne", "justification": "Rejoint les « usines d'IA » de l'entreprise commune EuroHPC et le plan InvestAI de 2025." },
+        { "acteur": "allemagne", "position": "favorable", "intensite": "moyenne", "justification": "Berlin soutient aussi une IA européenne et accueille plusieurs usines d'IA." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "moyenne", "justification": "Washington voit d'un mauvais œil la « souveraineté numérique » européenne qui concurrence ses géants, tout en vendant les puces (Nvidia) nécessaires." },
+        { "acteur": "chine", "position": "reservee", "intensite": "faible", "justification": "Concurrence de plus, mais l'Europe reste un acteur secondaire de l'IA pour Pékin." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1732 — usines d'IA dans l'entreprise commune EuroHPC", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1732" }
+      ]
+    },
+    {
+      "proposition": "alignement-normes-agricoles",
+      "enjeu": "Fin de la « surtransposition » : appliquer les règles européennes sans aller au-delà.",
+      "reactions": [
+        { "acteur": "ue", "position": "plutot_favorable", "intensite": "faible", "justification": "Cohérent avec les paquets de simplification agricole de la Commission (2025) ; le socle européen reste respecté." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Rapproche les conditions de concurrence entre agriculteurs français et allemands ; peu d'effet pour Berlin." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Les normes françaises en plus des européennes ne visent pas spécialement les produits américains." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu." }
+      ],
+      "autres": [
+        { "acteur": "Espagne et Italie", "position": "reservee", "intensite": "faible", "justification": "Concurrents agricoles directs : des normes françaises allégées renforcent la concurrence française sur les fruits et légumes." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2021/2115 plans stratégiques de la PAC", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021R2115" }
+      ]
+    },
+    {
+      "proposition": "regle-or-referendum",
+      "enjeu": "Plafonner le déficit au niveau qui stabilise la dette, alors que la France est sous procédure pour déficit excessif.",
+      "reactions": [
+        { "acteur": "ue", "position": "plutot_favorable", "intensite": "moyenne", "justification": "Une règle nationale de stabilisation de la dette va dans le sens des règles européennes de 2024 ; la Commission regarderait la trajectoire réelle." },
+        { "acteur": "allemagne", "position": "plutot_favorable", "intensite": "faible", "justification": "Berlin approuve toute discipline budgétaire, mais doute de l'ensemble du programme RN." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1263 nouvelles règles budgétaires européennes", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263" }
+      ]
+    },
+    {
+      "proposition": "economies-140-milliards-2032",
+      "enjeu": "Déficit sous 3 % en 2030, un an après l'échéance fixée par la procédure européenne (2029).",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "L'objectif est proche des recommandations, mais avec un an de retard ; une partie des économies repose sur la baisse de la contribution au budget européen et sur des mesures contraires au droit de l'UE." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Une partie du plan revient à faire payer davantage les autres contributeurs du budget européen, au premier rang l'Allemagne." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu direct." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1263 nouvelles règles budgétaires européennes", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263" }
+      ]
+    },
+    {
+      "proposition": "baisse-contribution-ue",
+      "enjeu": "La contribution découle de la décision sur les ressources propres, adoptée à l'unanimité et ratifiée ; elle ne peut pas être réduite seule.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "Ne pas verser sa contribution est une violation du droit de l'UE ; la seule voie légale est la négociation du budget 2028-2034, à l'unanimité." },
+        { "acteur": "allemagne", "position": "hostile", "intensite": "forte", "justification": "Premier contributeur net, Berlin devrait combler une partie du manque ; elle bloquerait toute ristourne française dans la négociation." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne à l'UE." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Sujet interne à l'UE." },
+        { "acteur": "russie", "position": "favorable", "intensite": "moyenne", "justification": "Un budget européen réduit et une crise entre États membres affaiblissent le soutien de l'UE à l'Ukraine." }
+      ],
+      "autres": [
+        { "acteur": "Pologne et pays d'Europe centrale", "position": "hostile", "intensite": "forte", "justification": "Bénéficiaires nets des fonds de cohésion, ils perdraient en premier." }
+      ],
+      "sources": [
+        { "titre": "Décision (UE, Euratom) 2020/2053 système des ressources propres", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32020D2053" }
+      ]
+    },
+    {
+      "proposition": "prestations-etrangers-cinq-ans-travail",
+      "enjeu": "Le droit de l'UE impose l'égalité de traitement pour les citoyens européens et les résidents étrangers de longue durée.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "Contraire à la libre circulation, à la coordination des sécurités sociales et à la directive sur les résidents de longue durée ; procédure d'infraction quasi certaine pour les citoyens européens." },
+        { "acteur": "allemagne", "position": "hostile", "intensite": "moyenne", "justification": "Les Allemands vivant en France seraient touchés s'ils sont visés ; Berlin défend la libre circulation." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct ; l'administration Trump applique elle-même des restrictions aux étrangers." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct ; exploiterait la querelle avec Bruxelles." }
+      ],
+      "autres": [
+        { "acteur": "Pays du Maghreb", "position": "hostile", "intensite": "moyenne", "justification": "Leurs ressortissants sont les plus nombreux parmi les étrangers en France ; certains accords bilatéraux de sécurité sociale seraient en cause." }
+      ],
+      "sources": [
+        { "titre": "Directive 2003/109/CE résidents de longue durée", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32003L0109" },
+        { "titre": "Règlement (CE) 883/2004 coordination des systèmes de sécurité sociale", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32004R0883" }
+      ]
+    },
+    {
+      "proposition": "baisse-tva-gaz-electricite",
+      "enjeu": "La directive TVA de 2022 autorise des taux réduits sur l'énergie, mais supprime les taux de faveur pour les énergies fossiles d'ici 2030.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "Possible pour l'électricité ; pour le gaz, le taux réduit devra disparaître au 1er janvier 2030, et la mesure va contre les objectifs climatiques européens." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Berlin a elle-même baissé la TVA sur le gaz en 2022-2024 ; peu d'enjeu." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Effet marginal sur les ventes de gaz naturel liquéfié américain." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Le gaz russe est en voie d'interdiction dans l'UE ; effet négligeable." }
+      ],
+      "sources": [
+        { "titre": "Directive (UE) 2022/542 taux de TVA", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L0542" }
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-pen",
+      "enjeu": "Référendum constitutionnel qui ferait primer la Constitution sur les traités en matière d'immigration (priorité nationale, expulsions).",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "Les mesures annoncées (priorité nationale, écart avec le pacte asile et migration) contredisent le droit de l'UE ; un conflit ouvert avec la Commission et la Cour de justice serait probable." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "Berlin a durci sa politique migratoire, mais refuse qu'un État s'affranchisse des règles européennes." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "L'administration Trump défend publiquement les partis européens hostiles à l'immigration." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "plutot_favorable", "intensite": "faible", "justification": "Un conflit Paris-Bruxelles affaiblit l'unité européenne." }
+      ],
+      "autres": [
+        { "acteur": "Italie et Hongrie", "position": "plutot_favorable", "intensite": "faible", "justification": "Gouvernements favorables à une ligne migratoire dure ; Budapest a déjà défié le droit de l'UE sur l'asile." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1351 gestion de l'asile et de la migration (pacte)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1351" },
+        { "titre": "CJCE, arrêt Costa c. ENEL (1964) — primauté du droit communautaire", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:61964CJ0006" }
+      ]
+    },
+    {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "enjeu": "Réserver logement social et APL aux Français exclut aussi les citoyens européens.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "Discrimination fondée sur la nationalité interdite pour les citoyens européens (article 18 TFUE, directive 2004/38) et contraire à l'égalité de traitement des résidents de longue durée." },
+        { "acteur": "allemagne", "position": "hostile", "intensite": "moyenne", "justification": "Berlin défend la libre circulation et l'égalité de traitement des Européens." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Pas d'enjeu direct." }
+      ],
+      "autres": [
+        { "acteur": "Portugal", "position": "hostile", "intensite": "moyenne", "justification": "Importante communauté portugaise en France, souvent locataire du parc social." }
+      ],
+      "sources": [
+        { "titre": "Directive 2004/38/CE droit de séjour des citoyens de l'Union", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32004L0038" },
+        { "titre": "Directive 2003/109/CE résidents de longue durée", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32003L0109" }
+      ]
+    },
+    {
+      "proposition": "reduction-aide-financiere-ukraine",
+      "enjeu": "Moins d'aide financière française à l'Ukraine et appel à une conférence de paix.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "moyenne", "justification": "L'UE est devenue le premier soutien financier de l'Ukraine ; un recul français fragiliserait l'unanimité nécessaire aux décisions." },
+        { "acteur": "allemagne", "position": "hostile", "intensite": "forte", "justification": "Premier soutien européen de l'Ukraine, Berlin devrait compenser le retrait et craindrait un effet d'entraînement." },
+        { "acteur": "etats_unis", "position": "reservee", "intensite": "moyenne", "justification": "Washington veut la paix vite et approuverait une conférence, mais exige que les Européens paient davantage pour l'Ukraine, pas moins." },
+        { "acteur": "chine", "position": "plutot_favorable", "intensite": "faible", "justification": "Pékin plaide pour des négociations de paix et un désengagement occidental." },
+        { "acteur": "russie", "position": "favorable", "intensite": "forte", "justification": "Moins d'aide occidentale améliore sa position militaire et dans les négociations." }
+      ],
+      "autres": [
+        { "acteur": "Ukraine", "position": "hostile", "intensite": "forte", "justification": "La France fait partie de ses principaux soutiens ; formation et équipement maintenus ne compensent pas la baisse financière." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/792 facilité pour l'Ukraine", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R0792" },
+        { "titre": "Kiel Institute — Ukraine Support Tracker", "url": "https://www.ifw-kiel.de/topics/war-against-ukraine/ukraine-support-tracker/" }
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-retailleau",
+      "enjeu": "Révision de la Constitution puis référendum pour « réduire drastiquement » l'immigration, avec primauté de la loi nationale sur certaines règles européennes.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "La Commission accepte un durcissement dans le cadre du pacte (retours, pays sûrs), mais pas qu'un État écarte les règles communes." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Le gouvernement Merz mène lui-même une politique plus restrictive ; il ne s'opposerait qu'aux entorses au droit européen." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "L'administration Trump encourage les Européens à réduire l'immigration." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Peu d'enjeu ; exploiterait un éventuel conflit avec Bruxelles." }
+      ],
+      "autres": [
+        { "acteur": "Italie", "position": "plutot_favorable", "intensite": "faible", "justification": "Rome défend une ligne proche au Conseil de l'UE." }
+      ],
+      "sources": [
+        { "titre": "Règlement (UE) 2024/1351 gestion de l'asile et de la migration (pacte)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1351" }
+      ]
+    },
+    {
+      "proposition": "primaute-constitution-droit-ue",
+      "enjeu": "Inscrire que la Constitution prime sur le droit de l'UE en cas de conflit remet en cause la jurisprudence de la Cour de justice.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "forte", "justification": "La Commission a engagé une procédure contre la Pologne en 2021 pour une position similaire ; elle ferait de même." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "moyenne", "justification": "La Cour constitutionnelle allemande revendique elle-même un contrôle des excès de compétence de l'UE (arrêt de 2020), mais le gouvernement allemand défend la primauté." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Sujet interne à l'UE." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Sujet interne à l'UE." },
+        { "acteur": "russie", "position": "plutot_favorable", "intensite": "faible", "justification": "Tout affaiblissement de l'ordre juridique européen sert son intérêt." }
+      ],
+      "autres": [
+        { "acteur": "Hongrie", "position": "favorable", "intensite": "moyenne", "justification": "Budapest revendique la même primauté de sa Constitution." }
+      ],
+      "sources": [
+        { "titre": "CJCE, arrêt Costa c. ENEL (1964) — primauté du droit communautaire", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:61964CJ0006" },
+        { "titre": "Commission européenne — procédure d'infraction contre la Pologne (décembre 2021)", "url": "https://ec.europa.eu/commission/presscorner/detail/fr/inf_21_6201" }
+      ]
+    },
+    {
+      "proposition": "suppression-certificats-economie-energie",
+      "enjeu": "Les CEE sont l'outil choisi par la France pour remplir l'obligation d'économies d'énergie imposée par la directive européenne.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "La France devrait financer autrement les économies d'énergie exigées par la directive de 2023, sinon procédure d'infraction." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Aucun effet pour elle." },
+        { "acteur": "etats_unis", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Effet marginal (moins de pompes à chaleur et d'isolants importés)." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "sources": [
+        { "titre": "Directive (UE) 2023/1791 efficacité énergétique, article 8", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023L1791" }
+      ]
+    },
+    {
+      "proposition": "fin-subventions-eolien-solaire",
+      "enjeu": "La directive énergies renouvelables fixe un objectif européen contraignant de 42,5 % en 2030 ; la France est déjà en retard.",
+      "reactions": [
+        { "acteur": "ue", "position": "hostile", "intensite": "moyenne", "justification": "La France s'éloignerait de sa contribution à l'objectif européen ; la Commission peut exiger des mesures correctrices." },
+        { "acteur": "allemagne", "position": "reservee", "intensite": "faible", "justification": "Berlin mise sur le solaire et l'éolien et compte sur l'effort de tous pour l'objectif commun." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "L'administration Trump est hostile à l'éolien et a coupé ses propres aides." },
+        { "acteur": "chine", "position": "reservee", "intensite": "moyenne", "justification": "Premier fournisseur de panneaux et de composants éoliens : débouché en moins." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Effet faible, la France misant sur le nucléaire plutôt que sur le gaz." }
+      ],
+      "sources": [
+        { "titre": "Directive (UE) 2023/2413 énergies renouvelables (RED III)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023L2413" }
+      ]
+    },
+    {
+      "proposition": "suppression-principe-precaution",
+      "enjeu": "Le principe de précaution figure dans la Charte de l'environnement, mais aussi dans les traités européens.",
+      "reactions": [
+        { "acteur": "ue", "position": "reservee", "intensite": "moyenne", "justification": "Le principe resterait applicable en France par le droit de l'UE (article 191 TFUE) : la suppression n'aurait d'effet que sur le droit purement national." },
+        { "acteur": "allemagne", "position": "neutre", "intensite": "faible", "justification": "Peu d'effet hors de France." },
+        { "acteur": "etats_unis", "position": "plutot_favorable", "intensite": "faible", "justification": "Washington critique le principe de précaution européen, qu'il juge protectionniste (OGM, hormones, pesticides)." },
+        { "acteur": "chine", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu direct." },
+        { "acteur": "russie", "position": "neutre", "intensite": "faible", "justification": "Aucun enjeu." }
+      ],
+      "sources": [
+        { "titre": "Traité sur le fonctionnement de l'UE, article 191 (environnement)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT" }
+      ]
+    }
+  ],
+  "hors_champ": {
+    "raison": "Portée essentiellement nationale : la mesure ne touche ni le droit de l'UE de façon notable, ni les intérêts d'une grande puissance (fiscalité nationale compatible avec les directives, institutions, justice, école, logement, protection sociale interne).",
+    "propositions": [
+      "droit-de-vote-16-ans", "suppression-parcoursup", "retraite-60-ans", "400000-logements-abordables", "encadrement-prix-foncier",
+      "isolation-700000-logements", "reouverture-urgences-proximite", "arret-fermetures-services-publics", "constituante-6e-republique",
+      "isf-impot-14-tranches", "heritage-maximal",
+      "retraite-65-ans-45-annuites", "retraite-pilier-capitalisation", "baisse-impots-production-50-mds", "non-remplacement-fonctionnaires",
+      "exoneration-travailler-plus", "allocation-familiale-unique-350-euros", "exoneration-impot-jeunes-parents", "pret-taux-zero-naissance",
+      "hausse-20-pct-salaire-enseignants", "amende-responsabilisation-scolaire", "autonomie-chefs-etablissement", "imprescriptibilite-crimes-mineurs",
+      "peines-planchers-suppression-jap", "etat-urgence-narco", "suspension-droit-sol-mayotte", "doubler-fonds-vert-adaptation", "charte-environnement-agriculture",
+      "tva-zero-100-produits", "taxe-rachats-actions", "suppression-epci-metropoles", "suppression-agences-etat", "retraites-pilier-capitalisation",
+      "ame-transformee-amu", "impot-fortune-financiere", "interdiction-progressive-voile", "referendum-ideologies-islamistes",
+      "abrogation-loi-sru-vente-hlm", "terrains-publics-gratuits-constructeurs", "suppression-zan", "dpe-indicatif-100-renov",
+      "expulsion-familles-delinquantes-hlm", "loi-anti-squats",
+      "abrogation-droit-du-sol", "majorite-penale-15-ans", "peines-minimales-agressions-forces-ordre", "referendum-domaine-loi-elargi",
+      "sortie-35-heures-annualisation", "zero-cotisation-impot-heures-supplementaires", "plafond-aides-sociales-70-smic", "rsa-15-heures-activite",
+      "chomage-fin-apres-trois-refus", "revenu-parental-unique", "examen-entree-sixieme", "etablissements-publics-libres",
+      "salaires-enseignants-moyenne-europeenne", "deduction-interets-emprunt-enfants", "suppression-zan-dpe", "million-logements-cinq-ans",
+      "stockage-eau-irrigation"
+    ]
+  },
+  "par_candidat": {
+    "jean-luc-melenchon": "Le plus de frictions avec l'UE (désobéissance aux règles, rail, prix agricoles) ; Russie plutôt satisfaite de la distance avec l'Otan, Chine gagnante sur les renouvelables, États-Unis réservés.",
+    "edouard-philippe": "Le profil le plus aligné sur l'UE et l'Allemagne (déficit, défense, IA) ; frictions avec la Chine (protection du marché), la Russie et les États-Unis (Ukraine dans l'Otan), et avec l'Algérie.",
+    "marine-le-pen": "Conflit frontal avec l'UE et l'Allemagne (contribution au budget, priorité nationale, référendum) ; la Russie est la grande puissance la plus favorable, surtout sur l'Ukraine.",
+    "bruno-retailleau": "Conflit juridique avec l'UE sur la primauté du droit européen et sur l'énergie (renouvelables, CEE) ; soutien discret des États-Unis sur l'immigration et le principe de précaution."
+  }
+}

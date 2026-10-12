@@ -1,0 +1,2309 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "unite": "milliards d'euros par an",
+  "methode": "Coût annuel net vraisemblable pour l'ensemble des finances publiques (État, Sécurité sociale, collectivités), en milliards d'euros par an, en régime de croisière (fin de quinquennat, vers 2032) ; valeur positive = coût, négative = économie ou recette. Chaque proposition reçoit une valeur centrale, une fourchette basse-haute et ses hypothèses. Les coûts ponctuels (référendum, réorganisation) sont étalés sur 5 ans. On chiffre la mesure telle que formulée, et non le chiffrage annoncé par le candidat : quand celui-ci paraît irréaliste, la fourchette le dit. Les effets macroéconomiques de second tour (croissance, emploi) ne sont pas comptés, sauf mention. Les objectifs d'ensemble (règle d'or, plan global d'économies) sont marqués « agregat » : ils recouvrent les autres mesures et ne s'additionnent pas. Ordres de grandeur issus des institutions citées (COR, Cour des comptes, Insee, Drees, CRE, IPP, OCDE…), arrondis ; ce sont des estimations, pas des prévisions.",
+  "propositions": [
+    {
+      "proposition": "droit-de-vote-16-ans",
+      "milliards_eur_an": 0.01,
+      "fourchette": [
+        0,
+        0.03
+      ],
+      "commentaire": "Coût quasi nul pour les finances publiques.",
+      "hypotheses": [
+        "Environ 1,6 million de jeunes de 16-17 ans ajoutés aux listes électorales.",
+        "Coût marginal de quelques euros par électeur et par scrutin (propagande, bulletins), inscription automatique déjà en place."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — À Clermont-Ferrand, Jean-Luc Mélenchon fait salle comble et déroule ses propositions sur la jeunesse et l'éducation",
+          "url": "https://franceinfo.fr/elections/presidentielle/a-clermont-ferrand-jean-luc-melenchon-fait-salle-comble-et-deroule-ses-propositions-sur-la-jeunesse-et-l-education_8232880.html"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-parcoursup",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0,
+        0.6
+      ],
+      "commentaire": "Faible, sauf si la fin de la sélection augmente fortement les effectifs universitaires.",
+      "hypotheses": [
+        "La plateforme elle-même coûte quelques millions d'euros par an : sa suppression ne libère presque rien.",
+        "Si la procédure de remplacement ouvre l'accès sans sélection, 10 000 à 50 000 étudiants de plus à environ 12 000 € par an chacun (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — À Clermont-Ferrand, Jean-Luc Mélenchon fait salle comble et déroule ses propositions sur la jeunesse et l'éducation",
+          "url": "https://franceinfo.fr/elections/presidentielle/a-clermont-ferrand-jean-luc-melenchon-fait-salle-comble-et-deroule-ses-propositions-sur-la-jeunesse-et-l-education_8232880.html"
+        },
+        {
+          "titre": "Ministère de l'Enseignement supérieur, coût de l'étudiant",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "retraite-60-ans",
+      "milliards_eur_an": 35,
+      "fourchette": [
+        25,
+        50
+      ],
+      "commentaire": "Mesure la plus coûteuse du programme ; chiffrage cohérent avec les projections du COR.",
+      "hypotheses": [
+        "Retour de l'âge légal de 64 à 60 ans avec 40 annuités, en régime de croisière (vers 2035).",
+        "Chaque année d'âge légal pèse environ 8 à 10 Md€ ; une partie est compensée par moins de dépenses de chômage, d'invalidité et de minima sociaux.",
+        "Pas de hausse de cotisations comptée ici (elle réduirait le coût net)."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — À Clermont-Ferrand, Jean-Luc Mélenchon fait salle comble et déroule ses propositions sur la jeunesse et l'éducation",
+          "url": "https://franceinfo.fr/elections/presidentielle/a-clermont-ferrand-jean-luc-melenchon-fait-salle-comble-et-deroule-ses-propositions-sur-la-jeunesse-et-l-education_8232880.html"
+        },
+        {
+          "titre": "Conseil d'orientation des retraites (COR), rapports annuels et projections",
+          "url": "https://www.cor-retraites.fr/"
+        },
+        {
+          "titre": "Institut Montaigne, chiffrage des programmes présidentiels",
+          "url": "https://www.institutmontaigne.org/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "400000-logements-abordables",
+      "milliards_eur_an": 14,
+      "fourchette": [
+        8,
+        25
+      ],
+      "commentaire": "Coût important, surtout en subventions et dépenses fiscales.",
+      "hypotheses": [
+        "200 000 logements publics par an à environ 200 000 € l'unité, financés surtout par prêts de la Caisse des dépôts.",
+        "Aide publique (subventions, TVA réduite, exonération de taxe foncière) de 40 000 à 60 000 € par logement public et moins pour les 200 000 autres.",
+        "Hors effet de la hausse de l'activité du BTP sur les recettes fiscales."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan d'investissement BTP et logement",
+          "url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+        },
+        {
+          "titre": "Union sociale pour l'habitat, coût et financement du logement social",
+          "url": "https://www.union-habitat.org/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "encadrement-prix-foncier",
+      "milliards_eur_an": 0.1,
+      "fourchette": [
+        0,
+        1
+      ],
+      "commentaire": "Coût indirect possible via les droits de mutation.",
+      "hypotheses": [
+        "Mesure réglementaire sans dépense directe.",
+        "Si les prix baissent, les droits de mutation (environ 15 Md€ par an pour les départements) reculent d'autant : jusqu'à 1 Md€ de recettes en moins."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan d'investissement BTP et logement",
+          "url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+        },
+        {
+          "titre": "DGCL, finances des collectivités locales",
+          "url": "https://www.collectivites-locales.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "isolation-700000-logements",
+      "milliards_eur_an": 12,
+      "fourchette": [
+        7,
+        20
+      ],
+      "commentaire": "Coût élevé, principalement en aides à la rénovation.",
+      "hypotheses": [
+        "700 000 rénovations performantes par an à 30 000 à 50 000 € chacune, aidées à environ 50 %.",
+        "400 000 remplacements de chaudières au fioul par an à environ 15 000 €, aidés à 50 %.",
+        "Coût compté en plus des 2 à 3 Md€ par an déjà consacrés à MaPrimeRénov'."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan d'investissement BTP et logement",
+          "url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+        },
+        {
+          "titre": "Anah, bilans MaPrimeRénov'",
+          "url": "https://www.anah.gouv.fr/"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "reouverture-urgences-proximite",
+      "milliards_eur_an": 1,
+      "fourchette": [
+        0.4,
+        3
+      ],
+      "commentaire": "Coût modéré ; la vraie limite est le manque de médecins.",
+      "hypotheses": [
+        "Réouverture progressive de 100 à 200 services d'urgences de proximité.",
+        "Coût de fonctionnement de 5 à 15 M€ par an et par service (personnel surtout), sous réserve de pouvoir recruter les soignants."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan thématique ruralité",
+          "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "renationalisation-sncf",
+      "milliards_eur_an": 0.3,
+      "fourchette": [
+        0.1,
+        0.8
+      ],
+      "commentaire": "Coût limité.",
+      "hypotheses": [
+        "La SNCF appartient déjà à 100 % à l'État : pas de rachat à financer.",
+        "Perte des économies attendues de la mise en concurrence des TER (10 à 15 % sur environ 4,5 Md€ de contributions des régions), et indemnisation possible des contrats déjà attribués."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan thématique ruralité",
+          "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "arret-fermetures-services-publics",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        1,
+        5
+      ],
+      "commentaire": "Coût réel mais dépendant de l'ampleur du plan.",
+      "hypotheses": [
+        "Maintien des écoles, bureaux de poste, trésoreries et maternités menacés, plus un plan de redéploiement rural.",
+        "Équivalent de 20 000 à 60 000 emplois publics maintenus ou créés à environ 50 000 € par an."
+      ],
+      "sources": [
+        {
+          "titre": "Mélenchon 2027 — Plan thématique ruralité",
+          "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "constituante-6e-republique",
+      "milliards_eur_an": 0.15,
+      "fourchette": [
+        0.1,
+        0.4
+      ],
+      "commentaire": "Coût ponctuel faible.",
+      "hypotheses": [
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Deux référendums, l'élection d'une assemblée constituante et son fonctionnement pendant un à deux ans : 0,5 à 1,5 Md€ au total."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Réunir une Assemblée constituante pour passer à la 6e République",
+          "url": "https://laec.fr/section/1/reunir-une-assemblee-constituante-pour-passer-a-la-6e-republique"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "isf-impot-14-tranches",
+      "milliards_eur_an": -8,
+      "fourchette": [
+        -15,
+        -3
+      ],
+      "commentaire": "Recette nette ; montant très sensible aux comportements des plus aisés.",
+      "hypotheses": [
+        "Rétablissement de l'ISF : environ 4 à 5 Md€ de recettes (niveau de 2017) moins les 2 Md€ de l'IFI qu'il remplace, plus un barème renforcé.",
+        "Impôt sur le revenu à 14 tranches : hausse pour les hauts revenus, baisse pour les revenus moyens, solde positif selon LFI.",
+        "Départs de contribuables et optimisation réduisent le rendement (bas de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Faire la révolution fiscale",
+          "url": "https://laec.fr/section/50/faire-la-revolution-fiscale"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Institut Montaigne, chiffrage des programmes présidentiels",
+          "url": "https://www.institutmontaigne.org/"
+        }
+      ]
+    },
+    {
+      "proposition": "heritage-maximal",
+      "milliards_eur_an": -3,
+      "fourchette": [
+        -8,
+        -0.5
+      ],
+      "commentaire": "Recette incertaine, probablement bien inférieure au potentiel théorique.",
+      "hypotheses": [
+        "Les droits de succession et de donation rapportent environ 18 à 20 Md€ par an.",
+        "Seuls quelques milliers d'héritiers par an reçoivent plus de 12 M€ ; la part au-delà serait taxée à 100 %.",
+        "Forte évasion attendue (expatriation, montages, transmission d'entreprises)."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Faire la révolution fiscale",
+          "url": "https://laec.fr/section/50/faire-la-revolution-fiscale"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "sortie-nucleaire-100-renouvelables",
+      "milliards_eur_an": 5,
+      "fourchette": [
+        -2,
+        15
+      ],
+      "commentaire": "Coût net probable, avec une forte incertitude.",
+      "hypotheses": [
+        "Abandon des EPR2 : environ 3 à 4 Md€ par an d'investissement public évités.",
+        "Soutien accru aux renouvelables, au stockage et aux réseaux : surcoût du système 100 % renouvelable estimé par RTE à plus de 10 Md€ par an d'ici 2050, en partie à la charge de l'État.",
+        "Coût de fermeture anticipée des réacteurs (indemnisation d'EDF) non chiffré."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique",
+          "url": "https://laec.fr/section/19/organiser-le-100-denergies-renouvelables-en-2050-et-la-renovation-energetique"
+        },
+        {
+          "titre": "RTE, Futurs énergétiques 2050",
+          "url": "https://www.rte-france.com/"
+        },
+        {
+          "titre": "Commission de régulation de l'énergie (CRE), charges de service public de l'énergie",
+          "url": "https://www.cre.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "regularisation-travailleurs-etudiants",
+      "milliards_eur_an": -0.5,
+      "fourchette": [
+        -2,
+        1
+      ],
+      "commentaire": "Effet budgétaire faible, plutôt positif.",
+      "hypotheses": [
+        "250 000 à 500 000 personnes régularisées.",
+        "Hausse des cotisations et impôts versés, partiellement compensée par l'ouverture de droits sociaux (RSA, APL, prestations familiales).",
+        "À court terme, la plupart des régularisés travaillent déjà : solde légèrement positif selon l'OCDE."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Pour une politique migratoire humaniste et réaliste",
+          "url": "https://laec.fr/section/76/pour-une-politique-migratoire-humaniste-et-realiste"
+        },
+        {
+          "titre": "OCDE, Regards sur l'éducation et Perspectives des migrations internationales",
+          "url": "https://www.oecd.org/"
+        }
+      ]
+    },
+    {
+      "proposition": "desobeissance-regles-europeennes",
+      "milliards_eur_an": 0.5,
+      "fourchette": [
+        0,
+        10
+      ],
+      "commentaire": "Coût de contentieux, potentiellement élevé en cas de rupture.",
+      "hypotheses": [
+        "Amendes et astreintes de la Cour de justice de l'UE : quelques dizaines à centaines de millions d'euros.",
+        "Haut de fourchette : suspension d'une partie des fonds européens (la PAC représente environ 9 Md€ par an pour la France)."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Désobéir à chaque fois que c'est nécessaire pour mettre en œuvre notre programme",
+          "url": "https://laec.fr/section/70/desobeir-a-chaque-fois-que-cest-necessaire-pour-mettre-en-uvre-notre-programme"
+        },
+        {
+          "titre": "Commission européenne, budget de l'UE et ressources propres",
+          "url": "https://commission.europa.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "defense-independante-lpm",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        0,
+        6
+      ],
+      "commentaire": "Coût dépendant du niveau d'effort retenu.",
+      "hypotheses": [
+        "Nouvelle loi de programmation au-delà de la trajectoire actuelle (LPM 2024-2030 de 413 Md€).",
+        "Arrêt des privatisations : renoncement à de futures recettes de cession, ponctuelles.",
+        "Hausse supplémentaire non chiffrée par le candidat."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Construire une défense indépendante, républicaine et populaire",
+          "url": "https://laec.fr/section/72/construire-une-defense-independante-republicaine-et-populaire"
+        },
+        {
+          "titre": "Ministère des Armées, loi de programmation militaire 2024-2030",
+          "url": "https://www.defense.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "prix-planchers-agricoles",
+      "milliards_eur_an": 3,
+      "fourchette": [
+        1,
+        8
+      ],
+      "commentaire": "Coût porté surtout par la création d'emplois aidés.",
+      "hypotheses": [
+        "Les prix planchers pèsent surtout sur la distribution et les consommateurs, pas sur le budget.",
+        "300 000 emplois agricoles aidés à environ 10 000 € par an chacun (installation, aides au revenu)."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Souveraineté alimentaire et révolution agricole",
+          "url": "https://laec.fr/section/21/souverainete-alimentaire-et-revolution-agricole-pour-une-agriculture-ecologique-et-paysanne"
+        },
+        {
+          "titre": "Ministère de l'Agriculture",
+          "url": "https://www.agriculture.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "interdiction-glyphosate-neonicotinoides",
+      "milliards_eur_an": 0.5,
+      "fourchette": [
+        0.1,
+        2
+      ],
+      "commentaire": "Coût modéré si l'État accompagne les agriculteurs.",
+      "hypotheses": [
+        "Pertes de rendement et surcoût de désherbage mécanique estimés à plusieurs centaines de millions d'euros par an pour les exploitations.",
+        "Compensation publique partielle des agriculteurs touchés."
+      ],
+      "sources": [
+        {
+          "titre": "L'Avenir en commun — Souveraineté alimentaire et révolution agricole",
+          "url": "https://laec.fr/section/21/souverainete-alimentaire-et-revolution-agricole-pour-une-agriculture-ecologique-et-paysanne"
+        },
+        {
+          "titre": "Inrae, études sur la sortie des pesticides",
+          "url": "https://www.inrae.fr/"
+        },
+        {
+          "titre": "Ministère de l'Agriculture",
+          "url": "https://www.agriculture.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "retraite-65-ans-45-annuites",
+      "milliards_eur_an": -13,
+      "fourchette": [
+        -20,
+        -8
+      ],
+      "commentaire": "Économie importante mais progressive.",
+      "hypotheses": [
+        "Âge légal porté de 64 à 65 ans et durée de cotisation de 43 à 45 ans, en régime de croisière (vers 2035).",
+        "Une année d'âge légal rapporte environ 8 à 10 Md€ bruts ; 30 % environ sont perdus en dépenses de chômage, d'invalidité et de minima sociaux."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+          "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans"
+        },
+        {
+          "titre": "Conseil d'orientation des retraites (COR), rapports annuels et projections",
+          "url": "https://www.cor-retraites.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "retraite-pilier-capitalisation",
+      "milliards_eur_an": 4,
+      "fourchette": [
+        1,
+        15
+      ],
+      "commentaire": "Coût de transition, très dépendant du mode de financement.",
+      "hypotheses": [
+        "Si le pilier est financé par de nouvelles cotisations : coût limité aux avantages fiscaux (1 à 5 Md€).",
+        "Si des cotisations du régime par répartition y sont détournées : le régime actuel perd des recettes alors qu'il doit toujours payer les pensions en cours (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus prospère",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        },
+        {
+          "titre": "Conseil d'orientation des retraites (COR), rapports annuels et projections",
+          "url": "https://www.cor-retraites.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "baisse-impots-production-50-mds",
+      "milliards_eur_an": 5,
+      "fourchette": [
+        0,
+        20
+      ],
+      "commentaire": "Neutre sur le papier ; coût net probable si les aides ne baissent pas autant.",
+      "hypotheses": [
+        "50 Md€ de baisse d'impôts de production, compensée en principe par 50 Md€ d'aides aux entreprises en moins.",
+        "La baisse d'impôts est certaine ; la suppression des aides (allègements de charges, crédit d'impôt recherche, subventions) est plus difficile et souvent incomplète."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus prospère",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "regle-or-deficit-2-pct",
+      "milliards_eur_an": -60,
+      "fourchette": [
+        -100,
+        -20
+      ],
+      "commentaire": "Objectif d'ensemble, non cumulable avec les autres chiffrages.",
+      "hypotheses": [
+        "Passer d'un déficit de plus de 5 % à 2 % du PIB demande environ 100 Md€ d'effort en 2032 (PIB d'environ 3 300 Md€).",
+        "Les objectifs de déficit sont rarement atteints en totalité : fourchette vraisemblable plus basse.",
+        "Objectif global : il recouvre les autres économies du candidat et ne doit pas s'y ajouter."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus prospère",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ],
+      "agregat": true
+    },
+    {
+      "proposition": "non-remplacement-fonctionnaires",
+      "milliards_eur_an": -9,
+      "fourchette": [
+        -13,
+        -5
+      ],
+      "commentaire": "Économie réelle mais inférieure au chiffrage brut.",
+      "hypotheses": [
+        "250 000 postes en moins sur cinq ans, à environ 50 000 € par an chacun (salaire et cotisations retraite) : 12,5 Md€ en théorie.",
+        "Comme pour la règle du « un sur deux » (2007-2012), une partie des économies est reversée aux agents restants."
+      ],
+      "sources": [
+        {
+          "titre": "France 24 (AFP) — A \"L'Heure de vérité\", Philippe ébauche une France à nouveau \"commandée et gouvernée\"",
+          "url": "https://www.france24.com/fr/info-en-continu/20261008-a-l-heure-de-v%C3%A9rit%C3%A9-philippe-%C3%A9bauche-une-france-%C3%A0-nouveau-command%C3%A9e-et-gouvern%C3%A9e"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "exoneration-travailler-plus",
+      "milliards_eur_an": 0.8,
+      "fourchette": [
+        0.2,
+        3
+      ],
+      "commentaire": "Coût modéré.",
+      "hypotheses": [
+        "Exonération de cotisations salariales pour 300 000 à 600 000 salariés qui prolongent leur activité, environ 1 000 € par an au Smic, davantage au-dessus.",
+        "Le travail supplémentaire rapporte en partie des impôts et réduit les pensions versées, ce qui compense une partie du coût."
+      ],
+      "sources": [
+        {
+          "titre": "France 24 (AFP) — A \"L'Heure de vérité\", Philippe ébauche une France à nouveau \"commandée et gouvernée\"",
+          "url": "https://www.france24.com/fr/info-en-continu/20261008-a-l-heure-de-v%C3%A9rit%C3%A9-philippe-%C3%A9bauche-une-france-%C3%A0-nouveau-command%C3%A9e-et-gouvern%C3%A9e"
+        },
+        {
+          "titre": "Conseil d'orientation des retraites (COR), rapports annuels et projections",
+          "url": "https://www.cor-retraites.fr/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "allocation-familiale-unique-350-euros",
+      "milliards_eur_an": 8,
+      "fourchette": [
+        0,
+        25
+      ],
+      "commentaire": "Coût net probable, très dépendant du détail de la mesure.",
+      "hypotheses": [
+        "Si 350 € par mois et par famille : environ 8 millions de familles, soit 33 Md€, contre environ 30 Md€ de prestations familiales actuelles remplacées.",
+        "Si 350 € par enfant (environ 13 millions d'enfants) : coût net d'environ 25 Md€.",
+        "Le texte ne précise pas si le montant est par famille ou par enfant."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Politique familiale, allocations, crèches : que proposent les candidats à la présidentielle ?",
+          "url": "https://www.publicsenat.fr/actualites/politique/politique-familiale-allocations-creches-que-proposent-les-candidats-a-la-presidentielle"
+        },
+        {
+          "titre": "Cnaf, prestations familiales",
+          "url": "https://www.caf.fr/"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "exoneration-impot-jeunes-parents",
+      "milliards_eur_an": 1.5,
+      "fourchette": [
+        0.8,
+        3
+      ],
+      "commentaire": "Coût modéré.",
+      "hypotheses": [
+        "Environ 660 000 naissances par an, dont la moitié dans des ménages imposables de classe moyenne.",
+        "Trois générations de parents concernées en même temps, environ 3 000 € de réduction par ménage (au total ou par an selon la lecture)."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Politique familiale, allocations, crèches : que proposent les candidats à la présidentielle ?",
+          "url": "https://www.publicsenat.fr/actualites/politique/politique-familiale-allocations-creches-que-proposent-les-candidats-a-la-presidentielle"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "pret-taux-zero-naissance",
+      "milliards_eur_an": 0.6,
+      "fourchette": [
+        0.2,
+        1.5
+      ],
+      "commentaire": "Coût faible à modéré.",
+      "hypotheses": [
+        "50 000 à 150 000 prêts par an d'environ 30 000 à 50 000 €.",
+        "L'État compense les intérêts aux banques par un crédit d'impôt d'environ 15 à 25 % du montant prêté."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus attentive à ses enfants",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "hausse-20-pct-salaire-enseignants",
+      "milliards_eur_an": 5,
+      "fourchette": [
+        2,
+        10
+      ],
+      "commentaire": "Coût net modéré si la baisse démographique est bien utilisée.",
+      "hypotheses": [
+        "Environ 850 000 enseignants ; +20 % de rémunération coûte environ 11 Md€ par an avec les cotisations retraite.",
+        "La baisse du nombre d'élèves permet de supprimer 60 000 à 90 000 postes d'ici 2032, soit 4 à 6 Md€ d'économies."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Présidentielle : Édouard Philippe compte augmenter de 20 % le salaire des enseignants",
+          "url": "https://www.lejdd.fr/politique/presidentielle-edouard-philippe-compte-augmenter-de-20-le-salaire-des-enseignants-181734"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "amende-responsabilisation-scolaire",
+      "milliards_eur_an": -0.01,
+      "fourchette": [
+        -0.05,
+        0.02
+      ],
+      "commentaire": "Effet budgétaire négligeable.",
+      "hypotheses": [
+        "Quelques dizaines de milliers d'amendes par an de quelques centaines d'euros.",
+        "Coût de gestion par les services académiques et de recouvrement."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Présidentielle : Édouard Philippe compte augmenter de 20 % le salaire des enseignants",
+          "url": "https://www.lejdd.fr/politique/presidentielle-edouard-philippe-compte-augmenter-de-20-le-salaire-des-enseignants-181734"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "autonomie-chefs-etablissement",
+      "milliards_eur_an": 0.1,
+      "fourchette": [
+        -0.1,
+        0.3
+      ],
+      "commentaire": "Effet budgétaire faible.",
+      "hypotheses": [
+        "Mesure d'organisation, sans dépense directe.",
+        "Raccourcir les vacances d'été peut exiger des compensations aux enseignants ; l'uniforme est à la charge des familles ou des collectivités."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus attentive à ses enfants",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "imprescriptibilite-crimes-mineurs",
+      "milliards_eur_an": 0.02,
+      "fourchette": [
+        0.01,
+        0.1
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Plus de procédures anciennes à instruire, en petit nombre.",
+        "Le « droit de savoir » demande un service de réponse aux parents dans la police (quelques centaines d'agents au plus)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus attentive à ses enfants",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "peines-planchers-suppression-jap",
+      "milliards_eur_an": 1,
+      "fourchette": [
+        0.4,
+        2.5
+      ],
+      "commentaire": "Coût significatif lié à la hausse de la population carcérale.",
+      "hypotheses": [
+        "10 000 à 20 000 détenus de plus du fait des courtes peines et des peines planchers.",
+        "Une place de prison coûte environ 40 000 € par an à faire fonctionner, plus 200 000 à 250 000 € à construire.",
+        "La suppression du juge d'application des peines économise peu, ses missions devant être reprises."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus sûre",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "etat-urgence-narco",
+      "milliards_eur_an": 0.2,
+      "fourchette": [
+        0.05,
+        0.5
+      ],
+      "commentaire": "Coût faible à modéré.",
+      "hypotheses": [
+        "Renforts d'enquêteurs et de magistrats dans les zones concernées.",
+        "Déploiement de la reconnaissance faciale ciblée (matériel et logiciels)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus sûre",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "diviser-par-deux-immigration-legale",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        -1,
+        2
+      ],
+      "commentaire": "Effet budgétaire incertain, proche de zéro.",
+      "hypotheses": [
+        "Environ 340 000 premiers titres de séjour par an, ramenés autour de 170 000.",
+        "Selon l'OCDE, la contribution budgétaire nette des immigrés est proche de zéro : positive pour l'immigration de travail, plus faible pour l'immigration familiale.",
+        "Si la baisse touche surtout les étudiants et les travailleurs, recettes perdues (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "France 24 (AFP) — A \"L'Heure de vérité\", Philippe ébauche une France à nouveau \"commandée et gouvernée\"",
+          "url": "https://www.france24.com/fr/info-en-continu/20261008-a-l-heure-de-v%C3%A9rit%C3%A9-philippe-%C3%A9bauche-une-france-%C3%A0-nouveau-command%C3%A9e-et-gouvern%C3%A9e"
+        },
+        {
+          "titre": "OCDE, Regards sur l'éducation et Perspectives des migrations internationales",
+          "url": "https://www.oecd.org/"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "denonciation-accord-franco-algerien",
+      "milliards_eur_an": 0.02,
+      "fourchette": [
+        0,
+        0.5
+      ],
+      "commentaire": "Coût direct négligeable.",
+      "hypotheses": [
+        "Coût administratif faible.",
+        "Mesures de rétorsion commerciales ou consulaires possibles, non chiffrables (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus sûre",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suspension-droit-sol-mayotte",
+      "milliards_eur_an": 0.01,
+      "fourchette": [
+        0,
+        0.05
+      ],
+      "commentaire": "Coût négligeable.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Le droit du sol y est déjà restreint depuis 2018 et 2025 : effet marginal."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Immigration clandestine à Mayotte : le réveil tardif d'Édouard Philippe",
+          "url": "https://www.lejdd.fr/politique/immigration-clandestine-a-mayotte-le-reveil-tardif-dedouard-philippe-181644"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "reservistes-250000-drones",
+      "milliards_eur_an": 3.5,
+      "fourchette": [
+        2,
+        6
+      ],
+      "commentaire": "Coût important, en plus de la LPM actuelle.",
+      "hypotheses": [
+        "205 000 réservistes de plus, à 4 000 à 6 000 € par an chacun (solde de 30 à 40 jours, équipement, encadrement).",
+        "47 000 places de service militaire volontaire de plus, à 20 000 à 30 000 € chacune.",
+        "Production de drones tactiques : 0,5 à 1 Md€ par an."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus sûre",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+        },
+        {
+          "titre": "Ministère des Armées, loi de programmation militaire 2024-2030",
+          "url": "https://www.defense.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "ukraine-otan-troupes-europeennes",
+      "milliards_eur_an": 1,
+      "fourchette": [
+        0.3,
+        3
+      ],
+      "commentaire": "Coût conditionnel, modéré.",
+      "hypotheses": [
+        "Déploiement de 5 000 à 15 000 soldats français après un accord de paix.",
+        "Une opération extérieure de cette taille coûte 0,5 à 2 Md€ par an ; mesure conditionnelle (paix préalable)."
+      ],
+      "sources": [
+        {
+          "titre": "France 24 (AFP) — Le candidat à la présidentielle française Edouard Philippe rencontre Zelensky à Kiev",
+          "url": "https://www.france24.com/fr/info-en-continu/20260526-le-candidat-%C3%A0-la-pr%C3%A9sidentielle-fran%C3%A7aise-edouard-philippe-rencontre-zelensky-%C3%A0-kiev"
+        },
+        {
+          "titre": "Ministère des Armées, loi de programmation militaire 2024-2030",
+          "url": "https://www.defense.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "protection-marche-europeen-chine",
+      "milliards_eur_an": 0.1,
+      "fourchette": [
+        0,
+        1
+      ],
+      "commentaire": "Coût budgétaire direct faible.",
+      "hypotheses": [
+        "Mesures commerciales et réglementaires décidées surtout au niveau européen.",
+        "Risque de rétorsions chinoises sur les exportations (vins, cosmétiques, aéronautique), non compté ici."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus prospère",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        },
+        {
+          "titre": "Commission européenne, budget de l'UE et ressources propres",
+          "url": "https://commission.europa.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "relance-nucleaire-renouvelables",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        0.5,
+        6
+      ],
+      "commentaire": "Coût supplémentaire modéré par rapport à la politique actuelle.",
+      "hypotheses": [
+        "Le programme EPR2 (6 à 14 réacteurs, environ 70 à 80 Md€ sur 20 ans) est déjà engagé : seul le surplus est compté.",
+        "Soutien public aux renouvelables via les charges de service public, variable selon les prix de marché.",
+        "Aides à l'électrification des usages (véhicules, pompes à chaleur)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus conquérante",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+        },
+        {
+          "titre": "RTE, Futurs énergétiques 2050",
+          "url": "https://www.rte-france.com/"
+        },
+        {
+          "titre": "Commission de régulation de l'énergie (CRE), charges de service public de l'énergie",
+          "url": "https://www.cre.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "doubler-fonds-vert-adaptation",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        1.2,
+        3.5
+      ],
+      "commentaire": "Coût modéré.",
+      "hypotheses": [
+        "Le Fonds vert est d'environ 1 à 1,2 Md€ en 2025-2026 : le doubler coûte 1 à 1,5 Md€ de plus.",
+        "Plan « rivières baignables » : 0,3 à 2 Md€ par an (assainissement, stations d'épuration)."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus conquérante",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "ia-souveraine-100000-ingenieurs",
+      "milliards_eur_an": 2.5,
+      "fourchette": [
+        1,
+        5
+      ],
+      "commentaire": "Coût modéré, montant progressif sur le quinquennat.",
+      "hypotheses": [
+        "Part française du doublement de la puissance de calcul européenne : 0,5 à 1 Md€ par an.",
+        "60 000 ingénieurs diplômés de plus par an, sur 3 à 5 ans d'études à environ 12 000 à 15 000 € par étudiant et par an."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus conquérante",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+        },
+        {
+          "titre": "Ministère de l'Enseignement supérieur, coût de l'étudiant",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "alignement-normes-agricoles",
+      "milliards_eur_an": 0.3,
+      "fourchette": [
+        0.1,
+        1
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "L'alignement des normes est réglementaire et sans coût direct.",
+        "Aides au stockage de l'eau (retenues) et à la transmission des exploitations (avantages fiscaux)."
+      ],
+      "sources": [
+        {
+          "titre": "France 24 (AFP) — Philippe tacle le programme du RN en agriculture, \"contraire à l'intérêt de la France\"",
+          "url": "https://www.france24.com/fr/info-en-continu/20261009-philippe-tacle-le-programme-du-rn-en-agriculture-contraire-%C3%A0-l-int%C3%A9r%C3%AAt-de-la-france"
+        },
+        {
+          "titre": "Ministère de l'Agriculture",
+          "url": "https://www.agriculture.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "charte-environnement-agriculture",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        0,
+        0.05
+      ],
+      "commentaire": "Coût nul.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Révision constitutionnelle menée par voie parlementaire, sans référendum."
+      ],
+      "sources": [
+        {
+          "titre": "Avec Édouard 2027 — Pour une France plus prospère",
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "regle-or-referendum",
+      "milliards_eur_an": -45,
+      "fourchette": [
+        -80,
+        -10
+      ],
+      "commentaire": "Objectif d'ensemble, non cumulable avec les autres chiffrages.",
+      "hypotheses": [
+        "Un déficit qui stabilise la dette se situe vers 2,5 à 3 % du PIB, contre plus de 5 % aujourd'hui : effort d'environ 70 Md€.",
+        "Objectif rarement atteint en totalité : fourchette vraisemblable plus basse.",
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Objectif global : il recouvre les autres économies de la candidate et ne doit pas s'y ajouter."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — 140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen",
+          "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ],
+      "agregat": true
+    },
+    {
+      "proposition": "economies-140-milliards-2032",
+      "milliards_eur_an": -60,
+      "fourchette": [
+        -100,
+        -30
+      ],
+      "commentaire": "Agrégat, non cumulable avec les autres chiffrages.",
+      "hypotheses": [
+        "Montant annoncé : 140 Md€ de dépenses en moins en 2032.",
+        "Plusieurs postes sont contestés ou juridiquement fragiles (contribution européenne, prestations aux étrangers, agences) : vraisemblablement 40 à 70 % du montant annoncé.",
+        "Agrégat des mesures chiffrées séparément : ne pas additionner."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        },
+        {
+          "titre": "Institut Montaigne, chiffrage des programmes présidentiels",
+          "url": "https://www.institutmontaigne.org/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ],
+      "agregat": true
+    },
+    {
+      "proposition": "baisse-contribution-ue",
+      "milliards_eur_an": -1,
+      "fourchette": [
+        -11.1,
+        0
+      ],
+      "commentaire": "Économie vraisemblable très inférieure à l'annonce.",
+      "hypotheses": [
+        "La contribution française (environ 23 à 25 Md€ par an) est fixée par une décision européenne votée à l'unanimité : une baisse unilatérale est illégale.",
+        "Un gain réel n'est possible que par la négociation du budget européen 2028-2034 (rabais) ; une retenue unilatérale entraînerait intérêts de retard et blocage de fonds européens."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Commission européenne, budget de l'UE et ressources propres",
+          "url": "https://commission.europa.eu/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "prestations-etrangers-cinq-ans-travail",
+      "milliards_eur_an": -3,
+      "fourchette": [
+        -8,
+        0
+      ],
+      "commentaire": "Économie possible mais juridiquement incertaine.",
+      "hypotheses": [
+        "Les citoyens européens sont protégés par le droit de l'UE : seuls les étrangers hors UE sont visés.",
+        "Le Conseil constitutionnel a censuré en 2024 une condition de durée de résidence pour les prestations : une révision constitutionnelle serait nécessaire.",
+        "Le chiffre de 15 Md€ couvre tout le volet immigration, pas seulement cette mesure."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Cnaf, prestations familiales",
+          "url": "https://www.caf.fr/"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "tva-zero-100-produits",
+      "milliards_eur_an": 8,
+      "fourchette": [
+        5,
+        12
+      ],
+      "commentaire": "Coût élevé en recettes de TVA.",
+      "hypotheses": [
+        "La plupart des produits de première nécessité sont à 5,5 % ; une partie (hygiène, entretien) est à 20 %.",
+        "Une partie de la baisse n'est pas répercutée sur les prix par les distributeurs, sans effet sur le coût budgétaire."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "baisse-tva-gaz-electricite",
+      "milliards_eur_an": 7,
+      "fourchette": [
+        5,
+        9
+      ],
+      "commentaire": "Coût élevé en recettes de TVA.",
+      "hypotheses": [
+        "Passage de 20 % à 5,5 % sur la consommation de gaz et d'électricité des ménages (environ 45 Md€ hors taxes par an).",
+        "Coût variable avec les prix de l'énergie."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Commission de régulation de l'énergie (CRE), charges de service public de l'énergie",
+          "url": "https://www.cre.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "taxe-rachats-actions",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        -3,
+        8
+      ],
+      "commentaire": "Solde probablement coûteux : la recette annoncée est surestimée.",
+      "hypotheses": [
+        "Rachats d'actions des grandes entreprises : 20 à 30 Md€ par an ; les entreprises basculeront vers les dividendes, d'où un rendement de 1 à 5 Md€ au lieu des 11,4 annoncés.",
+        "Baisse des impôts de production non chiffrée : hypothèse d'une suppression de la CVAE restante (environ 4 à 5 Md€)."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — « Ce n'est pas du tout crédible » : le budget de Marine Le Pen et ses 140 milliards d'économies sous le feu des critiques",
+          "url": "https://www.franceinfo.fr/politique/front-national/ce-n-est-pas-du-tout-credible-le-budget-de-marine-le-pen-et-ses-140-milliards-d-economies-sous-le-feu-des-critiques_8227204.html"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-epci-metropoles",
+      "milliards_eur_an": -2,
+      "fourchette": [
+        -6,
+        2
+      ],
+      "commentaire": "Économie réelle incertaine et inférieure à l'annonce.",
+      "hypotheses": [
+        "La contribution de 8,2 Md€ est un transfert des collectivités vers l'État : elle n'économise que si les collectivités réduisent leurs dépenses.",
+        "Supprimer les intercommunalités coûte en réorganisation et fait perdre des mutualisations (eau, déchets, transports)."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — 140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen",
+          "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+        },
+        {
+          "titre": "DGCL, finances des collectivités locales",
+          "url": "https://www.collectivites-locales.gouv.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-agences-etat",
+      "milliards_eur_an": -1,
+      "fourchette": [
+        -3.4,
+        -0.3
+      ],
+      "commentaire": "Économie vraisemblable bien inférieure à l'annonce.",
+      "hypotheses": [
+        "Les missions des agences (santé, emploi, environnement) sont pour la plupart reprises par les ministères.",
+        "Les rapports du Sénat de 2025 situent les économies réalistes entre quelques centaines de millions et 2 Md€."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — 140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen",
+          "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "retraites-pilier-capitalisation",
+      "milliards_eur_an": -3,
+      "fourchette": [
+        -15,
+        3
+      ],
+      "commentaire": "Économie très incertaine faute de détail.",
+      "hypotheses": [
+        "Les « corrections de mesures injustes » (15 à 20 Md€ annoncés) ne sont pas détaillées.",
+        "Le pilier de capitalisation coûte en avantages fiscaux ou en recettes détournées du régime actuel."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — 140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen",
+          "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+        },
+        {
+          "titre": "Conseil d'orientation des retraites (COR), rapports annuels et projections",
+          "url": "https://www.cor-retraites.fr/"
+        },
+        {
+          "titre": "Fipeco, fiches sur les finances publiques (F. Ecalle)",
+          "url": "https://www.fipeco.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "ame-transformee-amu",
+      "milliards_eur_an": -0.5,
+      "fourchette": [
+        -0.9,
+        -0.1
+      ],
+      "commentaire": "Économie partielle.",
+      "hypotheses": [
+        "L'AME coûte environ 1,2 à 1,3 Md€ par an.",
+        "Les soins urgents restent pris en charge, et des maladies non soignées arrivent plus graves à l'hôpital (rapport Évin-Stefanini, 2023)."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Contre-budget du RN : « Des propositions qui manquent de crédibilité économique, mais trahissent une véritable cohérence doctrinale »",
+          "url": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "impot-fortune-financiere",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -3,
+        0
+      ],
+      "commentaire": "Recette nette modeste.",
+      "hypotheses": [
+        "Remplacement de l'IFI (environ 2,2 Md€) par un impôt sur le patrimoine financier.",
+        "Patrimoine financier très concentré et mobile : rendement net inférieur aux 4 Md€ annoncés."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Contre-budget du RN : « Des propositions qui manquent de crédibilité économique, mais trahissent une véritable cohérence doctrinale »",
+          "url": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-pen",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0.04,
+        0.3
+      ],
+      "commentaire": "Coût ponctuel faible.",
+      "hypotheses": [
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Effets des mesures d'immigration non comptés ici (chiffrés dans les autres propositions)."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen souhaite « interdire le voile » islamique « de manière progressive »",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-souhaite-interdire-le-voile-islamique-de-maniere-progressive_8196287.html"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "interdiction-progressive-voile",
+      "milliards_eur_an": 0.01,
+      "fourchette": [
+        0,
+        0.05
+      ],
+      "commentaire": "Coût négligeable.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Contrôles dans les universités, les fédérations sportives et les bâtiments publics."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen souhaite « interdire le voile » islamique « de manière progressive »",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-souhaite-interdire-le-voile-islamique-de-maniere-progressive_8196287.html"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "referendum-ideologies-islamistes",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0.04,
+        0.1
+      ],
+      "commentaire": "Coût ponctuel faible.",
+      "hypotheses": [
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Contrôles renforcés des financements et fermetures de lieux de culte à moyens constants."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen souhaite « interdire le voile » islamique « de manière progressive »",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-souhaite-interdire-le-voile-islamique-de-maniere-progressive_8196287.html"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -2.5,
+        0
+      ],
+      "commentaire": "Économie conditionnée à une révision constitutionnelle.",
+      "hypotheses": [
+        "Les APL coûtent environ 15 Md€ par an ; les étrangers hors UE en représentent environ 10 à 15 %.",
+        "Mesure contraire au principe d'égalité : nécessite une révision constitutionnelle ; sans elle, aucune économie (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Cnaf, prestations familiales",
+          "url": "https://www.caf.fr/"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "abrogation-loi-sru-vente-hlm",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        -0.5,
+        0.2
+      ],
+      "commentaire": "Effet budgétaire faible.",
+      "hypotheses": [
+        "Fin des pénalités SRU payées par les communes (environ 0,1 Md€ par an).",
+        "Les ventes de HLM rapportent aux bailleurs, en partie publics, et financent de nouvelles constructions."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Union sociale pour l'habitat, coût et financement du logement social",
+          "url": "https://www.union-habitat.org/"
+        },
+        {
+          "titre": "DGCL, finances des collectivités locales",
+          "url": "https://www.collectivites-locales.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "terrains-publics-gratuits-constructeurs",
+      "milliards_eur_an": 0.3,
+      "fourchette": [
+        0.1,
+        1
+      ],
+      "commentaire": "Coût faible à modéré.",
+      "hypotheses": [
+        "L'État et ses opérateurs vendent quelques centaines de millions d'euros de terrains par an : recettes perdues.",
+        "Contrepartie en loyers modérés sans coût budgétaire direct."
+      ],
+      "sources": [
+        {
+          "titre": "France 3 Hauts-de-France — Marine Le Pen fait sa rentrée politique à Hénin-Beaumont et met « la priorité nationale » au cœur de son programme",
+          "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/marine-le-pen-fait-sa-rentree-politique-a-henin-beaumont-et-met-la-priorite-nationale-au-c-ur-de-son-programme-pour-la-presidentielle-de-2027-3416348.html"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-zan",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        -0.1,
+        0.1
+      ],
+      "commentaire": "Effet budgétaire nul ou presque.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Plus de constructions peut accroître légèrement les recettes de TVA et de taxe d'aménagement."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "dpe-indicatif-100-renov",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -2.5,
+        0
+      ],
+      "commentaire": "Économie modérée.",
+      "hypotheses": [
+        "MaPrimeRénov' coûte environ 2 à 3 Md€ par an.",
+        "Un prêt à taux zéro coûte à l'État 15 à 25 % du montant prêté : pour 5 à 10 Md€ de prêts par an, 1 à 2 Md€."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Anah, bilans MaPrimeRénov'",
+          "url": "https://www.anah.gouv.fr/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "expulsion-familles-delinquantes-hlm",
+      "milliards_eur_an": 0.02,
+      "fourchette": [
+        0,
+        0.1
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Procédures d'expulsion en petit nombre.",
+        "Les familles expulsées peuvent basculer vers l'hébergement d'urgence, à la charge de l'État."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Union sociale pour l'habitat, coût et financement du logement social",
+          "url": "https://www.union-habitat.org/"
+        }
+      ]
+    },
+    {
+      "proposition": "loi-anti-squats",
+      "milliards_eur_an": 0.01,
+      "fourchette": [
+        0,
+        0.05
+      ],
+      "commentaire": "Coût négligeable.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Mobilisation des forces de l'ordre pour les expulsions."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Marine Le Pen, candidate du RN à la présidentielle, détaille une série de propositions sur le logement",
+          "url": "https://www.franceinfo.fr/politique/marine-le-pen/video-marine-le-pen-candidate-du-rn-a-la-presidentielle-2027-detaille-une-serie-de-propositions-sur-le-logement-qui-sera-un-des-grands-chantiers-de-son-quinquennat-si-elle-est-elue_8190839.html"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "reduction-aide-financiere-ukraine",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -3,
+        -0.5
+      ],
+      "commentaire": "Économie modérée.",
+      "hypotheses": [
+        "L'aide militaire française à l'Ukraine est d'environ 2 à 4 Md€ par an (cessions, fonds de soutien).",
+        "Formation et équipement des soldats maintenus ; la part européenne de l'aide n'est pas réduite unilatéralement."
+      ],
+      "sources": [
+        {
+          "titre": "franceinfo — Face à l'état des finances publiques, Marine Le Pen estime que la France ne peut plus aider l'Ukraine autant qu'actuellement",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/face-a-l-etat-des-finances-publiques-marine-le-pen-estime-que-la-france-ne-peut-plus-aider-l-ukraine-autant-qu-actuellement_8197058.html"
+        },
+        {
+          "titre": "Ministère des Armées, loi de programmation militaire 2024-2030",
+          "url": "https://www.defense.gouv.fr/"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-retailleau",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0.04,
+        0.1
+      ],
+      "commentaire": "Coût ponctuel faible.",
+      "hypotheses": [
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Effets des mesures d'immigration non comptés ici."
+      ],
+      "sources": [
+        {
+          "titre": "Euronews — Présidentielle de 2027 : Bruno Retailleau annonce sa candidature et promet des référendums",
+          "url": "https://fr.euronews.com/2026/02/12/presidentielle-de-2027-bruno-retailleau-annonce-sa-candidature-et-promet-des-referendums"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "abrogation-droit-du-sol",
+      "milliards_eur_an": 0.01,
+      "fourchette": [
+        0,
+        0.1
+      ],
+      "commentaire": "Coût négligeable.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Une baisse des étudiants étrangers ferait perdre une partie des frais d'inscription différenciés."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Objectif Élysée 2027 : Bruno Retailleau dévoile ses ambitions sur CNews",
+          "url": "https://www.lejdd.fr/politique/suppression-du-droit-du-sol-peines-minimales-bruno-retailleau-devoile-ses-ambitions-sur-cnews-182979"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        },
+        {
+          "titre": "Ministère de l'Enseignement supérieur, coût de l'étudiant",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "majorite-penale-15-ans",
+      "milliards_eur_an": 0.1,
+      "fourchette": [
+        0,
+        0.4
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Plus de mineurs de 15-17 ans jugés comme majeurs et incarcérés en prison classique.",
+        "Économies partielles sur la protection judiciaire de la jeunesse, compensées par des places de prison (environ 40 000 € par an chacune)."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Objectif Élysée 2027 : Bruno Retailleau dévoile ses ambitions sur CNews",
+          "url": "https://www.lejdd.fr/politique/suppression-du-droit-du-sol-peines-minimales-bruno-retailleau-devoile-ses-ambitions-sur-cnews-182979"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "peines-minimales-agressions-forces-ordre",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0.02,
+        0.15
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Quelques centaines à un millier de détenus de plus.",
+        "Environ 40 000 € par an et par détenu, hors construction de places."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Objectif Élysée 2027 : Bruno Retailleau dévoile ses ambitions sur CNews",
+          "url": "https://www.lejdd.fr/politique/suppression-du-droit-du-sol-peines-minimales-bruno-retailleau-devoile-ses-ambitions-sur-cnews-182979"
+        },
+        {
+          "titre": "Ministère de la Justice, chiffres clés de l'administration pénitentiaire",
+          "url": "https://www.justice.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "referendum-domaine-loi-elargi",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0,
+        0.25
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Coût d'un référendum national ou d'un scrutin : environ 0,2 à 0,3 Md€ (organisation, propagande, bureaux de vote), étalé sur 5 ans.",
+        "Le nombre de référendums supplémentaires dépend de l'usage : zéro à un par an."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Immigration, sécurité, justice : le plan de Bruno Retailleau pour « restaurer la souveraineté du peuple »",
+          "url": "https://www.lejdd.fr/politique/immigration-securite-justice-le-plan-de-bruno-retailleau-pour-reformer-la-constitution-182508"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "primaute-constitution-droit-ue",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        0,
+        1
+      ],
+      "commentaire": "Coût direct nul, risque contentieux.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Risque de procédure d'infraction et d'amendes européennes en cas de conflit (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Immigration, sécurité, justice : le plan de Bruno Retailleau pour « restaurer la souveraineté du peuple »",
+          "url": "https://www.lejdd.fr/politique/immigration-securite-justice-le-plan-de-bruno-retailleau-pour-reformer-la-constitution-182508"
+        },
+        {
+          "titre": "Commission européenne, budget de l'UE et ressources propres",
+          "url": "https://commission.europa.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "sortie-35-heures-annualisation",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -4,
+        0
+      ],
+      "commentaire": "Économie modeste.",
+      "hypotheses": [
+        "Pour les 5,7 millions d'agents publics, 16 heures de plus par an sans hausse de salaire, soit environ 1 % de temps de travail en plus.",
+        "Dans le privé, plus d'heures travaillées augmentent un peu les recettes fiscales et sociales.",
+        "Effet limité si les heures en plus sont compensées par des jours de repos."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « La fête est finie » : Bruno Retailleau veut supprimer les 35 heures, inciter à la reprise d'activité et plafonner les aides sociales",
+          "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+        },
+        {
+          "titre": "Insee, comptes nationaux, PIB et démographie",
+          "url": "https://www.insee.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "zero-cotisation-impot-heures-supplementaires",
+      "milliards_eur_an": 4,
+      "fourchette": [
+        2,
+        8
+      ],
+      "commentaire": "Coût élevé.",
+      "hypotheses": [
+        "Les heures supplémentaires sont déjà exonérées de cotisations salariales et d'impôt jusqu'à 7 500 € par an : environ 2 à 3 Md€ aujourd'hui.",
+        "Ajout de l'exonération des cotisations patronales et suppression du plafond d'impôt.",
+        "Effet d'aubaine : des heures déjà effectuées seront déclarées en heures supplémentaires."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « La fête est finie » : Bruno Retailleau veut supprimer les 35 heures, inciter à la reprise d'activité et plafonner les aides sociales",
+          "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Institut des politiques publiques (IPP), évaluations fiscales et sociales",
+          "url": "https://www.ipp.eu/"
+        }
+      ]
+    },
+    {
+      "proposition": "plafond-aides-sociales-70-smic",
+      "milliards_eur_an": -2,
+      "fourchette": [
+        -5,
+        -0.5
+      ],
+      "commentaire": "Économie modérée.",
+      "hypotheses": [
+        "Le plafond touche surtout les familles nombreuses cumulant RSA, APL et prestations familiales.",
+        "L'économie dépend de la liste des aides incluses et du traitement des enfants."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « La fête est finie » : Bruno Retailleau veut supprimer les 35 heures, inciter à la reprise d'activité et plafonner les aides sociales",
+          "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Cnaf, prestations familiales",
+          "url": "https://www.caf.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "rsa-15-heures-activite",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        -1.5,
+        1
+      ],
+      "commentaire": "Effet budgétaire proche de zéro.",
+      "hypotheses": [
+        "La fusion du RSA, de la prime d'activité et de l'ASS est neutre en principe.",
+        "Les 15 heures d'activité, déjà prévues par la loi plein emploi de 2023, coûtent en accompagnement 0,5 à 1 Md€ par an et peuvent faire sortir des bénéficiaires du dispositif."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « La fête est finie » : Bruno Retailleau veut supprimer les 35 heures, inciter à la reprise d'activité et plafonner les aides sociales",
+          "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+        },
+        {
+          "titre": "Drees, minima sociaux et prestations sociales",
+          "url": "https://drees.solidarites-sante.gouv.fr/"
+        },
+        {
+          "titre": "Sénat, rapports de commission (finances, agences de l'État, collectivités)",
+          "url": "https://www.senat.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "chomage-fin-apres-trois-refus",
+      "milliards_eur_an": -1.5,
+      "fourchette": [
+        -3,
+        -0.3
+      ],
+      "commentaire": "Économie modérée pour l'assurance chômage.",
+      "hypotheses": [
+        "Environ 500 000 ruptures conventionnelles par an ; l'Unédic dépense environ 9 à 10 Md€ pour les chômeurs qui en sont issus.",
+        "La fin des droits après trois refus touche peu de personnes : l'essentiel vient de l'encadrement des ruptures conventionnelles."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « La fête est finie » : Bruno Retailleau veut supprimer les 35 heures, inciter à la reprise d'activité et plafonner les aides sociales",
+          "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+        },
+        {
+          "titre": "Unédic, situation financière de l'assurance chômage",
+          "url": "https://www.unedic.org/"
+        }
+      ]
+    },
+    {
+      "proposition": "revenu-parental-unique",
+      "milliards_eur_an": 3,
+      "fourchette": [
+        0,
+        8
+      ],
+      "commentaire": "Coût net probable, montant non précisé.",
+      "hypotheses": [
+        "Fusion des allocations familiales à budget constant, plus un versement dès le premier enfant.",
+        "Environ 4,5 millions de familles avec un seul enfant ; le coût dépend du montant versé pour le premier enfant."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Objectif Élysée 2027 : Bruno Retailleau dévoile ses ambitions sur CNews",
+          "url": "https://www.lejdd.fr/politique/suppression-du-droit-du-sol-peines-minimales-bruno-retailleau-devoile-ses-ambitions-sur-cnews-182979"
+        },
+        {
+          "titre": "Cnaf, prestations familiales",
+          "url": "https://www.caf.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "examen-entree-sixieme",
+      "milliards_eur_an": 0.3,
+      "fourchette": [
+        0.05,
+        1
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Organisation d'un examen national : quelques dizaines de millions d'euros.",
+        "Plus de redoublements : chaque année redoublée coûte environ 8 000 à 10 000 € par élève."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Présidentielle 2027 : Bruno Retailleau veut « refonder l'école » autour de quatre axes principaux",
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "etablissements-publics-libres",
+      "milliards_eur_an": 0.05,
+      "fourchette": [
+        0,
+        0.2
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "1 000 établissements volontaires, à moyens constants.",
+        "Coûts d'accompagnement et d'évaluation."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Présidentielle 2027 : Bruno Retailleau veut « refonder l'école » autour de quatre axes principaux",
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "salaires-enseignants-moyenne-europeenne",
+      "milliards_eur_an": 7,
+      "fourchette": [
+        4,
+        11
+      ],
+      "commentaire": "Coût élevé.",
+      "hypotheses": [
+        "Les salaires des enseignants français sont de 10 à 20 % inférieurs à la moyenne européenne selon l'OCDE.",
+        "Hausse d'environ 15 % pour 850 000 enseignants, cotisations retraite comprises."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Présidentielle 2027 : Bruno Retailleau veut « refonder l'école » autour de quatre axes principaux",
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+        },
+        {
+          "titre": "OCDE, Regards sur l'éducation et Perspectives des migrations internationales",
+          "url": "https://www.oecd.org/"
+        },
+        {
+          "titre": "Ministère de l'Éducation nationale (Depp), repères et références statistiques",
+          "url": "https://www.education.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "deduction-interets-emprunt-enfants",
+      "milliards_eur_an": 2,
+      "fourchette": [
+        1,
+        4
+      ],
+      "commentaire": "Coût significatif.",
+      "hypotheses": [
+        "Le crédit d'impôt sur les intérêts d'emprunt de 2007 a coûté jusqu'à environ 2 Md€ par an.",
+        "Mesure limitée aux familles avec enfants mais plus généreuse (jusqu'à 100 %)."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Logement : Bruno Retailleau propose de déduire de l'impôt les intérêts d'emprunt pour un prêt immobilier, en fonction du nombre d'enfants",
+          "url": "https://www.publicsenat.fr/actualites/politique/logement-bruno-retailleau-propose-de-deduire-de-l-imot-les-interets-d-emprunt-pour-un-pret-immobilier-en-fonction-du-nombre-d-enfants"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-zan-dpe",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        -0.1,
+        0.1
+      ],
+      "commentaire": "Effet budgétaire nul ou presque.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Plus de constructions et de logements remis en location peuvent légèrement accroître les recettes."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — Logement : Bruno Retailleau propose de déduire de l'impôt les intérêts d'emprunt pour un prêt immobilier, en fonction du nombre d'enfants",
+          "url": "https://www.publicsenat.fr/actualites/politique/logement-bruno-retailleau-propose-de-deduire-de-l-imot-les-interets-d-emprunt-pour-un-pret-immobilier-en-fonction-du-nombre-d-enfants"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "million-logements-cinq-ans",
+      "milliards_eur_an": 1,
+      "fourchette": [
+        -1,
+        4
+      ],
+      "commentaire": "Coût incertain, faible si la mesure reste réglementaire.",
+      "hypotheses": [
+        "200 000 logements de plus par an grâce à une loi d'urgence réduisant les délais.",
+        "Si des aides (prêt à taux zéro, avantages fiscaux) sont nécessaires : coût de 1 à 4 Md€.",
+        "La hausse de la construction rapporte de la TVA (bas de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "Journal de l'Agence — Présidentielle 2027 : les propositions de Bruno Retailleau pour relancer le logement",
+          "url": "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"
+        },
+        {
+          "titre": "Union sociale pour l'habitat, coût et financement du logement social",
+          "url": "https://www.union-habitat.org/"
+        },
+        {
+          "titre": "Ministère des comptes publics, lois de finances et voies et moyens",
+          "url": "https://www.budget.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-certificats-economie-energie",
+      "milliards_eur_an": 1,
+      "fourchette": [
+        0.5,
+        6
+      ],
+      "commentaire": "Coût budgétaire faible si rien ne remplace les CEE.",
+      "hypotheses": [
+        "Les CEE (environ 6 Md€ par an) sont payés par les fournisseurs d'énergie et répercutés sur les prix, hors budget de l'État.",
+        "Leur suppression réduit la TVA perçue sur ce surcoût (environ 1 Md€).",
+        "Si l'État reprend les actions financées (rénovation, chaudières), jusqu'à 6 Md€ (haut de fourchette)."
+      ],
+      "sources": [
+        {
+          "titre": "Econostrum — Carburant : la suppression des certificats d'économie d'énergie permettra-t-elle réellement d'économiser 8,5 euros par plein ?",
+          "url": "https://econostrum.info/carburant-supprime-certificats-economie-economiser/"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        },
+        {
+          "titre": "Cour des comptes, rapports sur la situation des finances publiques",
+          "url": "https://www.ccomptes.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "fin-subventions-eolien-solaire",
+      "milliards_eur_an": -1,
+      "fourchette": [
+        -3,
+        0
+      ],
+      "commentaire": "Économie progressive et limitée.",
+      "hypotheses": [
+        "Les contrats en cours sont maintenus : l'économie ne porte que sur les nouveaux projets.",
+        "Le soutien public aux renouvelables varie de quelques à près de 10 Md€ par an selon les prix de l'électricité.",
+        "La reconstruction d'un parc nucléaire n'est pas chiffrée ici."
+      ],
+      "sources": [
+        {
+          "titre": "Public Sénat — « Fin des subventions » aux éoliennes et au photovoltaïque : la tribune de Bruno Retailleau met le socle commun en surchauffe",
+          "url": "https://www.publicsenat.fr/actualites/politique/fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tribune-de-bruno-retailleau-met-le-socle-commun-en-surchauffe"
+        },
+        {
+          "titre": "Commission de régulation de l'énergie (CRE), charges de service public de l'énergie",
+          "url": "https://www.cre.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "suppression-principe-precaution",
+      "milliards_eur_an": 0,
+      "fourchette": [
+        0,
+        0.05
+      ],
+      "commentaire": "Coût nul.",
+      "hypotheses": [
+        "Mesure normative : pas de dépense ni de recette directe notable ; seuls des coûts de contrôle ou de contentieux marginaux.",
+        "Révision constitutionnelle de la Charte de l'environnement."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Relance du nucléaire, localisme et adaptation « non punitive » : les candidats de droite se saisissent de l'écologie",
+          "url": "https://www.lejdd.fr/politique/relance-du-nucleaire-localisme-et-adaptation-non-punitive-les-candidats-de-droite-se-saisissent-de-lecologie-185388"
+        },
+        {
+          "titre": "Vie-publique.fr, fiches sur les institutions, les élections et le référendum",
+          "url": "https://www.vie-publique.fr/"
+        }
+      ]
+    },
+    {
+      "proposition": "stockage-eau-irrigation",
+      "milliards_eur_an": 0.2,
+      "fourchette": [
+        0.05,
+        0.5
+      ],
+      "commentaire": "Coût faible.",
+      "hypotheses": [
+        "Retenues d'eau financées en partie par les agences de l'eau et l'État.",
+        "Quelques centaines de projets à quelques millions d'euros chacun."
+      ],
+      "sources": [
+        {
+          "titre": "Le JDD — Relance du nucléaire, localisme et adaptation « non punitive » : les candidats de droite se saisissent de l'écologie",
+          "url": "https://www.lejdd.fr/politique/relance-du-nucleaire-localisme-et-adaptation-non-punitive-les-candidats-de-droite-se-saisissent-de-lecologie-185388"
+        },
+        {
+          "titre": "Ministère de l'Agriculture",
+          "url": "https://www.agriculture.gouv.fr/"
+        },
+        {
+          "titre": "Ministère de la Transition écologique (Fonds vert, CEE, ZAN)",
+          "url": "https://www.ecologie.gouv.fr/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "candidats": [
+    {
+      "id": "candidat-exemple",
+      "nom": "Camille Exemple (fictif)",
+      "parti": "Parti Exemple",
+      "groupe_represente": "Classes moyennes urbaines",
+      "enjeux_perso": ["Première candidature : doit installer sa notoriété"],
+      "sources": [{ "titre": "Fiche fictive", "url": "https://example.org/candidat" }]
+    }
+  ],
+  "propositions": [
+    {
+      "id": "baisse-tva-energie",
+      "candidat": "candidat-exemple",
+      "categorie": "energie",
+      "texte": "Baisser la TVA sur l'électricité de 20 % à 5,5 %.",
+      "source": { "titre": "Programme fictif, p. 12", "url": "https://example.org/programme", "date": "2026-10-01" },
+      "evaluations": {
+        "adhesion": { "pourcentage": 70, "commentaire": "Mesure de pouvoir d'achat généralement populaire." },
+        "faisabilite": { "note": 6, "commentaire": "Possible par loi de finances ; encadré par la directive TVA." },
+        "cout": { "milliards_eur_an": 8, "fourchette": [6, 10], "commentaire": "Ordre de grandeur indicatif." },
+        "biais": ["Coût non chiffré dans le programme"],
+        "impacts": [
+          { "domaine": "Pouvoir d'achat", "sens": "positif", "description": "Baisse de la facture des ménages." },
+          { "domaine": "Climat", "sens": "negatif", "description": "Signal-prix moins incitatif à la sobriété." }
+        ],
+        "demographie": [
+          { "groupe": "Ménages modestes", "effet": "gagnant" },
+          { "groupe": "Contribuables futurs", "effet": "perdant", "commentaire": "Hausse du déficit." }
+        ],
+        "finances": { "note": 3, "commentaire": "Perte de recettes sans financement identifié." },
+        "europe_monde": { "note": 5, "commentaire": "Compatible avec les taux réduits autorisés par l'UE." }
+      }
+    }
+  ]
+}

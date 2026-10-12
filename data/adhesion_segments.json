@@ -1,0 +1,1506 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "methode": "Adhésion ventilée par tranche d'âge et par catégorie socioprofessionnelle (CSP), sur le modèle Perspectiva. Valeur = % de personnes favorables (ou « d'accord ») dans le segment. Provenance « reelle » : chiffres lus dans le tableau croisé du sondage (page indiquée), libellés et tranches de l'institut conservés tels quels ; « ST » = sous-total. Elabe distingue 11 groupes de CSP, CSA seulement 3 (CSP +, CSP -, Inactifs). Provenance « estimee » : quand l'institut ne publie que quelques segments ; les chiffres publiés sont listés dans « ancrages », le reste est une estimation argumentée. Quand la question du sondage ne porte que sur une mesure proche, le commentaire le dit. Sondages sans ventilation publiée (Odoxa pour l'IFRAP, septembre 2025) : non repris.",
+  "propositions": [
+    {
+      "proposition": "isf-impot-14-tranches",
+      "provenance": "reelle",
+      "question": "Vous personnellement, êtes-vous favorable ou opposé à la mise en place de cette taxe de 2% du patrimoine pour les foyers dont le patrimoine dépasse 100 millions d'euros ?",
+      "pourcentage": 74,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 72
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 70
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 76
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 75
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 64
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 70
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 80
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 77
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 73
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 69
+        }
+      ],
+      "commentaire": "Question proche (taxe Zucman), pas sur l'ISF ni les 14 tranches. Adhésion homogène : aucun segment sous 64 %.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et les impôts (23-24 septembre 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/09/25092025_elabe_bfmtv_les-francais-et-les-impots.pdf",
+        "date": "2025-09-25",
+        "page": 22
+      }
+    },
+    {
+      "proposition": "retraite-65-ans-45-annuites",
+      "provenance": "reelle",
+      "question": "Concernant notre système de retraite, êtes-vous favorable ou opposé à… ? Augmenter l'âge de départ à la retraite",
+      "pourcentage": 36,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 31
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 35
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 31
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 26
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 54
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 33
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 38
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 39
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 48
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 32
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 27
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 29
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 24
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 41
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 45
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 33
+        }
+      ],
+      "commentaire": "Question proche (hausse de l'âge de départ, sans les 45 annuités). Clivage net : les 65 ans et plus, déjà retraités, sont les seuls majoritairement favorables ; les 50-64 ans et les ouvriers sont les plus opposés.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et le système de retraite (13-16 juin 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/06/17062025_elabe_bfmtv_les-francais-et-le-systeme-de-retraite.pdf",
+        "date": "2025-06-17",
+        "page": 24
+      }
+    },
+    {
+      "proposition": "retraite-pilier-capitalisation",
+      "provenance": "reelle",
+      "question": "Concernant notre système de retraite, êtes-vous favorable ou opposé à… ? Introduire une dose de capitalisation",
+      "pourcentage": 62,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 60
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 61
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 57
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 57
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 72
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 59
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 64
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 74
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 55
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 56
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 54
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 66
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 68
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 62
+        }
+      ],
+      "commentaire": "Soutien plus fort chez les cadres et les retraités, plus faible chez les ouvriers.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et le système de retraite (13-16 juin 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/06/17062025_elabe_bfmtv_les-francais-et-le-systeme-de-retraite.pdf",
+        "date": "2025-06-17",
+        "page": 24
+      }
+    },
+    {
+      "proposition": "retraites-pilier-capitalisation",
+      "provenance": "reelle",
+      "question": "Concernant notre système de retraite, êtes-vous favorable ou opposé à… ? Introduire une dose de capitalisation",
+      "pourcentage": 62,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 60
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 61
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 57
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 57
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 72
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 59
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 64
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 74
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 55
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 56
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 54
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 66
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 68
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 62
+        }
+      ],
+      "commentaire": "Même question que retraite-pilier-capitalisation : porte sur la capitalisation, pas sur les économies annoncées.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et le système de retraite (13-16 juin 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/06/17062025_elabe_bfmtv_les-francais-et-le-systeme-de-retraite.pdf",
+        "date": "2025-06-17",
+        "page": 24
+      }
+    },
+    {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "provenance": "reelle",
+      "question": "Etes-vous favorable ou opposé à chacune de ces mesures ? Le durcissement des conditions pour les étrangers pour bénéficier de certaines aides sociales comme l'APL (aide personnalisée au logement)",
+      "pourcentage": 77,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 58
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 76
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 76
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 79
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 83
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 85
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 76
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 83
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 83
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 63
+        }
+      ],
+      "commentaire": "Question proche (conditions durcies, pas priorité nationale). Les 18-24 ans sont nettement moins favorables (58 %) que les 65 ans et plus (83 %).",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et l'immigration (15-16 octobre 2024, 1 005 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2024/10/16102024_elabe_bfmtv_les-francais-et-limmigration.pdf",
+        "date": "2024-10-16",
+        "page": 26
+      }
+    },
+    {
+      "proposition": "ame-transformee-amu",
+      "provenance": "reelle",
+      "question": "Etes-vous favorable ou opposé à chacune de ces mesures ? Le remplacement de l'aide médicale d'Etat (AME) en une « aide médicale d'urgence » (AMU) aux conditions plus strictes",
+      "pourcentage": 72,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 54
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 71
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 71
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 74
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 79
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 71
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 79
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 73
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 71
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 68
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 64
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 74
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 73
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 79
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 62
+        }
+      ],
+      "commentaire": "Même mesure. Écart de 25 points entre 18-24 ans et 65 ans et plus.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et l'immigration (15-16 octobre 2024, 1 005 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2024/10/16102024_elabe_bfmtv_les-francais-et-limmigration.pdf",
+        "date": "2024-10-16",
+        "page": 26
+      }
+    },
+    {
+      "proposition": "referendum-immigration-pen",
+      "provenance": "reelle",
+      "question": "Seriez-vous favorable ou opposé à la modification de la Constitution pour élargir les sujets qui peuvent être soumis à référendum et ainsi organiser un référendum sur l'immigration ?",
+      "pourcentage": 76,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 71
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 77
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 88
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 78
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 83
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 68
+        }
+      ],
+      "commentaire": "Adhésion majoritaire dans tous les segments.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et l'immigration (25-26 février 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/02/26022025_elabe_bfmtv_les-francais-et-limmigration.pdf",
+        "date": "2025-02-26",
+        "page": 28
+      }
+    },
+    {
+      "proposition": "referendum-immigration-retailleau",
+      "provenance": "reelle",
+      "question": "Seriez-vous favorable ou opposé à la modification de la Constitution pour élargir les sujets qui peuvent être soumis à référendum et ainsi organiser un référendum sur l'immigration ?",
+      "pourcentage": 76,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 71
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 77
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 88
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 78
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 83
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 68
+        }
+      ],
+      "commentaire": "Même question que referendum-immigration-pen : porte sur le principe du référendum, pas sur le contenu du texte.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et l'immigration (25-26 février 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/02/26022025_elabe_bfmtv_les-francais-et-limmigration.pdf",
+        "date": "2025-02-26",
+        "page": 28
+      }
+    },
+    {
+      "proposition": "referendum-domaine-loi-elargi",
+      "provenance": "reelle",
+      "question": "Seriez-vous favorable ou opposé à la modification de la Constitution pour élargir les sujets qui peuvent être soumis à référendum et ainsi organiser un référendum sur l'immigration ?",
+      "pourcentage": 76,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 71
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 77
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 88
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 78
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 83
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 68
+        }
+      ],
+      "commentaire": "Question proche : l'élargissement est lié à l'immigration dans la question, pas à tout le domaine de la loi.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et l'immigration (25-26 février 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/02/26022025_elabe_bfmtv_les-francais-et-limmigration.pdf",
+        "date": "2025-02-26",
+        "page": 28
+      }
+    },
+    {
+      "proposition": "interdiction-progressive-voile",
+      "provenance": "reelle",
+      "question": "Selon vous, faut-il interdire le port du voile islamique dans l'espace public (dans la rue, les parcs publics, les lieux publics, …) ?",
+      "pourcentage": 60,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 51
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 39
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 58
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 59
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 66
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 67
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 64
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 61
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 62
+        }
+      ],
+      "commentaire": "Fort clivage d'âge : 39 % chez les 18-24 ans, 67 % chez les 50-64 ans. CSA ne détaille la CSP qu'en 3 groupes (ST = sous-total).",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — interdiction du voile dans l'espace public (31 août-1er septembre 2026, 1 006 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2026/02/CSA-pour-Cnews-Europe-1-et-le-JDD-Resultats-0109-interdiction.pdf",
+        "date": "2026-09-01",
+        "page": 6
+      }
+    },
+    {
+      "proposition": "denonciation-accord-franco-algerien",
+      "provenance": "reelle",
+      "question": "Faut-il supprimer les accords de 1968 qui facilitent les conditions de circulation, de séjour et d'emploi pour les Algériens en France ?",
+      "pourcentage": 74,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 74
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 72
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 72
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 75
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 77
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 74
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 75
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 73
+        }
+      ],
+      "commentaire": "Adhésion homogène selon l'âge et la CSP.",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — accords franco-algériens de 1968 (30-31 octobre 2025, 1 010 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/04/CSA-pour-Cnews-Europe-1-et-le-JDD-Resultats-3110.pdf",
+        "date": "2025-10-31",
+        "page": 6
+      }
+    },
+    {
+      "proposition": "majorite-penale-15-ans",
+      "provenance": "reelle",
+      "question": "Faut-il suspendre l'excuse de minorité* pour les mineurs qui participent à des crimes graves (violences physiques, homicides) ?",
+      "pourcentage": 77,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 74
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 70
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 77
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 76
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 78
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 84
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 73
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 75
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 77
+        }
+      ],
+      "commentaire": "Question proche (excuse de minorité pour crimes graves, pas majorité pénale à 15 ans).",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — excuse de minorité (10-11 février 2026, 1 011 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/07/CSA-pour-Cnews-Europe-1-et-le-JDD-Resultats-1102-Excuse-de-minorite.pdf",
+        "date": "2026-02-11",
+        "page": 6
+      }
+    },
+    {
+      "proposition": "peines-minimales-agressions-forces-ordre",
+      "provenance": "reelle",
+      "question": "Êtes-vous favorable ou opposé à la condamnation à des peines de prison automatiques pour les agresseurs de policiers ?",
+      "pourcentage": 81,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 74
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 72
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 82
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 85
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 85
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 84
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 81
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 79
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 83
+        }
+      ],
+      "commentaire": "Soutien plus fort après 35 ans.",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — agresseurs de policiers (11-12 septembre 2025, 1 010 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/04/CSA-pour-Cnews-Europe-1-et-le-JDD_Resultats_1209.pdf",
+        "date": "2025-09-12",
+        "page": 5
+      }
+    },
+    {
+      "proposition": "peines-planchers-suppression-jap",
+      "provenance": "reelle",
+      "question": "Êtes-vous favorable ou opposé à l'instauration de peines de prison fermes de 3 mois minimum (réellement exécutées) pour les agresseurs des représentants de l'Etat ?",
+      "pourcentage": 87,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 81
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 86
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 78
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 87
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 91
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 92
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 90
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 89
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 89
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 85
+        }
+      ],
+      "commentaire": "Question proche (peines minimales pour une catégorie de délits, pas suppression du JAP).",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — agresseurs des représentants de l'État (3-4 juin 2025, 1 000 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/04/CSA-pour-Cnews-Europe-1-et-le-JDD_Resultats_0406.pdf",
+        "date": "2025-06-04",
+        "page": 5
+      }
+    },
+    {
+      "proposition": "diviser-par-deux-immigration-legale",
+      "provenance": "reelle",
+      "question": "Êtes-vous d'accord ou pas d'accord avec la proposition de Gérald Darmanin de suspendre l'immigration en France pendant 2 ou 3 ans ?",
+      "pourcentage": 67,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 68
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 73
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 64
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 63
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 68
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 72
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 64
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 61
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 71
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 69
+        }
+      ],
+      "commentaire": "Question proche (suspension de 2 ou 3 ans, pas division par deux). CSP- plus favorables que CSP+.",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — suspension de l'immigration (27-28 janvier 2026, 1 010 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/07/CSA-pour-Cnews-Europe-1-et-le-JDD-Resultats-2801.pdf",
+        "date": "2026-01-28",
+        "page": 5
+      }
+    },
+    {
+      "proposition": "ukraine-otan-troupes-europeennes",
+      "provenance": "reelle",
+      "question": "Seriez-vous favorable ou opposé à l'envoi sur le sol ukrainien de... ? troupes françaises pour garantir la paix si un accord de paix avec la Russie est signé",
+      "pourcentage": 67,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 62
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 60
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 66
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 67
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 75
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 64
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 56
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 70
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 67
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 59
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 55
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 63
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 64
+        }
+      ],
+      "commentaire": "Question proche (troupes françaises, pas européennes). Cadres et retraités plus favorables que employés.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français et la guerre en Ukraine (3-4 mars 2025, 1 009 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/03/04032025_elabe_bfmtv_les-francais-et-la-guerre-en-ukraine.pdf",
+        "date": "2025-03-04",
+        "page": 22
+      }
+    },
+    {
+      "proposition": "zero-cotisation-impot-heures-supplementaires",
+      "provenance": "reelle",
+      "question": "La défiscalisation totale des heures supplémentaires (supprimant le plafond existant de 7.500 euros au-delà duquel les heures supplémentaires sont aujourd'hui fiscalisées)",
+      "pourcentage": 74,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 62
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 69
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 77
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 81
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 71
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 78
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 73
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 81
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 82
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 78
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 77
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 73
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 83
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 68
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 72
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 60
+        }
+      ],
+      "commentaire": "Question proche (impôt seulement, pas cotisations). Actifs plus favorables que inactifs.",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français, le budget et la fiscalité (4-5 novembre 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/11/05112025_elabe-bfmtv_les-francais-le-budget-et-la-fiscalite.pdf",
+        "date": "2025-11-05",
+        "page": 21
+      }
+    },
+    {
+      "proposition": "taxe-rachats-actions",
+      "provenance": "reelle",
+      "question": "La hausse de la taxe sur les rachats d'actions, portée à 33 % contre 8 % actuellement (opération par laquelle une entreprise rachète ses propres actions sur le marché)",
+      "pourcentage": 63,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 51
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 56
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 66
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 66
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 65
+        }
+      ],
+      "csp": [
+        {
+          "segment": "ACTIFS",
+          "pourcentage": 64
+        },
+        {
+          "segment": "Agric., artisan, comm.",
+          "pourcentage": 58
+        },
+        {
+          "segment": "CSP+",
+          "pourcentage": 66
+        },
+        {
+          "segment": "Cadres",
+          "pourcentage": 71
+        },
+        {
+          "segment": "Profession Intermédiaire",
+          "pourcentage": 63
+        },
+        {
+          "segment": "CSP-",
+          "pourcentage": 63
+        },
+        {
+          "segment": "Employé",
+          "pourcentage": 58
+        },
+        {
+          "segment": "Ouvrier",
+          "pourcentage": 68
+        },
+        {
+          "segment": "INACTIFS",
+          "pourcentage": 61
+        },
+        {
+          "segment": "Retraité",
+          "pourcentage": 65
+        },
+        {
+          "segment": "Autre inactif",
+          "pourcentage": 52
+        }
+      ],
+      "commentaire": "Même mesure. Les 18-24 ans sont les moins favorables (51 %).",
+      "source": {
+        "titre": "Elabe pour BFMTV — Les Français, le budget et la fiscalité (4-5 novembre 2025, 1 000 personnes)",
+        "url": "https://elabe.fr/wp-content/uploads/2025/11/05112025_elabe-bfmtv_les-francais-le-budget-et-la-fiscalite.pdf",
+        "date": "2025-11-05",
+        "page": 21
+      }
+    },
+    {
+      "proposition": "amende-responsabilisation-scolaire",
+      "provenance": "reelle",
+      "question": "Faut-il sanctionner les parents de mineurs délinquants ?",
+      "pourcentage": 79,
+      "age": [
+        {
+          "segment": "ST Moins de 35 ans",
+          "pourcentage": 70
+        },
+        {
+          "segment": "18 à 24 ans",
+          "pourcentage": 77
+        },
+        {
+          "segment": "25 à 34 ans",
+          "pourcentage": 66
+        },
+        {
+          "segment": "35 à 49 ans",
+          "pourcentage": 79
+        },
+        {
+          "segment": "ST 50 ans et plus",
+          "pourcentage": 84
+        },
+        {
+          "segment": "50 à 64 ans",
+          "pourcentage": 83
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 85
+        }
+      ],
+      "csp": [
+        {
+          "segment": "CSP +",
+          "pourcentage": 78
+        },
+        {
+          "segment": "CSP -",
+          "pourcentage": 80
+        },
+        {
+          "segment": "Inactifs",
+          "pourcentage": 80
+        }
+      ],
+      "commentaire": "Question proche (sanction des parents de mineurs délinquants, pas amende liée à l'absentéisme).",
+      "source": {
+        "titre": "CSA pour CNews, Europe 1 et le JDD — sanction des parents de mineurs délinquants (5-6 juin 2025, 1 010 personnes)",
+        "url": "https://csa.eu/wp-content/uploads/2025/04/CSA-pour-Cnews-Europe-1-et-le-JDD_Resultats_0606.pdf",
+        "date": "2025-06-06",
+        "page": 8
+      }
+    },
+    {
+      "proposition": "retraite-60-ans",
+      "provenance": "estimee",
+      "question": "Retour de l'âge légal de départ à la retraite à 60 ans",
+      "pourcentage": 56,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 60
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 62
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 64
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 62
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 38
+        }
+      ],
+      "csp": [
+        {
+          "segment": "Cadres",
+          "pourcentage": 42
+        },
+        {
+          "segment": "Professions intermédiaires",
+          "pourcentage": 60
+        },
+        {
+          "segment": "Employés",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Ouvriers",
+          "pourcentage": 76
+        },
+        {
+          "segment": "Retraités",
+          "pourcentage": 40
+        }
+      ],
+      "commentaire": "Estimation. Ancrages réels : Ifop pour la CGT (avril 2025), 56 % au total, 75 % chez les employés et 76 % chez les ouvriers (seuls chiffres publiés par segment). Le reste est déduit du profil inverse observé sur la hausse de l'âge (Elabe juin 2025) : les 65 ans et plus et les cadres y étaient les plus favorables, donc ici les moins favorables.",
+      "ancrages": [
+        {
+          "segment": "Employés",
+          "pourcentage": 75
+        },
+        {
+          "segment": "Ouvriers",
+          "pourcentage": 76
+        }
+      ],
+      "source": {
+        "titre": "Ifop pour la CGT — Les Français et la réforme des retraites (avril 2025)",
+        "url": "https://www.ifop.com/wp-content/uploads/2025/04/cp_les_francais_et_reforme_retraites_ifop_cgt.pdf",
+        "date": "2025-04"
+      }
+    },
+    {
+      "proposition": "droit-de-vote-16-ans",
+      "provenance": "estimee",
+      "question": "Abaisser le droit de vote à 16 ans",
+      "pourcentage": 22,
+      "age": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 33
+        },
+        {
+          "segment": "25-34 ans",
+          "pourcentage": 28
+        },
+        {
+          "segment": "35-49 ans",
+          "pourcentage": 23
+        },
+        {
+          "segment": "50-64 ans",
+          "pourcentage": 19
+        },
+        {
+          "segment": "65 ans et plus",
+          "pourcentage": 17
+        }
+      ],
+      "csp": [
+        {
+          "segment": "Cadres",
+          "pourcentage": 26
+        },
+        {
+          "segment": "Professions intermédiaires",
+          "pourcentage": 24
+        },
+        {
+          "segment": "Employés",
+          "pourcentage": 22
+        },
+        {
+          "segment": "Ouvriers",
+          "pourcentage": 20
+        },
+        {
+          "segment": "Retraités",
+          "pourcentage": 17
+        }
+      ],
+      "commentaire": "Estimation. Ancrages réels : Ipsos pour Le Parisien (février 2024), 22 % au total et 33 % chez les 18-24 ans. La baisse avec l'âge et l'écart faible entre CSP sont supposés, sur le modèle des autres questions de société de ce tableau (âge très discriminant, CSP peu discriminante).",
+      "ancrages": [
+        {
+          "segment": "18-24 ans",
+          "pourcentage": 33
+        }
+      ],
+      "source": {
+        "titre": "Ipsos pour Le Parisien — les Français et la jeunesse (février 2024)",
+        "url": "https://www.ipsos.com/fr-fr/node/1016956",
+        "date": "2024-02"
+      }
+    }
+  ]
+}

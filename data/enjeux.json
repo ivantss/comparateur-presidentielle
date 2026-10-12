@@ -1,0 +1,507 @@
+{
+ "methode": "Pour chaque candidat : (1) le groupe affiché, c'est-à-dire ce que le candidat dit représenter ; (2) le groupe réellement représenté, établi à partir de la sociologie mesurée de son électorat (Ipsos 2022 et 2024, sondages 2026) et des bénéficiaires directs de ses propositions de propositions.json ; (3) l'écart entre les deux ; (4) ses enjeux personnels (carrière, âge, affaires judiciaires, position dans son camp). Les pourcentages électoraux se lisent « part de la catégorie qui vote pour le candidat » (ex. : 36 % des ouvriers ont voté Le Pen). Pour Philippe et Retailleau, qui n'ont pas été candidats en 2022, on utilise l'électorat le plus proche (Macron 2022 et Ensemble 2024 ; Pécresse 2022 et LR 2024), et on le dit. Les affaires judiciaires sont décrites au stade où elles sont, sans présumer de l'issue. Âges calculés au 1er tour prévu le 18 avril 2027. Données consultées le 2026-10-12.",
+ "candidats": {
+  "jean-luc-melenchon": {
+   "groupe_affiche": "Le « peuple » face à « l'oligarchie » : salariés, précaires, quartiers populaires et jeunesse, avec le RN désigné comme adversaire principal.",
+   "groupe_reel": {
+    "resume": "Les jeunes adultes urbains et diplômés, à revenus modestes, et les habitants des grandes villes et de leurs quartiers populaires. Les retraités et les petites communes sont très peu représentés ; les ouvriers votent davantage RN.",
+    "arguments": [
+     {
+      "constat": "En 2022, il obtient 31 % chez les 18-24 ans et 34 % chez les 25-34 ans, contre 9 % chez les 70 ans et plus et 11 % chez les retraités.",
+      "sources": [
+       {
+        "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+        "date": "2022-04-10"
+       }
+      ]
+     },
+     {
+      "constat": "En 2022, il fait jeu égal chez les cadres (25 %), les employés (25 %) et les ouvriers (23 %) ; Marine Le Pen le devance nettement chez les ouvriers (36 %). Il est plus fort chez les bac+3 (26 %) que chez les non-bacheliers (14 %).",
+      "sources": [
+       {
+        "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+        "date": "2022-04-10"
+       }
+      ]
+     },
+     {
+      "constat": "En 2024, le Nouveau Front populaire atteint 48 % chez les 18-24 ans, 34 % chez les cadres et 33 % dans les villes de plus de 200 000 habitants, mais 23 % dans les communes de moins de 2 000 habitants.",
+      "sources": [
+       {
+        "titre": "Ipsos-Talan — Sociologie des électorats, 1er tour des législatives 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/ipsos-talan-sociologie-electorats-legislatives-30-juin-rapport-complet.pdf",
+        "date": "2024-06-30"
+       }
+      ]
+     },
+     {
+      "constat": "En avril 2026, le noyau insoumis (environ 6 % des électeurs) compte 47 % de moins de 35 ans (16 % dans la population), 48 % d'habitants de villes de plus de 200 000 habitants, 62 % de diplômés du supérieur, environ 40 % de foyers sous 2 000 € nets par mois et 15 % de retraités.",
+      "sources": [
+       {
+        "titre": "Fondation Jean-Jaurès — Radiographie de l'électorat de gauche à un an de l'élection présidentielle",
+        "url": "https://www.jean-jaures.org/publication/radiographie-de-lelectorat-de-gauche-a-un-an-de-lelection-presidentielle/",
+        "date": "2026-06-25"
+       }
+      ]
+     },
+     {
+      "constat": "En septembre 2026, il est crédité de 16 à 20 % au premier tour selon les instituts, avec un électorat toujours très jeune.",
+      "sources": [
+       {
+        "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+        "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+        "date": "2026-09-14"
+       },
+       {
+        "titre": "Public Sénat — Sondage Cluster17 pour Politico : Marine Le Pen largement en tête, suivie de Jean-Luc Mélenchon et Édouard Philippe à égalité",
+        "url": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite",
+        "date": "2026-09-24"
+       }
+      ]
+     }
+    ],
+    "propositions_ciblees": [
+     {
+      "proposition": "droit-de-vote-16-ans",
+      "beneficiaires": "Les 16-17 ans, catégorie où son camp est le plus fort."
+     },
+     {
+      "proposition": "suppression-parcoursup",
+      "beneficiaires": "Lycéens et étudiants."
+     },
+     {
+      "proposition": "400000-logements-abordables",
+      "beneficiaires": "Locataires modestes des grandes villes."
+     },
+     {
+      "proposition": "regularisation-travailleurs-etudiants",
+      "beneficiaires": "Étrangers sans titre de séjour et leurs familles, très présents dans les quartiers populaires urbains."
+     },
+     {
+      "proposition": "retraite-60-ans",
+      "beneficiaires": "Salariés entrés tôt sur le marché du travail ; ce n'est pas une mesure ciblant son électorat le plus jeune."
+     },
+     {
+      "proposition": "isf-impot-14-tranches",
+      "beneficiaires": "Mesure payée par les ménages les plus aisés, peu présents dans son électorat."
+     }
+    ]
+   },
+   "ecart": "Il dit parler aux classes populaires dans leur ensemble. Il représente surtout leur part jeune, urbaine et diplômée. Les ouvriers et employés des petites villes et du rural votent majoritairement RN, et les retraités votent peu pour lui.",
+   "enjeux_perso": [
+    {
+     "enjeu": "Quatrième candidature consécutive",
+     "explication": "Après 2012, 2017 et 2022, il a déclaré sa candidature le 3 mai 2026. En 2022, il a manqué le second tour d'environ 420 000 voix ; c'est le principal argument de sa candidature.",
+     "sources": [
+      {
+       "titre": "LCP — Présidentielle : Jean-Luc Mélenchon officialise sa candidature pour 2027",
+       "url": "https://lcp.fr/actualites/presidentielle-jean-luc-melenchon-officialise-sa-candidature-pour-2027-435851",
+       "date": "2026-05-03"
+      }
+     ]
+    },
+    {
+     "enjeu": "Âge",
+     "explication": "Né le 19 août 1951, il aura 75 ans au premier tour, ce qui fait de lui le candidat le plus âgé des quatre. Le leadership de LFI après lui reste ouvert.",
+     "sources": [
+      {
+       "titre": "Wikipédia — Jean-Luc Mélenchon",
+       "url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon"
+      }
+     ]
+    },
+    {
+     "enjeu": "Contrôle de la gauche",
+     "explication": "Son noyau d'électeurs (environ 6 % des électeurs) est plus étroit que l'électorat de gauche. Une partie de la gauche lui reproche de diviser son camp. Sa candidature lui sert aussi à garder la première place à gauche face au PS et aux écologistes.",
+     "sources": [
+      {
+       "titre": "Fondation Jean-Jaurès — Radiographie de l'électorat de gauche à un an de l'élection présidentielle",
+       "url": "https://www.jean-jaures.org/publication/radiographie-de-lelectorat-de-gauche-a-un-an-de-lelection-presidentielle/",
+       "date": "2026-06-25"
+      }
+     ]
+    }
+   ]
+  },
+  "edouard-philippe": {
+   "groupe_affiche": "Un candidat d'« ordre » et de redressement pour l'ensemble des Français : un pays à nouveau « commandé et gouverné ».",
+   "groupe_reel": {
+    "resume": "Les retraités et les cadres aisés, propriétaires, de l'ancien électorat d'Emmanuel Macron. Les ouvriers, les employés et les moins de 35 ans sont très peu représentés.",
+    "arguments": [
+     {
+      "constat": "Repère 2022 (Emmanuel Macron, même électorat central) : 41 % chez les 70 ans et plus, 38 % chez les retraités, 35 % chez les cadres et chez les revenus de plus de 3 000 €, mais 18 % chez les ouvriers et 14 % chez les revenus de moins de 1 250 €.",
+      "sources": [
+       {
+        "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+        "date": "2022-04-10"
+       }
+      ]
+     },
+     {
+      "constat": "Repère 2024 (Ensemble, dont Horizons) : 32 % chez les 70 ans et plus, 29 % chez les retraités, 26 % chez les cadres, 7 % chez les ouvriers.",
+      "sources": [
+       {
+        "titre": "Ipsos-Talan — Sociologie des électorats, 1er tour des législatives 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/ipsos-talan-sociologie-electorats-legislatives-30-juin-rapport-complet.pdf",
+        "date": "2024-06-30"
+       }
+      ]
+     },
+     {
+      "constat": "En septembre 2026, il est crédité de 14 à 19 % au premier tour. 40 à 52 % des électeurs d'Emmanuel Macron en 2022 voteraient pour lui.",
+      "sources": [
+       {
+        "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+        "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+        "date": "2026-09-14"
+       }
+      ]
+     },
+     {
+      "constat": "En septembre 2026, environ 32 % de son électorat est retraité, selon Cluster17.",
+      "sources": [
+       {
+        "titre": "Public Sénat — Sondage Cluster17 pour Politico : Marine Le Pen largement en tête, suivie de Jean-Luc Mélenchon et Édouard Philippe à égalité",
+        "url": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite",
+        "date": "2026-09-24"
+       }
+      ]
+     }
+    ],
+    "propositions_ciblees": [
+     {
+      "proposition": "baisse-impots-production-50-mds",
+      "beneficiaires": "Entreprises et leurs actionnaires."
+     },
+     {
+      "proposition": "retraite-pilier-capitalisation",
+      "beneficiaires": "Épargnants et ménages capables d'épargner ; le relèvement de l'âge à 65 ans (retraite-65-ans-45-annuites) ne touche pas les retraités actuels, cœur de son électorat."
+     },
+     {
+      "proposition": "exoneration-impot-jeunes-parents",
+      "beneficiaires": "Classes moyennes imposables ayant un enfant."
+     },
+     {
+      "proposition": "pret-taux-zero-naissance",
+      "beneficiaires": "Familles qui achètent leur logement."
+     },
+     {
+      "proposition": "non-remplacement-fonctionnaires",
+      "beneficiaires": "Contribuables attachés à la baisse de la dépense ; mesure payée par les agents publics et les usagers."
+     }
+    ]
+   },
+   "ecart": "Il se présente comme le candidat de tous, au-dessus des clivages. Son électorat mesuré est le plus âgé et le plus aisé des quatre, et son effort est demandé aux actifs (âge de départ, fonctionnaires) plus qu'aux retraités actuels.",
+   "enjeux_perso": [
+    {
+     "enjeu": "Procédure du Parquet national financier",
+     "explication": "Une ancienne collaboratrice a porté plainte, en évoquant notamment un détournement de fonds publics et du favoritisme autour de la Cité numérique du Havre. En mai 2026, le PNF a demandé l'ouverture d'une information judiciaire. Ce sont des allégations ; aucune décision de justice n'a été rendue.",
+     "sources": [
+      {
+       "titre": "France 24 (AFP) — Enquête sur Edouard Philippe : les clés du dossier",
+       "url": "https://www.france24.com/fr/info-en-continu/20260520-enqu%C3%AAte-sur-edouard-philippe-les-cl%C3%A9s-du-dossier",
+       "date": "2026-05-20"
+      }
+     ]
+    },
+    {
+     "enjeu": "Leadership du bloc central",
+     "explication": "Ancien Premier ministre d'Emmanuel Macron, il doit récupérer son électorat sans porter son bilan, et dépasser Gabriel Attal pour être le seul candidat du centre. Il refuse toute primaire.",
+     "sources": [
+      {
+       "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+       "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+       "date": "2026-09-14"
+      },
+      {
+       "titre": "France 24 (AFP) — A \"L'Heure de vérité\", Philippe ébauche une France à nouveau \"commandée et gouvernée\"",
+       "url": "https://www.france24.com/fr/info-en-continu/20261008-a-l-heure-de-v%C3%A9rit%C3%A9-philippe-%C3%A9bauche-une-france-%C3%A0-nouveau-command%C3%A9e-et-gouvern%C3%A9e",
+       "date": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "enjeu": "Santé déclarée",
+     "explication": "Il a rendu publics un vitiligo puis une alopécie, maladies auto-immunes qu'il décrit comme « ni douloureuses, ni dangereuses, ni contagieuses ». Il a choisi d'en parler lui-même ; la question peut revenir dans la campagne.",
+     "sources": [
+      {
+       "titre": "Allodocteurs — Édouard Philippe, déjà atteint de vitiligo, annonce souffrir d'alopécie",
+       "url": "https://www.allodocteurs.fr/edouard-philippe-deja-atteint-de-vitiligo-annonce-souffrir-dalopecie-33458.html",
+       "date": "2023-02-03"
+      }
+     ]
+    },
+    {
+     "enjeu": "Âge",
+     "explication": "Né le 28 novembre 1970, il aura 56 ans au premier tour.",
+     "sources": [
+      {
+       "titre": "Wikipédia — Édouard Philippe",
+       "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe"
+      }
+     ]
+    }
+   ]
+  },
+  "marine-le-pen": {
+   "groupe_affiche": "« Le peuple » et les « Français oubliés » : pouvoir d'achat, « priorité nationale », baisse de l'immigration.",
+   "groupe_reel": {
+    "resume": "Ouvriers et employés, non-bacheliers, actifs de 35 à 64 ans, habitants des petites villes et du rural. Les cadres, les diplômés du supérieur et les plus de 70 ans sont peu représentés.",
+    "arguments": [
+     {
+      "constat": "En 2022, elle obtient 36 % chez les ouvriers et chez les employés, contre 12 % chez les cadres ; 35 % chez les non-bacheliers, contre 13 % chez les bac+3 ; 27 à 28 % dans les communes de moins de 10 000 habitants, contre 20 % dans les villes de plus de 200 000 habitants.",
+      "sources": [
+       {
+        "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+        "date": "2022-04-10"
+       }
+      ]
+     },
+     {
+      "constat": "En 2024, le RN et ses alliés atteignent 57 % chez les ouvriers, 44 % chez les employés, 49 % chez les non-bacheliers, 40 % chez les 50-59 ans et 40 % dans les communes de moins de 2 000 habitants, contre 21 % chez les cadres.",
+      "sources": [
+       {
+        "titre": "Ipsos-Talan — Sociologie des électorats, 1er tour des législatives 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/ipsos-talan-sociologie-electorats-legislatives-30-juin-rapport-complet.pdf",
+        "date": "2024-06-30"
+       }
+      ]
+     },
+     {
+      "constat": "Aux européennes 2024, la liste Bardella recueille 53 % chez les ouvriers et 37 % dans les communes de moins de 2 000 habitants.",
+      "sources": [
+       {
+        "titre": "Ipsos — Sociologie des électorats, européennes 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/Ipsos-Sociologie-des-e%CC%81lectorats-10-juin-15h.pdf",
+        "date": "2024-06-10"
+       }
+      ]
+     },
+     {
+      "constat": "En septembre 2026, elle est en tête avec 30 à 36 % au premier tour. Cluster17 la mesure à environ 45 % chez les 50-64 ans et chez les ouvriers.",
+      "sources": [
+       {
+        "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+        "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+        "date": "2026-09-14"
+       },
+       {
+        "titre": "Public Sénat — Sondage Cluster17 pour Politico : Marine Le Pen largement en tête, suivie de Jean-Luc Mélenchon et Édouard Philippe à égalité",
+        "url": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite",
+        "date": "2026-09-24"
+       }
+      ]
+     }
+    ],
+    "propositions_ciblees": [
+     {
+      "proposition": "tva-zero-100-produits",
+      "beneficiaires": "Ménages modestes, dont la consommation pèse lourd dans le budget."
+     },
+     {
+      "proposition": "baisse-tva-gaz-electricite",
+      "beneficiaires": "Ménages chauffés à l'électricité ou au gaz, notamment en maison individuelle hors des grandes villes."
+     },
+     {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "beneficiaires": "Locataires et demandeurs HLM de nationalité française, au détriment des étrangers."
+     },
+     {
+      "proposition": "prestations-etrangers-cinq-ans-travail",
+      "beneficiaires": "Mesure payée par les étrangers résidant en France ; elle ne crée pas de prestation nouvelle pour son électorat."
+     },
+     {
+      "proposition": "suppression-zan",
+      "beneficiaires": "Communes rurales et périurbaines, et ménages qui veulent construire une maison."
+     },
+     {
+      "proposition": "dpe-indicatif-100-renov",
+      "beneficiaires": "Propriétaires bailleurs et occupants de logements mal classés."
+     }
+    ]
+   },
+   "ecart": "Elle dit parler au peuple tout entier. Son électorat mesuré est celui des actifs populaires (ouvriers, employés, non-diplômés) des petites villes et du rural. Une partie de ses gains prévus pour ce groupe repose sur des restrictions visant les étrangers, plutôt que sur des transferts entre catégories sociales.",
+   "enjeux_perso": [
+    {
+     "enjeu": "Condamnation en appel et pourvoi en cassation",
+     "explication": "Le 7 juillet 2026, la cour d'appel de Paris l'a condamnée pour détournement de fonds publics : trois ans de prison dont un an ferme sous bracelet électronique, 100 000 € d'amende et 45 mois d'inéligibilité, dont 30 avec sursis. Les 15 mois d'inéligibilité ferme sont déjà purgés, ce qui lui permet d'être candidate. Elle s'est pourvue en cassation ; une décision est attendue au plus tard début janvier 2027.",
+     "sources": [
+      {
+       "titre": "La Libre — Entre sentence et annonce de sa candidature à l'Elysée... Récit d'une journée mouvementée pour Marine Le Pen",
+       "url": "https://www.lalibre.be/international/europe/2026/07/07/entre-sentence-critiques-et-rebondissements-recit-dune-journee-chahutee-pour-marine-le-pen-KJTPBJQ6LBFCZJVSMTS3OO3MVA/",
+       "date": "2026-07-07"
+      },
+      {
+       "titre": "Le Temps — Le verdict est tombé : la justice n'empêche pas Marine Le Pen de se présenter à la présidentielle",
+       "url": "https://www.letemps.ch/articles/le-verdict-est-tombe-la-justice-n-empeche-pas-marine-le-pen-de-se-presenter-a-la-presidentielle",
+       "date": "2026-07-07"
+      }
+     ]
+    },
+    {
+     "enjeu": "Dernière chance et succession",
+     "explication": "C'est sa quatrième candidature après 2012, 2017 et 2022. Jordan Bardella, président du RN, la soutient et reste le candidat de recours si sa candidature tombe.",
+     "sources": [
+      {
+       "titre": "La Libre — Entre sentence et annonce de sa candidature à l'Elysée... Récit d'une journée mouvementée pour Marine Le Pen",
+       "url": "https://www.lalibre.be/international/europe/2026/07/07/entre-sentence-critiques-et-rebondissements-recit-dune-journee-chahutee-pour-marine-le-pen-KJTPBJQ6LBFCZJVSMTS3OO3MVA/",
+       "date": "2026-07-07"
+      },
+      {
+       "titre": "Wikipédia — Marine Le Pen",
+       "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
+      }
+     ]
+    },
+    {
+     "enjeu": "Âge",
+     "explication": "Née le 5 août 1968, elle aura 58 ans au premier tour.",
+     "sources": [
+      {
+       "titre": "Wikipédia — Marine Le Pen",
+       "url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen"
+      }
+     ]
+    }
+   ]
+  },
+  "bruno-retailleau": {
+   "groupe_affiche": "Le « Président de l'ordre, de la justice et de la fierté française », candidat de la droite et des Français qui travaillent.",
+   "groupe_reel": {
+    "resume": "Les retraités et les plus de 70 ans de la droite traditionnelle, catholiques pratiquants et ménages aisés. Les jeunes, les ouvriers et les employés sont presque absents.",
+    "arguments": [
+     {
+      "constat": "Repère 2022 (Valérie Pécresse, LR) : 12 % chez les 70 ans et plus et 13 % chez les catholiques pratiquants réguliers, contre 2 % chez les 18-24 ans, les ouvriers et les employés.",
+      "sources": [
+       {
+        "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+        "date": "2022-04-10"
+       }
+      ]
+     },
+     {
+      "constat": "Repère 2024 (LR aux législatives) : 14 % chez les 70 ans et plus, 13 % chez les retraités, 11 % chez les cadres, 6 % chez les ouvriers et 4 % chez les 18-24 ans.",
+      "sources": [
+       {
+        "titre": "Ipsos-Talan — Sociologie des électorats, 1er tour des législatives 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/ipsos-talan-sociologie-electorats-legislatives-30-juin-rapport-complet.pdf",
+        "date": "2024-06-30"
+       }
+      ]
+     },
+     {
+      "constat": "Repère européennes 2024 (liste Bellamy) : 12 % chez les 70 ans et plus et 16 % chez les catholiques pratiquants réguliers.",
+      "sources": [
+       {
+        "titre": "Ipsos — Sociologie des électorats, européennes 2024",
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2024-06/Ipsos-Sociologie-des-e%CC%81lectorats-10-juin-15h.pdf",
+        "date": "2024-06-10"
+       }
+      ]
+     },
+     {
+      "constat": "En septembre 2026, il est crédité de 7 à 10 % au premier tour, derrière Édouard Philippe dans toutes les hypothèses testées. 10 à 14 % des électeurs d'Emmanuel Macron en 2022 voteraient pour lui.",
+      "sources": [
+       {
+        "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+        "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+        "date": "2026-09-14"
+       },
+       {
+        "titre": "Public Sénat — Sondage Cluster17 pour Politico : Marine Le Pen largement en tête, suivie de Jean-Luc Mélenchon et Édouard Philippe à égalité",
+        "url": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite",
+        "date": "2026-09-24"
+       }
+      ]
+     }
+    ],
+    "propositions_ciblees": [
+     {
+      "proposition": "deduction-interets-emprunt-enfants",
+      "beneficiaires": "Ménages imposables qui achètent leur résidence principale, surtout avec enfants."
+     },
+     {
+      "proposition": "zero-cotisation-impot-heures-supplementaires",
+      "beneficiaires": "Salariés qui peuvent faire des heures supplémentaires, et leurs employeurs."
+     },
+     {
+      "proposition": "plafond-aides-sociales-70-smic",
+      "beneficiaires": "Mesure payée par les foyers qui cumulent des aides sociales, peu présents dans son électorat."
+     },
+     {
+      "proposition": "rsa-15-heures-activite",
+      "beneficiaires": "Mesure payée par les allocataires du RSA, de la prime d'activité et de l'ASS."
+     },
+     {
+      "proposition": "examen-entree-sixieme",
+      "beneficiaires": "Familles attachées à la sélection scolaire."
+     },
+     {
+      "proposition": "stockage-eau-irrigation",
+      "beneficiaires": "Agriculteurs irrigants."
+     }
+    ]
+   },
+   "ecart": "Il s'adresse aux « Français qui travaillent ». Son électorat mesuré est d'abord retraité, âgé et aisé. Ses efforts portent sur les allocataires et les chômeurs, et les retraités actuels ne sont pas mis à contribution.",
+   "enjeux_perso": [
+    {
+     "enjeu": "Légitimité dans son camp",
+     "explication": "Les adhérents LR l'ont désigné le 19 avril 2026 avec 73,8 % des votants, sans primaire ouverte. Laurent Wauquiez a voté blanc et parlé d'un « jeu de dupes ». David Lisnard a quitté LR, et lui comme Wauquiez réclament une primaire ouverte de la droite.",
+     "sources": [
+      {
+       "titre": "Public Sénat — Présidentielle : les adhérents LR désignent Bruno Retailleau comme candidat",
+       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-bruno-retailleau-designe-candidat-par-les-adherents-lr",
+       "date": "2026-04-19"
+      },
+      {
+       "titre": "Ma Commune — Présidentielle 2027 : Bruno Retailleau choisi pour représenter Les Républicains",
+       "url": "https://www.macommune.info/presidentielle-2027-bruno-retailleau-choisi-pour-representer-les-republicains/",
+       "date": "2026-04-20"
+      }
+     ]
+    },
+    {
+     "enjeu": "Survie électorale de LR",
+     "explication": "Distancé par Édouard Philippe au centre droit et par le RN sur l'immigration et la sécurité, il doit éviter une nouvelle chute sous 5 % (Pécresse : 4,8 % en 2022), qui priverait LR du remboursement de ses frais de campagne.",
+     "sources": [
+      {
+       "titre": "Toluna-Harris Interactive pour M6/RTL — Baromètre présidentielle 2027, vague 5",
+       "url": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-5-M6-RTL-14-septembre-2026.pdf",
+       "date": "2026-09-14"
+      },
+      {
+       "titre": "Ipsos-Sopra Steria — Sociologie des électorats, 1er tour présidentielle 2022",
+       "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2022-04/Ipsos%20Sopra%20Steria_Sociologie%20des%20e%CC%81lectorats_10%20Avril%2020h30.pdf",
+       "date": "2022-04-10"
+      }
+     ]
+    },
+    {
+     "enjeu": "Bilan au ministère de l'Intérieur",
+     "explication": "Ministre de l'Intérieur de septembre 2024 à octobre 2025, il fait campagne sur l'ordre et l'immigration et sera jugé sur son bilan dans ce ministère.",
+     "sources": [
+      {
+       "titre": "Wikipédia — Bruno Retailleau",
+       "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+      }
+     ]
+    },
+    {
+     "enjeu": "Âge",
+     "explication": "Né le 20 novembre 1960, il aura 66 ans au premier tour.",
+     "sources": [
+      {
+       "titre": "Wikipédia — Bruno Retailleau",
+       "url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

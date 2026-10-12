@@ -1,0 +1,1342 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "methode": "Chaque proposition reçoit 4 notes de 0 (irréalisable) à 10 (aisément réalisable) : juridique (Constitution, droit de l'UE, CEDH, traités), technique (moyens, capacités, administration), politique (majorité parlementaire nécessaire, Sénat, acceptabilité sociale), délai (réalisable dans le quinquennat 2027-2032). La note globale est la moyenne des 4, arrondie au demi-point. Trois lignes de justification : juridique, technique et délai, politique. Hypothèse commune : Assemblée sans majorité absolue assurée, Sénat à dominante LR-centriste ; une révision constitutionnelle (art. 89) exige un texte voté en termes identiques par les deux chambres puis 3/5 du Congrès ou un référendum. Même grille pour tous les candidats ; évaluation de la mesure telle que formulée, pas de son opportunité.",
+  "propositions": [
+    {
+      "proposition": "droit-de-vote-16-ans",
+      "note": 6,
+      "axes": {
+        "juridique": 5,
+        "technique": 9,
+        "politique": 3,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : l'âge de la majorité électorale relève de la loi (Code électoral), mais l'article 3 de la Constitution renvoie aux « nationaux majeurs », ce qui impose sans doute une révision constitutionnelle.",
+        "Technique et délai : inscription automatique sur les listes déjà en place, coût faible ; applicable aux scrutins suivant l'adoption.",
+        "Politique : la révision exige l'accord du Sénat, opposé à la mesure ; l'opinion y est majoritairement défavorable."
+      ]
+    },
+    {
+      "proposition": "suppression-parcoursup",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 4,
+        "politique": 6,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : Parcoursup repose sur la loi ORE de 2018 et des décrets ; une loi simple suffit à la supprimer.",
+        "Technique et délai : il faut une procédure de remplacement pour près d'un million de candidats par an ; « au plus vite » suppose au moins un cycle d'admission de transition (12 à 24 mois).",
+        "Politique : plateforme impopulaire chez les lycéens, mais la question du remplacement (sélection, capacités d'accueil) divise."
+      ]
+    },
+    {
+      "proposition": "retraite-60-ans",
+      "note": 5.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 3,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : l'âge légal et la durée d'assurance relèvent de la loi (LFSS ou loi ordinaire), sans obstacle constitutionnel.",
+        "Technique et délai : coût estimé à plusieurs dizaines de milliards d'euros par an selon le COR ; financement à construire, mise en œuvre progressive par génération.",
+        "Politique : populaire dans l'opinion, mais aucune majorité parlementaire probable hors gauche ; forte opposition patronale et du Sénat."
+      ]
+    },
+    {
+      "proposition": "400000-logements-abordables",
+      "note": 5,
+      "axes": {
+        "juridique": 8,
+        "technique": 3,
+        "politique": 5,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : relève de la loi de finances et des politiques de bailleurs sociaux ; pas d'obstacle de principe.",
+        "Technique et délai : la France a produit environ 85 000 logements sociaux par an ces dernières années ; quintupler la production bute sur le foncier, les entreprises du BTP et les délais de chantier (3 à 5 ans).",
+        "Politique : objectif consensuel sur le principe, mais financement public massif contesté dans un contexte de déficit élevé."
+      ]
+    },
+    {
+      "proposition": "encadrement-prix-foncier",
+      "note": 5,
+      "axes": {
+        "juridique": 5,
+        "technique": 5,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : une limitation des prix touche au droit de propriété et à la liberté contractuelle ; elle doit être proportionnée pour passer le Conseil constitutionnel.",
+        "Technique et délai : outils existants à étendre (préemption, établissements publics fonciers, observatoires) ; mise en place en 1 à 2 ans.",
+        "Politique : opposition des propriétaires et d'une partie des élus locaux ; soutien à gauche."
+      ]
+    },
+    {
+      "proposition": "isolation-700000-logements",
+      "note": 6,
+      "axes": {
+        "juridique": 9,
+        "technique": 4,
+        "politique": 6,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : politique d'aides et de normes déjà encadrée par la loi Climat et résilience ; pas d'obstacle.",
+        "Technique et délai : MaPrimeRénov' finance environ 70 000 rénovations d'ampleur par an ; multiplier par 10 suppose des artisans formés et un financement durable qui n'existent pas à court terme.",
+        "Politique : objectif largement partagé, mais le coût budgétaire et l'expérience des fraudes freinent l'adhésion."
+      ]
+    },
+    {
+      "proposition": "reouverture-urgences-proximite",
+      "note": 6,
+      "axes": {
+        "juridique": 9,
+        "technique": 3,
+        "politique": 7,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : organisation hospitalière relevant de la loi et des ARS ; aucun obstacle.",
+        "Technique et délai : les fermetures tiennent surtout au manque de médecins urgentistes et d'infirmiers ; former ces personnels prend 3 à 10 ans.",
+        "Politique : mesure très populaire, notamment en zone rurale ; peu d'opposition de principe."
+      ]
+    },
+    {
+      "proposition": "renationalisation-sncf",
+      "note": 4.5,
+      "axes": {
+        "juridique": 3,
+        "technique": 6,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : la SNCF est déjà publique (SA à capitaux 100 % État) ; mettre fin à la concurrence contredit le 4e paquet ferroviaire européen (règlement 2016/2338), sauf renégociation au niveau de l'UE.",
+        "Technique et délai : retour à un établissement public faisable en 1 à 2 ans ; résilier les contrats déjà attribués à d'autres opérateurs entraîne des indemnités.",
+        "Politique : soutien syndical et à gauche, opposition des régions qui ont ouvert leurs lignes et de la Commission européenne."
+      ]
+    },
+    {
+      "proposition": "arret-fermetures-services-publics",
+      "note": 7,
+      "axes": {
+        "juridique": 9,
+        "technique": 5,
+        "politique": 7,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : décisions d'organisation administrative ; un moratoire par circulaire ou loi ne pose pas de difficulté.",
+        "Technique et délai : arrêter les fermetures est rapide ; redéployer suppose des recrutements et des budgets sur plusieurs années.",
+        "Politique : attente forte dans les territoires ruraux ; le coût budgétaire reste l'objection principale."
+      ]
+    },
+    {
+      "proposition": "constituante-6e-republique",
+      "note": 3.5,
+      "axes": {
+        "juridique": 2,
+        "technique": 6,
+        "politique": 2,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : la Constitution ne prévoit pas d'assemblée constituante ; passer par l'article 11 serait contesté (précédent de 1962 critiqué), l'article 89 suppose l'accord des deux chambres.",
+        "Technique et délai : élection d'une constituante, rédaction, puis second référendum : 2 à 3 ans au minimum.",
+        "Politique : le Sénat et la majorité des partis sont opposés ; le résultat d'un référendum est très incertain."
+      ]
+    },
+    {
+      "proposition": "isf-impot-14-tranches",
+      "note": 7,
+      "axes": {
+        "juridique": 7,
+        "technique": 8,
+        "politique": 4,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : relève de la loi de finances ; le Conseil constitutionnel censure les taux jugés confiscatoires, ce qui plafonne le cumul des taux.",
+        "Technique et délai : l'administration fiscale a géré l'ISF jusqu'en 2017 ; applicable dès la première loi de finances.",
+        "Politique : rétablir l'ISF est populaire, mais la droite, le centre et le Sénat s'y opposent ; risque de départs de contribuables invoqué."
+      ]
+    },
+    {
+      "proposition": "heritage-maximal",
+      "note": 4,
+      "axes": {
+        "juridique": 3,
+        "technique": 5,
+        "politique": 2,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : un prélèvement de 100 % au-delà d'un seuil risque d'être jugé confiscatoire par le Conseil constitutionnel et contraire au droit de propriété (art. 1er protocole 1 CEDH).",
+        "Technique et délai : suivre les transmissions sur toute une vie suppose de conserver l'historique des donations au-delà du rappel fiscal actuel de 15 ans ; faisable avec un délai d'adaptation.",
+        "Politique : opposition forte au-delà de la gauche ; la fiscalité des héritages est très impopulaire."
+      ]
+    },
+    {
+      "proposition": "sortie-nucleaire-100-renouvelables",
+      "note": 5,
+      "axes": {
+        "juridique": 8,
+        "technique": 3,
+        "politique": 3,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : la programmation énergétique relève de la loi et de la PPE ; abandonner des EPR non lancés est possible, avec indemnisations éventuelles.",
+        "Technique et délai : RTE juge un scénario 100 % renouvelables en 2050 possible mais le plus exigeant (rythme de construction éolien/solaire jamais atteint, stockage, flexibilité) ; seul le lancement de la trajectoire tient dans le quinquennat.",
+        "Politique : opinion majoritairement favorable au nucléaire ; opposition de la plupart des partis, d'EDF et des syndicats de l'énergie."
+      ]
+    },
+    {
+      "proposition": "regularisation-travailleurs-etudiants",
+      "note": 5.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 6,
+        "politique": 2,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : régularisation par loi ou circulaire possible (précédents de 1981 et 1997) ; compatible avec le droit de l'UE, qui laisse les régularisations aux États.",
+        "Technique et délai : charge forte pour des préfectures déjà saturées ; réalisable en 1 à 2 ans avec des moyens supplémentaires.",
+        "Politique : opinion majoritairement hostile à une régularisation large ; aucune majorité parlementaire probable."
+      ]
+    },
+    {
+      "proposition": "desobeissance-regles-europeennes",
+      "note": 4,
+      "axes": {
+        "juridique": 1,
+        "technique": 6,
+        "politique": 3,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : contraire aux traités et au principe de primauté du droit de l'UE ; expose la France à des procédures en manquement et à des amendes devant la Cour de justice.",
+        "Technique et délai : écarter une norme est rapide en pratique, mais les juges nationaux doivent appliquer le droit européen, ce qui bloque l'effet réel.",
+        "Politique : conflit ouvert avec les partenaires européens ; opposition du centre et de la droite modérée."
+      ]
+    },
+    {
+      "proposition": "defense-independante-lpm",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : un livre blanc et une LPM sont des outils classiques ; arrêter les privatisations relève de la loi et des décisions de l'État actionnaire.",
+        "Technique et délai : une LPM peut être votée en un an ; restaurer une autonomie industrielle complète prend plus d'une décennie.",
+        "Politique : consensus large sur la défense ; divergences sur l'Otan et le financement."
+      ]
+    },
+    {
+      "proposition": "prix-planchers-agricoles",
+      "note": 5,
+      "axes": {
+        "juridique": 4,
+        "technique": 4,
+        "politique": 6,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : des prix minimaux imposés peuvent heurter le droit européen de la concurrence et l'organisation commune des marchés de la PAC ; un dispositif national doit rester limité.",
+        "Technique et délai : fixer un prix par filière et le contrôler est complexe, face à des importations moins chères ; 300 000 emplois agricoles supposent des installations sur une longue période.",
+        "Politique : demande forte du monde agricole, réserve de la grande distribution et des industriels."
+      ]
+    },
+    {
+      "proposition": "interdiction-glyphosate-neonicotinoides",
+      "note": 4,
+      "axes": {
+        "juridique": 4,
+        "technique": 4,
+        "politique": 3,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : le glyphosate est autorisé au niveau de l'UE jusqu'en 2033 ; une interdiction nationale générale est fragile, celle des néonicotinoïdes existe déjà en droit français depuis 2018.",
+        "Technique et délai : « immédiatement » laisse les exploitants sans alternative dans certaines cultures ; une sortie demande un accompagnement de plusieurs années.",
+        "Politique : opposition forte de la FNSEA et d'une partie du monde agricole ; soutien d'une majorité de l'opinion."
+      ]
+    },
+    {
+      "proposition": "retraite-65-ans-45-annuites",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 8,
+        "politique": 2,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : l'âge et la durée de cotisation relèvent de la loi, comme en 2023.",
+        "Technique et délai : paramètres simples à modifier, appliqués par génération ; « moins de dix ans » dépasse le quinquennat.",
+        "Politique : mesure très impopulaire ; la réforme de 2023 a nécessité le 49.3 et la réforme a été suspendue en 2025, majorité improbable."
+      ]
+    },
+    {
+      "proposition": "retraite-pilier-capitalisation",
+      "note": 5,
+      "axes": {
+        "juridique": 8,
+        "technique": 5,
+        "politique": 4,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : création par la loi possible ; confier la gestion aux partenaires sociaux existe déjà pour l'Agirc-Arrco.",
+        "Technique et délai : financer la transition (payer les pensions actuelles tout en épargnant) est coûteux ; l'objectif de 10-15 % des pensions est fixé à quinze ans.",
+        "Politique : défiance des syndicats et de la gauche envers la capitalisation ; soutien à droite."
+      ]
+    },
+    {
+      "proposition": "baisse-impots-production-50-mds",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : relève des lois de finances ; les impôts locaux de production touchent l'autonomie financière des collectivités (compensation obligatoire).",
+        "Technique et délai : réduire 50 milliards d'aides suppose d'en dresser la liste et de la faire voter ; étalement probable sur le quinquennat.",
+        "Politique : les entreprises bénéficiaires des aides supprimées s'y opposeront ; la gauche conteste les baisses d'impôts aux entreprises."
+      ]
+    },
+    {
+      "proposition": "regle-or-deficit-2-pct",
+      "note": 4,
+      "axes": {
+        "juridique": 6,
+        "technique": 4,
+        "politique": 3,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : inscription constitutionnelle possible mais par révision (art. 89) ; une règle existe déjà dans le traité budgétaire européen.",
+        "Technique et délai : passer de plus de 5 % à 2 % suppose environ 90 milliards d'euros d'effort en cinq ans, rythme jamais tenu en France.",
+        "Politique : la révision exige l'accord de deux chambres et 3/5 du Congrès ; l'effort budgétaire est impopulaire."
+      ]
+    },
+    {
+      "proposition": "non-remplacement-fonctionnaires",
+      "note": 6.5,
+      "axes": {
+        "juridique": 9,
+        "technique": 6,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : décision de gestion des effectifs par lois de finances ; pas d'obstacle.",
+        "Technique et délai : appliquée de 2007 à 2012 (un sur deux) ; les départs en retraite permettent la baisse sans licenciement, mais l'éducation, la santé et la sécurité limitent les postes concernés.",
+        "Politique : opposition des syndicats de fonctionnaires et des élus locaux ; soutien à droite."
+      ]
+    },
+    {
+      "proposition": "exoneration-travailler-plus",
+      "note": 6.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 5,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : exonération de cotisations par la loi (LFSS) ; différence de traitement à justifier pour respecter l'égalité.",
+        "Technique et délai : appliquée via les déclarations sociales des employeurs, mise en place en 1 an ; compensation à la Sécurité sociale à trouver.",
+        "Politique : bien reçue par les seniors actifs ; la gauche critique la perte de recettes pour la Sécurité sociale."
+      ]
+    },
+    {
+      "proposition": "allocation-familiale-unique-350-euros",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 5,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : prestations familiales définies par la loi ; refonte possible sans obstacle.",
+        "Technique et délai : les CAF doivent revoir leurs systèmes ; transition en 1 à 2 ans ; le coût dépend des allocations fusionnées.",
+        "Politique : versement dès le premier enfant populaire ; les familles nombreuses perdantes possibles s'y opposeront."
+      ]
+    },
+    {
+      "proposition": "exoneration-impot-jeunes-parents",
+      "note": 7,
+      "axes": {
+        "juridique": 6,
+        "technique": 8,
+        "politique": 6,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : avantage fiscal légal ; la définition des « classes moyennes » doit reposer sur des critères objectifs pour respecter l'égalité devant l'impôt.",
+        "Technique et délai : applicable via le prélèvement à la source dès la première loi de finances.",
+        "Politique : mesure nataliste plutôt consensuelle ; le coût et le ciblage seront discutés."
+      ]
+    },
+    {
+      "proposition": "pret-taux-zero-naissance",
+      "note": 8,
+      "axes": {
+        "juridique": 9,
+        "technique": 8,
+        "politique": 7,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : extension du PTZ existant par loi de finances.",
+        "Technique et délai : les banques distribuent déjà le PTZ ; mise en œuvre rapide.",
+        "Politique : peu d'opposition ; l'effet sur la natalité et le coût budgétaire restent discutés."
+      ]
+    },
+    {
+      "proposition": "hausse-20-pct-salaire-enseignants",
+      "note": 6.5,
+      "axes": {
+        "juridique": 9,
+        "technique": 5,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : grilles indiciaires fixées par décret ; aucun obstacle.",
+        "Technique et délai : coût de plusieurs milliards par an ; le financement par la baisse du nombre d'élèves suppose de supprimer des postes, ce qui prend tout le quinquennat.",
+        "Politique : hausse bien reçue par les enseignants, la réduction de postes l'est moins."
+      ]
+    },
+    {
+      "proposition": "amende-responsabilisation-scolaire",
+      "note": 6,
+      "axes": {
+        "juridique": 5,
+        "technique": 6,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : une sanction des parents pour le comportement de l'enfant doit respecter la personnalité des peines et la proportionnalité ; la suspension des allocations familiales pour absentéisme a été abrogée en 2013.",
+        "Technique et délai : création par la loi en 1 an ; le recouvrement auprès de familles modestes est difficile.",
+        "Politique : soutien à droite et dans l'opinion ; critiques des associations et de la gauche."
+      ]
+    },
+    {
+      "proposition": "autonomie-chefs-etablissement",
+      "note": 5,
+      "axes": {
+        "juridique": 7,
+        "technique": 5,
+        "politique": 3,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : faisable par la loi et le décret ; le recrutement local touche au statut des enseignants et aux règles de mutation.",
+        "Technique et délai : demande de former et équiper les chefs d'établissement ; raccourcir les vacances d'été modifie le calendrier national et le tourisme.",
+        "Politique : opposition probable des syndicats enseignants ; vacances raccourcies impopulaires chez les familles et les professionnels du tourisme."
+      ]
+    },
+    {
+      "proposition": "imprescriptibilite-crimes-mineurs",
+      "note": 6,
+      "axes": {
+        "juridique": 5,
+        "technique": 5,
+        "politique": 7,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : l'imprescriptibilité est aujourd'hui réservée aux crimes contre l'humanité ; l'étendre est possible par la loi mais le Conseil constitutionnel en contrôlera la proportionnalité ; le « droit de savoir » touche à la protection des données pénales.",
+        "Technique et délai : vote en 1 an ; les preuves s'affaiblissent avec le temps, ce qui limite les condamnations.",
+        "Politique : forte adhésion de l'opinion ; réserves des juristes."
+      ]
+    },
+    {
+      "proposition": "peines-planchers-suppression-jap",
+      "note": 5.5,
+      "axes": {
+        "juridique": 5,
+        "technique": 4,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : les peines planchers ont existé (2007-2014) avec possibilité pour le juge d'y déroger ; supprimer le JAP suppose de confier l'aménagement des peines à une autre autorité offrant les mêmes garanties.",
+        "Technique et délai : les prisons sont en surpopulation (plus de 80 000 détenus) ; de courtes peines dès la première infraction exigent des places qui manquent.",
+        "Politique : populaire à droite ; opposition des magistrats et de la gauche."
+      ]
+    },
+    {
+      "proposition": "etat-urgence-narco",
+      "note": 5.5,
+      "axes": {
+        "juridique": 4,
+        "technique": 5,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : un régime d'exception doit passer le contrôle du Conseil constitutionnel et de la CEDH ; la reconnaissance faciale est encadrée par le règlement européen sur l'IA ; supprimer l'excuse de minorité heurte un principe à valeur constitutionnelle.",
+        "Technique et délai : loi votable en 1 an ; l'effet dépend des moyens d'enquête.",
+        "Politique : soutien de la droite et d'une partie du centre ; opposition de la gauche et des défenseurs des libertés."
+      ]
+    },
+    {
+      "proposition": "diviser-par-deux-immigration-legale",
+      "note": 4.5,
+      "axes": {
+        "juridique": 3,
+        "technique": 5,
+        "politique": 5,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : les titres étudiants, familiaux et d'asile découlent largement du droit de l'UE et de la CEDH (vie familiale) ; seule une part des titres est maîtrisable par la loi.",
+        "Technique et délai : baisse rapide possible sur les visas étudiants et économiques ; atteindre la moitié en cinq ans est très incertain.",
+        "Politique : soutien d'une majorité de l'opinion ; opposition de la gauche, des universités et des secteurs employeurs."
+      ]
+    },
+    {
+      "proposition": "denonciation-accord-franco-algerien",
+      "note": 6.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 5,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : un traité bilatéral peut être dénoncé par la France ; la liste de pays sûrs et les quotas doivent rester compatibles avec le droit d'asile européen.",
+        "Technique et délai : dénonciation par simple notification ; les titres en cours restent à gérer.",
+        "Politique : crise diplomatique probable avec l'Algérie ; soutien de la droite et du RN."
+      ]
+    },
+    {
+      "proposition": "suspension-droit-sol-mayotte",
+      "note": 5.5,
+      "axes": {
+        "juridique": 3,
+        "technique": 8,
+        "politique": 6,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : le droit du sol relève de la loi, mais une suppression sur un seul territoire exige une révision constitutionnelle (art. 73 adapté) ; un décret « immédiat » ne suffit pas.",
+        "Technique et délai : application simple une fois le texte voté ; la révision prend au moins un an.",
+        "Politique : mesure soutenue à droite et par les élus mahorais ; la loi de 2025 l'a déjà durcie ; opposition de la gauche."
+      ]
+    },
+    {
+      "proposition": "reservistes-250000-drones",
+      "note": 6,
+      "axes": {
+        "juridique": 9,
+        "technique": 4,
+        "politique": 7,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : relève de la LPM et du code de la défense.",
+        "Technique et délai : multiplier les réservistes par 5,5 demande encadrement, équipements et formation ; production de drones à construire avec l'industrie ; objectif au-delà du quinquennat probable.",
+        "Politique : consensus sur l'effort de défense, mais le coût budgétaire est contraint."
+      ]
+    },
+    {
+      "proposition": "ukraine-otan-troupes-europeennes",
+      "note": 4.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 5,
+        "politique": 3,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : l'envoi de troupes relève du Président (art. 35, information du Parlement) ; l'entrée dans l'Otan exige l'unanimité des membres.",
+        "Technique et délai : déploiement conditionné à une paix qui n'existe pas ; l'adhésion à l'Otan dépend surtout des États-Unis.",
+        "Politique : opposition de plusieurs alliés à l'adhésion de l'Ukraine ; opinion française divisée sur l'envoi de troupes."
+      ]
+    },
+    {
+      "proposition": "protection-marche-europeen-chine",
+      "note": 4.5,
+      "axes": {
+        "juridique": 5,
+        "technique": 5,
+        "politique": 4,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : la politique commerciale est une compétence exclusive de l'UE ; les obligations de transfert de technologie doivent respecter les règles de l'OMC.",
+        "Technique et délai : suppose l'accord des 27 et de la Commission ; l'union des marchés de capitaux est en discussion depuis 2015.",
+        "Politique : l'Allemagne et d'autres États exportateurs vers la Chine sont réticents."
+      ]
+    },
+    {
+      "proposition": "relance-nucleaire-renouvelables",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 5,
+        "politique": 7,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : cadre déjà posé par la loi d'accélération du nucléaire de 2023 et la PPE.",
+        "Technique et délai : les 6 EPR2 annoncés ne produiront pas avant 2035-2040 ; l'électrification des usages se fait sur 10 à 20 ans.",
+        "Politique : large soutien à la relance du nucléaire ; le développement de l'éolien suscite des oppositions locales."
+      ]
+    },
+    {
+      "proposition": "doubler-fonds-vert-adaptation",
+      "note": 7,
+      "axes": {
+        "juridique": 9,
+        "technique": 6,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : crédits budgétaires votés en loi de finances.",
+        "Technique et délai : le Fonds vert a été réduit en 2024-2025 ; le doubler demande un arbitrage budgétaire ; rendre toutes les rivières baignables est un objectif de long terme.",
+        "Politique : soutien des collectivités ; le coût pèse face à l'objectif de réduction du déficit du même candidat."
+      ]
+    },
+    {
+      "proposition": "ia-souveraine-100000-ingenieurs",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 4,
+        "politique": 7,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : politique industrielle et de formation possible ; les aides d'État sont encadrées par l'UE.",
+        "Technique et délai : former 100 000 ingénieurs par an (contre 40 000) exige des enseignants, des places et des candidats en sciences ; une promotion d'ingénieurs prend 5 ans.",
+        "Politique : objectif consensuel ; financement européen à négocier."
+      ]
+    },
+    {
+      "proposition": "alignement-normes-agricoles",
+      "note": 6,
+      "axes": {
+        "juridique": 7,
+        "technique": 6,
+        "politique": 5,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : supprimer les normes nationales allant au-delà du droit européen relève de la loi et du règlement ; le stockage de l'eau est encadré par le droit de l'environnement.",
+        "Technique et délai : revue des normes en 1 à 2 ans ; les retenues d'eau prennent plusieurs années.",
+        "Politique : soutien de la FNSEA ; opposition des associations environnementales, conflits locaux sur les retenues d'eau."
+      ]
+    },
+    {
+      "proposition": "charte-environnement-agriculture",
+      "note": 6,
+      "axes": {
+        "juridique": 6,
+        "technique": 8,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : la Charte de l'environnement a valeur constitutionnelle ; la modifier exige une révision (art. 89).",
+        "Technique et délai : texte court à rédiger ; procédure de révision d'au moins un an.",
+        "Politique : la révision suppose une large majorité au Congrès ; la gauche et les écologistes s'y opposeront."
+      ]
+    },
+    {
+      "proposition": "regle-or-referendum",
+      "note": 5.5,
+      "axes": {
+        "juridique": 4,
+        "technique": 7,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : le référendum de l'article 11 ne permet pas, selon la lecture dominante, de réviser la Constitution ; l'article 89 impose un vote préalable des deux chambres.",
+        "Technique et délai : organisation d'un référendum en 12 mois réaliste si le Parlement suit.",
+        "Politique : le principe d'une règle d'or peut rassembler à droite et au centre ; la voie du référendum direct sera combattue."
+      ]
+    },
+    {
+      "proposition": "economies-140-milliards-2032",
+      "note": 4.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 3,
+        "politique": 3,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : économies votées en lois de finances ; une partie repose sur des mesures juridiquement fragiles (priorité nationale, baisse de la contribution à l'UE).",
+        "Technique et délai : 140 milliards d'euros représentent environ 9 % des dépenses publiques ; aucun gouvernement n'a tenu un tel rythme.",
+        "Politique : les économies ciblées touchent les collectivités, les agences et les étrangers ; contestation forte au Parlement."
+      ]
+    },
+    {
+      "proposition": "baisse-contribution-ue",
+      "note": 3.5,
+      "axes": {
+        "juridique": 1,
+        "technique": 6,
+        "politique": 3,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : la contribution découle de la décision « ressources propres » adoptée à l'unanimité et ratifiée ; une baisse unilatérale est contraire aux traités.",
+        "Technique et délai : seule la négociation du cadre financier 2028-2034 permet une baisse, avec l'accord des 27.",
+        "Politique : conflit avec les partenaires européens ; opposition du centre et de la droite pro-européenne."
+      ]
+    },
+    {
+      "proposition": "prestations-etrangers-cinq-ans-travail",
+      "note": 4,
+      "axes": {
+        "juridique": 1,
+        "technique": 6,
+        "politique": 5,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : le Conseil constitutionnel a censuré en janvier 2024 une condition de résidence de 5 ans pour certaines prestations ; le principe d'égalité, le droit de l'UE et la CEDH s'y opposent, d'où le projet de révision constitutionnelle.",
+        "Technique et délai : les CAF peuvent contrôler une durée d'activité ; mise en place après une révision constitutionnelle incertaine.",
+        "Politique : soutien d'une partie importante de l'opinion ; opposition du centre, de la gauche et probablement du Sénat sur la voie constitutionnelle."
+      ]
+    },
+    {
+      "proposition": "tva-zero-100-produits",
+      "note": 7.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 7,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : la directive TVA révisée en 2022 autorise un taux zéro sur une liste de biens essentiels, dans des limites.",
+        "Technique et délai : définir la liste et adapter les caisses prend quelques mois ; le coût est de plusieurs milliards d'euros par an.",
+        "Politique : mesure populaire ; débat sur la répercussion réelle sur les prix par les distributeurs."
+      ]
+    },
+    {
+      "proposition": "baisse-tva-gaz-electricite",
+      "note": 8,
+      "axes": {
+        "juridique": 7,
+        "technique": 8,
+        "politique": 7,
+        "delai": 9
+      },
+      "justification": [
+        "Juridique : la directive TVA autorise un taux réduit sur l'énergie, avec des réserves pour les énergies fossiles.",
+        "Technique et délai : simple modification de taux en loi de finances, effet immédiat.",
+        "Politique : populaire ; coût de plusieurs milliards et critique écologique pour le gaz."
+      ]
+    },
+    {
+      "proposition": "taxe-rachats-actions",
+      "note": 7,
+      "axes": {
+        "juridique": 8,
+        "technique": 7,
+        "politique": 5,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : taxe créée par loi de finances ; une taxe de ce type a déjà été débattue au Parlement en 2024-2025.",
+        "Technique et délai : assiette facile à mesurer ; applicable en un an ; le rendement de 11,4 milliards suppose que les entreprises ne réduisent pas leurs rachats.",
+        "Politique : soutien de la gauche et du RN ; opposition des milieux économiques et d'une partie de la droite."
+      ]
+    },
+    {
+      "proposition": "suppression-epci-metropoles",
+      "note": 3,
+      "axes": {
+        "juridique": 5,
+        "technique": 2,
+        "politique": 2,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : les EPCI et métropoles sont créés par la loi et peuvent être supprimés par elle ; la métropole de Lyon est une collectivité à statut particulier (art. 72).",
+        "Technique et délai : il faut redistribuer les compétences (eau, déchets, transports), les personnels et les dettes de plus de 1 200 structures ; chantier de plusieurs années.",
+        "Politique : opposition forte des élus locaux et du Sénat ; la contribution de 8,2 milliards aggrave le conflit avec les collectivités."
+      ]
+    },
+    {
+      "proposition": "suppression-agences-etat",
+      "note": 5,
+      "axes": {
+        "juridique": 7,
+        "technique": 4,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : la plupart des agences sont créées par la loi ou le décret et peuvent être supprimées de même ; certaines découlent d'obligations européennes (régulateurs indépendants).",
+        "Technique et délai : leurs missions doivent être reprises par les ministères ; les économies réelles sont plus faibles que les budgets supprimés.",
+        "Politique : thème populaire ; résistance des secteurs concernés et doutes sur le montant chiffré."
+      ]
+    },
+    {
+      "proposition": "retraites-pilier-capitalisation",
+      "note": 5,
+      "axes": {
+        "juridique": 8,
+        "technique": 4,
+        "politique": 4,
+        "delai": 3
+      },
+      "justification": [
+        "Juridique : création d'un pilier de capitalisation possible par la loi.",
+        "Technique et délai : les « corrections de mesures injustes » ne sont pas détaillées ; la capitalisation demande une transition longue et coûteuse.",
+        "Politique : opposition des syndicats à la capitalisation ; flou sur les économies chiffrées."
+      ]
+    },
+    {
+      "proposition": "ame-transformee-amu",
+      "note": 7,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 5,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : l'AME relève de la loi ; une restriction aux soins urgents est possible mais doit respecter le droit à la protection de la santé (préambule de 1946).",
+        "Technique et délai : faisable par loi de finances ; risque de report des soins vers les urgences hospitalières.",
+        "Politique : le Sénat a déjà voté une telle transformation en 2023 ; opposition des soignants et de la gauche."
+      ]
+    },
+    {
+      "proposition": "impot-fortune-financiere",
+      "note": 7,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 5,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : impôt sur la fortune possible par loi de finances, comme l'ISF jusqu'en 2017.",
+        "Technique et délai : l'administration sait valoriser les actifs financiers ; applicable en un an.",
+        "Politique : la gauche y est favorable, le centre et la droite opposés ; le rendement de 4 milliards est discuté."
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-pen",
+      "note": 5,
+      "axes": {
+        "juridique": 3,
+        "technique": 7,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : un référendum constitutionnel passe normalement par l'article 89 (vote des deux chambres) ; l'usage de l'article 11 pour réviser la Constitution est contesté ; le contenu (priorité nationale) heurte aussi le droit de l'UE et la CEDH.",
+        "Technique et délai : organiser un référendum prend quelques mois une fois la voie juridique tranchée.",
+        "Politique : thème soutenu par une majorité de l'opinion selon les sondages ; le Sénat peut bloquer la voie de l'article 89."
+      ]
+    },
+    {
+      "proposition": "interdiction-progressive-voile",
+      "note": 4.5,
+      "axes": {
+        "juridique": 2,
+        "technique": 6,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : une interdiction générale dans l'espace public par décret méconnaît la liberté religieuse (art. 9 CEDH) ; à l'université et pour les accompagnatrices scolaires, le Conseil d'État a jugé ces interdictions non fondées en droit actuel ; une loi serait nécessaire et fragile.",
+        "Technique et délai : décret rapide à prendre mais exposé à une suspension en référé.",
+        "Politique : soutien d'une partie de la droite ; opposition de la gauche, du centre et des cultes."
+      ]
+    },
+    {
+      "proposition": "referendum-ideologies-islamistes",
+      "note": 5,
+      "axes": {
+        "juridique": 3,
+        "technique": 6,
+        "politique": 5,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : l'article 11 ne couvre pas tout le champ visé ; la dissolution d'associations (dont les Frères musulmans) se fait déjà par décret, sous contrôle du juge ; les libertés de culte et d'association limitent les interdictions générales.",
+        "Technique et délai : référendum organisable en quelques mois si la question est recevable.",
+        "Politique : thème porteur à droite ; la loi « séparatisme » de 2021 couvre déjà une partie des objectifs."
+      ]
+    },
+    {
+      "proposition": "priorite-nationale-logement-social-apl",
+      "note": 4,
+      "axes": {
+        "juridique": 1,
+        "technique": 6,
+        "politique": 4,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : une préférence fondée sur la nationalité est contraire au principe d'égalité, au droit de l'UE (ressortissants européens, résidents de longue durée) et à la CEDH ; elle suppose une révision constitutionnelle.",
+        "Technique et délai : contrôle de nationalité simple pour les bailleurs et les CAF, mais seulement après la révision.",
+        "Politique : soutien d'une partie de l'opinion ; opposition des bailleurs sociaux, de la gauche et du centre."
+      ]
+    },
+    {
+      "proposition": "abrogation-loi-sru-vente-hlm",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 5,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : la loi SRU peut être abrogée par la loi ; la vente de HLM est déjà autorisée (loi Elan).",
+        "Technique et délai : abrogation rapide ; les ventes de HLM sont lentes (moins de 15 000 par an) et rapportent peu par logement.",
+        "Politique : soutien de certains maires ; opposition des associations et de la gauche, réserves au centre."
+      ]
+    },
+    {
+      "proposition": "terrains-publics-gratuits-constructeurs",
+      "note": 6.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 6,
+        "politique": 7,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : la cession gratuite ou à prix réduit de terrains publics existe déjà (décote Duflot) ; elle doit respecter le droit des aides d'État et la mise en concurrence.",
+        "Technique et délai : le stock de terrains disponibles est limité et souvent mal situé ; construction en 3 à 5 ans.",
+        "Politique : peu d'opposition de principe ; collectivités et administrations propriétaires réticentes à céder gratuitement."
+      ]
+    },
+    {
+      "proposition": "suppression-zan",
+      "note": 7.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 8,
+        "politique": 6,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : le ZAN vient de la loi Climat et résilience de 2021 et peut être supprimé par la loi.",
+        "Technique et délai : simple abrogation, mais les documents d'urbanisme déjà révisés devront être repris.",
+        "Politique : le Sénat a déjà voté un assouplissement fort en 2025 ; opposition des écologistes et des défenseurs des sols."
+      ]
+    },
+    {
+      "proposition": "dpe-indicatif-100-renov",
+      "note": 6.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 6,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : le DPE découle en partie de la directive européenne sur la performance énergétique des bâtiments, qui impose sa délivrance ; le rendre indicatif pour les interdictions de location relève de la loi nationale.",
+        "Technique et délai : remplacer MaPrimeRénov' par un prêt à taux zéro est faisable en un an avec les banques.",
+        "Politique : soutien des propriétaires bailleurs ; opposition des associations de locataires et des écologistes."
+      ]
+    },
+    {
+      "proposition": "expulsion-familles-delinquantes-hlm",
+      "note": 5.5,
+      "axes": {
+        "juridique": 4,
+        "technique": 5,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : l'expulsion pour troubles de jouissance existe déjà via le juge ; une expulsion de toute la famille et une exclusion automatique de trois ans posent un problème de personnalité des peines et de droit au logement.",
+        "Technique et délai : loi votable en un an ; les procédures d'expulsion restent longues.",
+        "Politique : populaire auprès d'une partie des locataires ; opposition des associations et de la gauche."
+      ]
+    },
+    {
+      "proposition": "loi-anti-squats",
+      "note": 8.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 8,
+        "politique": 8,
+        "delai": 9
+      },
+      "justification": [
+        "Juridique : une loi anti-squat a été adoptée en 2023 (loi Kasbarian) ; la renforcer est possible dans le respect du contradictoire.",
+        "Technique et délai : vote rapide en début de mandat ; l'effet dépend des délais d'intervention de la police et des préfectures.",
+        "Politique : large soutien à droite et au centre ; la gauche critique l'effet sur les locataires en impayés."
+      ]
+    },
+    {
+      "proposition": "reduction-aide-financiere-ukraine",
+      "note": 7,
+      "axes": {
+        "juridique": 7,
+        "technique": 8,
+        "politique": 4,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : l'aide bilatérale relève du gouvernement ; la part européenne (facilité pour l'Ukraine) est déjà engagée et ne peut être réduite seule.",
+        "Technique et délai : réduction immédiate possible sur les crédits nationaux.",
+        "Politique : opposition des partenaires européens et de la majorité des partis français ; opinion divisée."
+      ]
+    },
+    {
+      "proposition": "referendum-immigration-retailleau",
+      "note": 5,
+      "axes": {
+        "juridique": 4,
+        "technique": 7,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : prévoit une révision constitutionnelle préalable, voie juridiquement correcte (art. 89) ; le contenu reste soumis au droit de l'UE et à la CEDH.",
+        "Technique et délai : révision puis référendum : 1 à 2 ans.",
+        "Politique : la révision exige l'accord des deux chambres ; l'Assemblée n'est pas acquise."
+      ]
+    },
+    {
+      "proposition": "abrogation-droit-du-sol",
+      "note": 6,
+      "axes": {
+        "juridique": 5,
+        "technique": 8,
+        "politique": 4,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : le droit du sol relève du Code civil, mais le Conseil constitutionnel pourrait y voir un principe fondamental reconnu par les lois de la République ; une révision sécuriserait la mesure.",
+        "Technique et délai : application simple aux naissances suivant la loi.",
+        "Politique : soutien de la droite et du RN ; opposition du centre et de la gauche, majorité incertaine."
+      ]
+    },
+    {
+      "proposition": "majorite-penale-15-ans",
+      "note": 5,
+      "axes": {
+        "juridique": 3,
+        "technique": 5,
+        "politique": 5,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : l'atténuation de responsabilité des mineurs et la primauté de l'éducatif sont un principe fondamental reconnu par les lois de la République ; la Convention internationale des droits de l'enfant fixe la minorité à 18 ans.",
+        "Technique et délai : loi votable en un an ; les quartiers pour mineurs et les prisons sont saturés.",
+        "Politique : soutien à droite et au RN ; opposition des magistrats, éducateurs et de la gauche."
+      ]
+    },
+    {
+      "proposition": "peines-minimales-agressions-forces-ordre",
+      "note": 7,
+      "axes": {
+        "juridique": 6,
+        "technique": 6,
+        "politique": 7,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : des peines minimales sont admises si le juge garde la possibilité d'y déroger par décision motivée (individualisation des peines).",
+        "Technique et délai : loi votable rapidement ; impact limité sur la surpopulation carcérale.",
+        "Politique : soutien large de la droite et du centre ; réserves de la gauche et des magistrats."
+      ]
+    },
+    {
+      "proposition": "referendum-domaine-loi-elargi",
+      "note": 6,
+      "axes": {
+        "juridique": 6,
+        "technique": 8,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : réviser l'article 11 passe par l'article 89, voie juridiquement solide.",
+        "Technique et délai : texte simple ; procédure de révision d'au moins un an.",
+        "Politique : la gauche peut soutenir l'abaissement du seuil du RIP mais pas l'extension à l'immigration ; 3/5 du Congrès difficiles à réunir."
+      ]
+    },
+    {
+      "proposition": "primaute-constitution-droit-ue",
+      "note": 5,
+      "axes": {
+        "juridique": 2,
+        "technique": 8,
+        "politique": 4,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : inscrire cette règle dans la Constitution est possible en droit interne, mais elle contredit la primauté du droit de l'UE affirmée par la Cour de justice et expose à une procédure en manquement.",
+        "Technique et délai : révision constitutionnelle d'au moins un an.",
+        "Politique : opposition du centre et de la gauche ; risque de crise avec l'UE."
+      ]
+    },
+    {
+      "proposition": "sortie-35-heures-annualisation",
+      "note": 6,
+      "axes": {
+        "juridique": 8,
+        "technique": 7,
+        "politique": 3,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : la durée légale relève de la loi ; l'annualisation existe déjà par accords d'entreprise.",
+        "Technique et délai : relever le seuil de 1 607 à 1 623 heures est simple ; l'adaptation des accords collectifs prend du temps.",
+        "Politique : opposition des syndicats et de la gauche ; mesure peu populaire chez les salariés."
+      ]
+    },
+    {
+      "proposition": "zero-cotisation-impot-heures-supplementaires",
+      "note": 7,
+      "axes": {
+        "juridique": 7,
+        "technique": 7,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : exonérations légales déjà pratiquées (2007 puis 2019) ; la compensation à la Sécurité sociale est obligatoire.",
+        "Technique et délai : applicable via les fiches de paie en un an ; coût de plusieurs milliards par an.",
+        "Politique : populaire chez les salariés concernés ; critique de l'effet d'aubaine et du coût."
+      ]
+    },
+    {
+      "proposition": "plafond-aides-sociales-70-smic",
+      "note": 4.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 4,
+        "politique": 4,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : le plafonnement doit préserver le droit à des moyens convenables d'existence (préambule de 1946), notamment pour les familles et les personnes handicapées.",
+        "Technique et délai : un compte social unique suppose de relier les systèmes des CAF, de France Travail et des départements : chantier de plusieurs années.",
+        "Politique : thème porteur à droite ; opposition des associations et de la gauche."
+      ]
+    },
+    {
+      "proposition": "rsa-15-heures-activite",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 5,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : les 15 heures d'activité ont été généralisées par la loi « plein emploi » de 2023 ; la fusion des aides relève de la loi.",
+        "Technique et délai : fusion des systèmes de la CAF et de France Travail en 2 à 3 ans ; l'encadrement des activités demande des moyens.",
+        "Politique : soutien de la droite et du centre ; opposition de la gauche et des départements sur le financement."
+      ]
+    },
+    {
+      "proposition": "chomage-fin-apres-trois-refus",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 5,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : la radiation après deux refus d'offre raisonnable existe déjà ; l'assurance chômage relève de la loi et des partenaires sociaux.",
+        "Technique et délai : applicable par décret ou loi en un an ; l'efficacité dépend du contrôle par France Travail.",
+        "Politique : soutien à droite et au centre ; opposition des syndicats."
+      ]
+    },
+    {
+      "proposition": "revenu-parental-unique",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 5,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : refonte des prestations familiales par la loi, sans obstacle.",
+        "Technique et délai : les CAF doivent refondre leurs systèmes ; transition en 1 à 2 ans ; montant non précisé.",
+        "Politique : versement dès le premier enfant populaire ; perdants potentiels selon le barème."
+      ]
+    },
+    {
+      "proposition": "examen-entree-sixieme",
+      "note": 6.5,
+      "axes": {
+        "juridique": 9,
+        "technique": 6,
+        "politique": 4,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : relève du Code de l'éducation et du décret.",
+        "Technique et délai : organisation d'un examen national pour environ 800 000 élèves faisable en 1 à 2 ans ; les groupes de niveau ont déjà été lancés en 2024.",
+        "Politique : opposition des syndicats enseignants et des parents d'élèves ; soutien à droite."
+      ]
+    },
+    {
+      "proposition": "etablissements-publics-libres",
+      "note": 6.5,
+      "axes": {
+        "juridique": 8,
+        "technique": 6,
+        "politique": 5,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : possible par la loi, sur le modèle de l'expérimentation ; le respect des programmes nationaux et de l'égalité d'accès doit être garanti.",
+        "Technique et délai : 1 000 établissements volontaires sur cinq ans réalistes si les équipes adhèrent.",
+        "Politique : réserve des syndicats sur l'autonomie ; soutien à droite et au centre."
+      ]
+    },
+    {
+      "proposition": "salaires-enseignants-moyenne-europeenne",
+      "note": 6.5,
+      "axes": {
+        "juridique": 9,
+        "technique": 5,
+        "politique": 6,
+        "delai": 6
+      },
+      "justification": [
+        "Juridique : grilles fixées par décret ; réforme de l'affectation par décret et accords.",
+        "Technique et délai : coût de plusieurs milliards par an ; hausse « nette » non chiffrée.",
+        "Politique : hausse bien reçue ; la réforme de l'affectation et de l'avancement sera contestée par les syndicats."
+      ]
+    },
+    {
+      "proposition": "deduction-interets-emprunt-enfants",
+      "note": 7.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 8,
+        "politique": 6,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : avantage fiscal par loi de finances ; un dispositif proche a existé (2007-2010).",
+        "Technique et délai : applicable via la déclaration de revenus en un an ; coût élevé sans plafond annoncé.",
+        "Politique : populaire chez les familles propriétaires ; critique de l'effet inflationniste sur les prix immobiliers."
+      ]
+    },
+    {
+      "proposition": "suppression-zan-dpe",
+      "note": 7.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 8,
+        "politique": 6,
+        "delai": 8
+      },
+      "justification": [
+        "Juridique : ZAN et interdictions de location liées au DPE viennent de la loi Climat et résilience et peuvent être supprimés par la loi ; la directive européenne bâtiments impose des objectifs de rénovation.",
+        "Technique et délai : simple abrogation, effet rapide.",
+        "Politique : soutien des propriétaires et de nombreux élus locaux ; opposition des écologistes et des associations de locataires."
+      ]
+    },
+    {
+      "proposition": "million-logements-cinq-ans",
+      "note": 5.5,
+      "axes": {
+        "juridique": 7,
+        "technique": 4,
+        "politique": 6,
+        "delai": 4
+      },
+      "justification": [
+        "Juridique : une loi d'urgence peut raccourcir les délais, dans la limite du droit des recours et de l'environnement européen.",
+        "Technique et délai : 200 000 logements supplémentaires par an s'ajoutent à une production déjà tombée sous 300 000 ; capacité du BTP et financement des ménages limitants.",
+        "Politique : objectif consensuel ; la simplification des recours suscitera des oppositions locales."
+      ]
+    },
+    {
+      "proposition": "suppression-certificats-economie-energie",
+      "note": 6.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 7,
+        "politique": 6,
+        "delai": 7
+      },
+      "justification": [
+        "Juridique : les CEE relèvent de la loi française ; la directive efficacité énergétique impose des objectifs d'économies qu'il faudra atteindre autrement.",
+        "Technique et délai : suppression simple ; les programmes financés par les CEE devront être repris ou arrêtés.",
+        "Politique : baisse du prix des carburants populaire ; opposition des acteurs de la rénovation."
+      ]
+    },
+    {
+      "proposition": "fin-subventions-eolien-solaire",
+      "note": 5.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 5,
+        "politique": 5,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : les contrats de soutien déjà signés sont protégés et doivent être honorés ; les objectifs européens de renouvelables s'appliquent.",
+        "Technique et délai : arrêt des nouveaux appels d'offres immédiat ; un nouveau parc nucléaire ne produira pas avant 2035-2040, d'où un risque de manque de production.",
+        "Politique : soutien d'une partie de la droite et du RN ; opposition des filières et des écologistes."
+      ]
+    },
+    {
+      "proposition": "suppression-principe-precaution",
+      "note": 5.5,
+      "axes": {
+        "juridique": 5,
+        "technique": 9,
+        "politique": 3,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : le principe est inscrit à l'article 5 de la Charte de l'environnement (valeur constitutionnelle) et dans le traité sur le fonctionnement de l'UE ; une révision constitutionnelle ne supprime que la partie française.",
+        "Technique et délai : texte court, procédure de révision d'au moins un an.",
+        "Politique : la révision exige 3/5 du Congrès ; opposition de la gauche, des écologistes et d'une partie du centre."
+      ]
+    },
+    {
+      "proposition": "stockage-eau-irrigation",
+      "note": 5.5,
+      "axes": {
+        "juridique": 6,
+        "technique": 6,
+        "politique": 5,
+        "delai": 5
+      },
+      "justification": [
+        "Juridique : les retenues d'eau sont soumises à autorisation environnementale et au droit européen de l'eau ; plusieurs projets ont été annulés par les juges.",
+        "Technique et délai : chaque retenue prend plusieurs années entre études, recours et travaux.",
+        "Politique : soutien du monde agricole ; conflits locaux forts (précédent de Sainte-Soline)."
+      ]
+    }
+  ]
+}

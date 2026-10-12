@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/data/schema.json",
+  "title": "Fiche du comparateur présidentielle",
+  "description": "Une fiche = un ou plusieurs candidats, leurs propositions et l'évaluation de chaque proposition.",
+  "type": "object",
+  "required": ["version", "candidats", "propositions"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "enum": [1] },
+    "candidats": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/candidat" } },
+    "propositions": { "type": "array", "items": { "$ref": "#/$defs/proposition" } }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "texte": { "type": "string", "minLength": 1 },
+    "note": {
+      "description": "Note de 0 (très défavorable) à 10 (très favorable).",
+      "type": "number", "minimum": 0, "maximum": 10
+    },
+    "source": {
+      "type": "object",
+      "required": ["titre", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "titre": { "$ref": "#/$defs/texte" },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "categorie": {
+      "type": "string",
+      "enum": [
+        "economie", "fiscalite", "emploi", "social", "sante", "education",
+        "ecologie", "energie", "securite", "justice", "immigration",
+        "institutions", "europe", "international", "defense", "culture",
+        "numerique", "agriculture", "logement", "autre"
+      ]
+    },
+    "candidat": {
+      "type": "object",
+      "required": ["id", "nom", "parti", "groupe_represente", "enjeux_perso"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "nom": { "$ref": "#/$defs/texte" },
+        "parti": { "$ref": "#/$defs/texte" },
+        "groupe_represente": {
+          "description": "Électorat ou groupe social que le candidat entend représenter.",
+          "$ref": "#/$defs/texte"
+        },
+        "enjeux_perso": {
+          "description": "Enjeux personnels : carrière, positionnement, conflits d'intérêts, affaires.",
+          "type": "array", "items": { "$ref": "#/$defs/texte" }
+        },
+        "sources": { "$ref": "#/$defs/sources" }
+      }
+    },
+    "proposition": {
+      "type": "object",
+      "required": ["id", "candidat", "categorie", "texte", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "candidat": { "description": "id d'un candidat de la fiche.", "$ref": "#/$defs/id" },
+        "categorie": { "$ref": "#/$defs/categorie" },
+        "texte": { "$ref": "#/$defs/texte" },
+        "source": { "$ref": "#/$defs/source" },
+        "evaluations": { "$ref": "#/$defs/evaluations" }
+      }
+    },
+    "evaluation": {
+      "description": "Évaluation simple : note + commentaire + sources.",
+      "type": "object",
+      "required": ["note", "commentaire"],
+      "additionalProperties": false,
+      "properties": {
+        "note": { "$ref": "#/$defs/note" },
+        "commentaire": { "$ref": "#/$defs/texte" },
+        "sources": { "$ref": "#/$defs/sources" }
+      }
+    },
+    "evaluations": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "adhesion": {
+          "description": "Adhésion dans l'opinion : estimation synthétique argumentée et, si un sondage existe, mesure réelle sourcée (reelle).",
+          "type": "object",
+          "required": ["pourcentage", "commentaire"],
+          "additionalProperties": false,
+          "properties": {
+            "pourcentage": { "description": "Adhésion estimée (% favorables).", "type": "number", "minimum": 0, "maximum": 100 },
+            "rejet": { "description": "Rejet estimé (% opposés).", "type": "number", "minimum": 0, "maximum": 100 },
+            "commentaire": { "$ref": "#/$defs/texte" },
+            "sources": { "$ref": "#/$defs/sources" },
+            "reelle": {
+              "description": "Adhésion mesurée par un sondage sur la mesure ou une mesure très proche.",
+              "type": "object",
+              "required": ["pourcentage", "commentaire", "sources"],
+              "additionalProperties": false,
+              "properties": {
+                "pourcentage": { "type": "number", "minimum": 0, "maximum": 100 },
+                "rejet": { "type": "number", "minimum": 0, "maximum": 100 },
+                "commentaire": { "$ref": "#/$defs/texte" },
+                "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } }
+              }
+            }
+          }
+        },
+        "faisabilite": { "$ref": "#/$defs/evaluation" },
+        "cout": {
+          "description": "Coût annuel net pour les finances publiques, en milliards d'euros (négatif = économie).",
+          "type": "object",
+          "required": ["milliards_eur_an", "commentaire"],
+          "additionalProperties": false,
+          "properties": {
+            "milliards_eur_an": { "type": "number" },
+            "fourchette": {
+              "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "number" }
+            },
+            "commentaire": { "$ref": "#/$defs/texte" },
+            "sources": { "$ref": "#/$defs/sources" }
+          }
+        },
+        "biais": {
+          "description": "Biais repérés dans la présentation de la proposition.",
+          "type": "array", "items": { "$ref": "#/$defs/texte" }
+        },
+        "impacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["domaine", "sens", "description"],
+            "additionalProperties": false,
+            "properties": {
+              "domaine": { "$ref": "#/$defs/texte" },
+              "sens": { "type": "string", "enum": ["positif", "negatif", "mitige", "incertain"] },
+              "description": { "$ref": "#/$defs/texte" }
+            }
+          }
+        },
+        "demographie": {
+          "description": "Effet par groupe de population.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["groupe", "effet"],
+            "additionalProperties": false,
+            "properties": {
+              "groupe": { "$ref": "#/$defs/texte" },
+              "effet": { "type": "string", "enum": ["gagnant", "perdant", "neutre", "incertain"] },
+              "commentaire": { "$ref": "#/$defs/texte" }
+            }
+          }
+        },
+        "finances": { "$ref": "#/$defs/evaluation" },
+        "europe_monde": { "$ref": "#/$defs/evaluation" }
+      }
+    }
+  }
+}
